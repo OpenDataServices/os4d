@@ -1,52 +1,43 @@
-Open Data Services Sphinx Base
-==============================
+Standards Lab: an open data standard toolkit
+============================================
 
+This handbook provides an overview of the creation, maintenance and adoption of a policy-related open data standard. 
 
-## Examples
+It has been developed by [Open Data Services Co-operative](http://www.opendataservices.coop) to document our approach as part of the [Open Data Institute](tttp:/www.theodi.org) Open Standards for Data project. 
 
-Table without horizonal scrollbar:
+It is written as both a standalone guide, and also as template to create individual standard handbooks. 
 
-```eval_rst
-.. list-table::
-    :header-rows: 1
-    :widths: 1 3 1 1
+## About Open Data Services Co-operative
 
-    * - A
-      - B
-      - C
-      - D
-    * - Lorem
-      - Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec dictum urna non purus tristique pharetra.
-      - Yes
-      - False
-    * - Ipsum
-      - Mauris et lobortis nibh. Nullam vitae velit turpis. Vestibulum facilisis sit amet sapien nec maximus.
-      - No
-      - True
-    * - Dolor
-      - Pellentesque sit amet sapien tincidunt, fringilla dui id, porttitor purus. Nam tincidunt ac ex id porttitor. Praesent varius lectus nisl, ac luctus erat lacinia vitae.
-      - Yes
-      - True
-```
+### Here to help
 
-### Markdown reference links
+If you have a project that might involve open data standards, our Standards Lab service can help. Get in touch to find out more about:
 
-Link to [a ref](a-ref).
+* **Introductory workshops** - exploring the basics of building, maintaining and implementing an open data standard. Ideal to bring together policy and technology teams, and develop shared understanding and strategy. 
 
+* **Mentoring and advice** - whatever stage your standards project is at, we can provide expert input on how to make it sustainable, and high impact. 
 
-```eval_rst
-.. _a-ref:
-```
-#### Referenced section
+* **Full service standard development and support** - working with you to go from concept, to a full standard - and to support implementation and ongoing development. 
 
-
+Find out more [about us](about/coop)
 
 ## Contents
+
+This guide is split into three sections.
+
+* [standard](standard/index) covers the initiation, development, maintenance and revision of a standard;
+* [adoption](adoption/index) covers approaches to supporting adoption of an open data standard through engagement with data publishers, intermediaries and users;
+* [learning](learning/index) covers monitoring standard uptake and impact, and maintaining ongoing alignment with the overall policy goals of a standard.
+
 
 ```eval_rst
 .. toctree::
    :maxdepth: 2
 
-   about
+   standard/index
+   standard/documentation/patterns
+   adoption/index
+   learning/index
+
 
 ```
