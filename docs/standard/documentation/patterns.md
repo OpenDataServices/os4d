@@ -6,8 +6,8 @@ This section outlines a number of common patterns used to maintain documentation
 * Governance process for normative changes to the schema and documentation 
 * Branch and release management
 * Automated build processes
-* Reproducible builds 
-* Deployment and rollback
+* Reproducible builds X
+* Deployment and rollback X
 
 
 ## Reproducible builds

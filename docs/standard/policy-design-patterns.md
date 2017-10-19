@@ -2,12 +2,19 @@
 
 This is a list of potential 'design patterns' for Policy Related Open Data Standards. 
 
-
-## Why?
+## Drivers
 
 * Translating principles into practical action
 * Focus on data usability
 * Meeting multiple user needs: aligning stakeholders
+* Building ecosystem
+* Enabling co-ordination and collaboration
+
+What problem is this addressing?
+
+What implications does this have for standards design? 
+
+What implications for organizational strategy? 
 
 ## Methods
 
