@@ -41,3 +41,6 @@ This guide is split into three sections.
 
 
 ```
+
+
+[Pattern](pattern-slug).
