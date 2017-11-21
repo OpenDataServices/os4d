@@ -28,7 +28,7 @@ Most policy-related open data standards, once released, need ongoing maintenance
 
 ```eval_rst
 .. toctree::
-   :maxdepth: 1
+   :maxdepth: 3
    :glob:
 
    */index

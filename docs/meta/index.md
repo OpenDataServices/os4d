@@ -19,6 +19,7 @@ Pages may contains the following elements:
 * Examples - such as example Contributor Agreement text 
 * Related articles
 * Patterns
+* 'Consider' - a set of boxes that should be filled in for each particular standard.
 
 Pages should be tagged as one of:
 
