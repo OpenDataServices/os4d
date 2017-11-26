@@ -2,6 +2,7 @@
 
 This section outlines a number of common patterns used to maintain documentation. 
 
+* Single Source of Truth
 * Version control for the schema and documentation
 * Governance process for normative changes to the schema and documentation 
 * Branch and release management
