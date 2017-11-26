@@ -33,12 +33,11 @@ This guide is split into three sections.
 ```eval_rst
 .. toctree::
    :maxdepth: 2
+   :glob:
 
-   standard/index
-   standard/documentation/patterns
-   adoption/index
-   learning/index
-
+   standards/index
+   */index
+   
 
 ```
 

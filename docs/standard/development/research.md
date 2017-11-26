@@ -120,3 +120,27 @@ Similar processes took place for 360 Giving and the Open Contracting Data Standa
 Resource: [360 Giving Demand Side Workshop Report](https://docs.google.com/document/d/1bof0cK4fMsqJqN43EBcve70OreuH7XlkgluULzuUHAU/edit#heading=h.m862xj13c1m0)
 
 Resource: [Open Contracting Data Standard Demand Side Assessment](https://docs.google.com/document/d/1zdgqSf-LUFVxO6Y_7v1cQf7l0vx35-p502jAI49JRmQ/edit#heading=h.st133hi9rx1e)
+
+## Prior-art research
+
+Before starting the detailed development of a new standard it is important to look at existing standardisation. This may be informed by desk research, and by looking at the standards in-use in existing datasets. 
+
+This involves looking for standards operating at a number of levels:
+
+* Vocabularies and ontologies - that set out agreed terminology, definitions and codelists for a particular domain;
+* Schema - that propose structures for the representation of particular data;
+* Identifiers - looking at identification schemes in use in existing data;
+* Data elements - looking at how particular data elements are modelled and encoded (e.g. data formats in use).
+
+It may be appropriate to look at standards in related domains, or to look at cases where related problems have been solved in different sectors and settings. 
+
+It is important to check the licenses of any relevant existing standards to identify the extent to which the standard under development can build upon these.
+
+```eval_rst
+.. note:: For example
+
+    The [Beneficial Ownership Data Standard - Desk Review](https://docs.google.com/document/d/1wCGSJdYTrFSxP3B8rM43qRtL9D6iyC3ghP5G6jzYeeE/edit) looked at 32 different existing standards, based on key challenges identified from the initial standard scoping. 
+
+```
+
+

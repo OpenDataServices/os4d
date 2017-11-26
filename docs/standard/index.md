@@ -24,14 +24,17 @@ Through an iterative development approach, looking 'supply side' and 'demand sid
 
 Most policy-related open data standards, once released, need ongoing maintenance. This can improve the standards based on learning, or in response to policy developments. and can make sure implementation guidance reflects the experience of standard users. This will often require clear governance.
 
-## Contents
-
 ```eval_rst
 .. toctree::
    :maxdepth: 3
    :glob:
 
-   */index
+   * 
+   getting-started/index
+   development/index
+   documentation/index
+   governance/index
+   tooling/index
 
 
 ```

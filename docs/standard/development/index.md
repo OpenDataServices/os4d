@@ -1,16 +1,26 @@
 # Development 
 
+
+
+This section outlines considerations during the development of an open data standard. 
+
+
 ```eval_rst
 .. toctree::
    :maxdepth: 2
    :glob:
 
+   research
+   stages
+   schema
+   social
+   licensing
    *
 
 
 ```
 
-This section outlines considerations during the development of an open data standard. 
+
 
 * Development
   * Origins
@@ -27,13 +37,7 @@ This section outlines considerations during the development of an open data stan
     * Release candidate
     * Live
     * Revision
-  * Schema and serialization
-    * Extended JSON schema
-    * Alternative serializations
-    * Design patterns
-    * Validation and additional checks
-    * Extensibility and extensions
-    * Codelist management
+
   * Social & policy design
     * Quality frameworks
     * Guidance
