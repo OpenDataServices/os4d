@@ -18,7 +18,7 @@ The development of a policy related open data standard may take place in a varie
 
 * **Parallel development** Version 1.0 of the [Open Contracting Data Standard](http://standard.open-contracting.org) provided a data model and a set of implementation levels used to assess the extent of data disclosure. A number of implementers made policy commitments to reach particular implementation levels.
 
-* **Standard -> Policy** In some countries transparency advocates have pushed for adoption of OCDS, writing adoption of the standard into policy. 
+* **Standard -> Policy** In some countries, transparency advocates have pushed for adoption of OCDS, writing adoption of the standard into policy. 
 
 ### Key questions
 
@@ -89,7 +89,7 @@ This can take a variety of forms, but often involves collecting and analysing ex
 
 * The [initial supply side scoping for the Open Contracting Data Standard](http://www.timdavies.org.uk/2013/04/04/developing-data-standards-for-open-contracting/) identified common phases of the procurement process represented across 7 different datasets, chosen because they represented a range of levels of government capacity and different legal systems around the world. A visualisation was developed to illustrate the overlap between different source datasets, and support conversation about the feasibility of standardisation.
 
-* The [later supply side research for the Open Contracting Data Standard](https://www.open-contracting.org/wp-content/uploads/2016/02/OCDS2014-Supply-Side-Research.pdf) created an [interactive tool(http://ocds.open-contracting.org/opendatacomparison/)  to identify common fields across 20 different datasets. Creating this involved experiments with machine-learning to classify fields, and working to translate field titles from datasets in a range of languages. 
+* The [later supply side research for the Open Contracting Data Standard](https://www.open-contracting.org/wp-content/uploads/2016/02/OCDS2014-Supply-Side-Research.pdf) created an [interactive tool](http://ocds.open-contracting.org/opendatacomparison/)  to identify common fields across 20 different datasets. Creating this tool involved experiments with machine-learning to classify fields, and working to translate field titles from datasets in a range of languages. 
 
 ### Demand side research 
 
@@ -137,9 +137,10 @@ It may be appropriate to look at standards in related domains, or to look at cas
 It is important to check the licenses of any relevant existing standards to identify the extent to which the standard under development can build upon these.
 
 ```eval_rst
-.. note:: For example
+.. note:: 
+    .. markdown::
 
-    The [Beneficial Ownership Data Standard - Desk Review](https://docs.google.com/document/d/1wCGSJdYTrFSxP3B8rM43qRtL9D6iyC3ghP5G6jzYeeE/edit) looked at 32 different existing standards, based on key challenges identified from the initial standard scoping. 
+        The [Beneficial Ownership Data Standard - Desk Review](https://docs.google.com/document/d/1wCGSJdYTrFSxP3B8rM43qRtL9D6iyC3ghP5G6jzYeeE/edit) looked at 32 different existing standards, based on key challenges identified from the initial standard scoping.
 
 ```
 
