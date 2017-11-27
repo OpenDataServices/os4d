@@ -8,7 +8,7 @@ The development of a policy related open data standard may take place in a varie
 
 * **Policy -> Standard** - the standard is intended to support implementation of a policy framework that is already fixed. Creating the specification may require providing added specificity where the policy contains ambiguity, or may require faithfully representing the policy, even the gaps it contains. 
 
-* **Parallel development** - the standard and the policy are co-developed, feeding into each other. Sometimes the policy is embedded deeply within the technical specification: at other times 
+* **Parallel development** - the standard and the policy are co-developed, feeding into each other. Sometimes the policy is embedded deeply within the technical specification; at other times, a looser coupling between policy and technical specification allows for the iterative development of both towards particular goals.  
 
 * **Standard -> Policy** - the standard is created, and then policy set that references the standard, or requires data is shared using it. 
 
