@@ -5,6 +5,8 @@ This section outlines a number of the pattens we commonly use to develop the sch
 ```eval_rst
 .. note:: Learning / reflection
 
+  .. markdown::
+
     We currently jump straight from the conceptual framework document, to working up the data model and schema for a standard in a schema language. 
 
     This differs [from the approach proposed here](https://github.com/open-contracting-archive/technical-approach#data-model) of maintaining the **data model** as a narrative document, only then given form by a schema as a reference implementation. 
