@@ -93,9 +93,11 @@ In our experience, standard development benefits from creative tension between t
 
 
 ```eval_rst
-.. hint:: We can help
+.. hint:: 
 
   .. markdown::
+
+    **We can help**
 
     The Open Data Services team work in partnership with a range of organizations to deliver or support many of the roles above. 
 

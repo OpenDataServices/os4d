@@ -27,7 +27,7 @@ The workshop drew in particular on experiences from the Open Contracting Data St
 It is important to distinguish a number of concepts:
 
 * **Internationalisation (i18n)**  is the process of designing a standard, and the tools associated with it, so that it can be easily localised;
-* **Translation** is the process of making a standard and it's associated tools and documentation available in more than one language;
+* **Translation** is the process of making a standard and its associated tools and documentation available in more than one language;
 * **Localisation (l10n)** goes beyond a generic language translation to also consider how a standard and its documentation will be interpreted within a particular local and cultural context.
 
 See also [W3C Localization vs. Internationalization](https://www.w3.org/International/questions/qa-i18n)
