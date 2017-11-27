@@ -2,7 +2,9 @@
 
 The development of a standard should follow a number of stages. 
 
-It is useful to think of this in terms of a diamond: starting from a focussed problem; scoping this out and identifying other use-cases and related data; developing the standard to accommodate as many of these use-cases as feasible (which may be far from the full set); and focussing down to a release version. 
+It is useful to think of standards development as a diamond-shaped process, each iteration of which begins at a narrowly-defined point, broadens out during the research and development phases and then narrows again as the standard becomes a release-ready product.
+
+In this diamond model, we can identify four distinct phases: starting from a focussed problem; scoping out the original problem and broadening out from it to identify other use-cases and related data; developing the standard to accommodate as many of these use-cases as feasible (which may be far from the full set); and focussing down to a release version. 
 
 ```eval_rst
 .. graphviz::
@@ -10,7 +12,7 @@ It is useful to think of this in terms of a diamond: starting from a focussed pr
    digraph {
       graph[bgcolor="#ffffff00"]
       node[shape=diamond,width=2,height=2]
-      "Scoping\nResearch\nDevelopment\nRelease"
+      "Problem\n\nScoping and Research\n\nDevelopment\n\nRelease"
    }
 
 ```
