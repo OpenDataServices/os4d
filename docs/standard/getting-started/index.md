@@ -6,14 +6,14 @@
 .. _when:
 ```
 
-The design of a standard should reflect it's goals and the policy context it is introduced into. 
+The design of a standard should reflect its goals and the policy context it is introduced into. 
 
 Standards can help to:
 
 * Promote **good practice** in the collection and sharing of data;
 * Enable **data interoperability** and exchange between systems;
 * Promote **comparability** between datasets;
-* Encourage **publication** of data, by making it easier to prepare and share it;
+* Encourage **publication** of data, by making it easier to prepare and share data;
 * Support **measurement** and assessment of data quality.
 
 We think of effective open data standards as tools of **mass collaboration**, providing a common reference point for different groups to coalesce around, facilitating their work together on creating and using data for social impact. 
@@ -23,7 +23,7 @@ We think of effective open data standards as tools of **mass collaboration**, pr
 
   The International Aid Transparency Initiative (IATI) standard promotes interoperability of aid data, through alignment of both the structure and the contents of descriptions of aid activities.
 
-  A growing range of tools now exist that create and use IATI data, including tools to visualize spending flows, platforms to search and explore projects and their associated documents, and services to analyze foreign exchange risks of projects. 
+  A growing range of tools now exist that create and use IATI data, including tools to visualize spending flows, platforms to search and explore projects and their associated documents, and services to analyze foreign exchange risks that projects are exposed to. 
 
   Across the 600+ organizations publishing data using the IATI Standard, there are active participants who publish and use data, and more passive participants who just share data in response to administrative rules from their funders.
 
@@ -46,7 +46,7 @@ Without a standard, users or intermediaries have to do the hard work of making s
 
 By contrast, a standard with strict validation rules places a heavy burden on data owners to restructure their systems in order to produce valid and conforming data. 
 
-In some cases, it may be quicker or cheaper in the short-term to invest in intermediaries or centralized databases that can reconcile data from different sources. However, this can risk creating a single point of failure or a point of control: which is avoided if data owners take responsibility for publishing their own data using an open standard. 
+In some cases, it may be quicker or cheaper in the short-term to invest in intermediaries or centralized databases that can reconcile data from different sources. However, this can risk creating a single point of failure or a point of control, which is avoided if data owners take responsibility for publishing their own data using an open standard. 
 
 By contrast, whilst it might initially be trickier to encourage adoption of distributed standards for data publication, a well-functioning ecosystem of data publishers, intermediaries and users can be more resilient and innovative in the long-run.
 
@@ -80,7 +80,7 @@ Some of the roles include:
 * **Data analyst** - reviewing pre-standard data to identify opportunities for standardisation, and analysing draft and published data for quality assurance and learning. 
 * **Standard architect** - designing the overall shape of the standard, establishing data structures, selecting schema languages, data patterns, validation and quality evaluation approaches, and identifying tools required alongside the standard.
 * **Schema author** - translating agreed data structures and fields into a schema language, and coordinating work to define fields and relationships. Also working on standard extensions where applicable. 
-* **Documentation author** - writing technical and user-focussed documentation, creating worked examples, and developing training resources.
+* **Documentation author** - writing technical and user-focused documentation, creating worked examples, and developing training resources.
 * **Designer** - creating visual elements to support documentation and training around the standard. 
 * **Developer** - creating and implementing tools for maintaining a Single Source of Truth, managing documentation, performing data validation, and supporting standard adoption. 
 * **Translation manager & translators** - creating glossaries, arranging translation, and carrying out translations.
@@ -97,6 +97,8 @@ In our experience, standard development benefits from creative tension between t
 
   The Open Data Services team work in partnership with a range of organizations to deliver or support many of the roles above. 
 
-  Get in touch to find out how we could help you. `LINK TO <our-services>` 
+  Get in touch to find out how we could help you: `our services`_.
+
+  .. _`our services`: http://www.opendataservices.coop/#services
 
 ```
