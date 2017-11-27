@@ -17,6 +17,10 @@ Services docs projects.
 Assuming a unix based system:
 
 ```
+# Sphinx graphviz extension requires graphviz to be installed
+# If you don't have this, you can do
+sudo apt-get install graphviz
+
 # Make sure you have python3 venv, e.g. for Ubuntu
 # If you're not sure, try creating a venv, and see if it errors
 sudo apt-get install python3-venv
