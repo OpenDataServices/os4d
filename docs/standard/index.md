@@ -29,7 +29,7 @@ Most policy-related open data standards, once released, need ongoing maintenance
    :maxdepth: 3
    :glob:
 
-   * 
+   *
    getting-started/index
    development/index
    documentation/index

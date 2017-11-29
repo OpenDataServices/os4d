@@ -35,7 +35,7 @@ This guide is split into three sections.
    :maxdepth: 2
    :glob:
 
-   standards/index
+   standard/index
    */index
    
 

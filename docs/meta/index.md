@@ -39,6 +39,15 @@ Throughout the documentation we describe a range of components involved in devel
 
 Anchors for components should be prefixed `component-`
 
+```eval_rst
+.. 
+    Include these here so I don't get broken link warnings:
+.. _pattern-slug:
+.. _pattern-slug-2:
+.. _component-slug:
+.. _component-slug-2:
+```
+
 ## Patterns
 
 Throughout the documentation we include common [**patterns**](https://en.wikipedia.org/wiki/Pattern_language) for standards.
