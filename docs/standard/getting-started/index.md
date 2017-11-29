@@ -19,7 +19,8 @@ Standards can help to:
 We think of effective open data standards as tools of **mass collaboration**, providing a common reference point for different groups to coalesce around, facilitating their work together on creating and using data for social impact. 
 
 ```eval_rst
-.. note:: For example
+.. admonition:: Example
+  :class: note
 
   The International Aid Transparency Initiative (IATI) standard promotes interoperability of aid data, through alignment of both the structure and the contents of descriptions of aid activities.
 
@@ -93,11 +94,10 @@ In our experience, standard development benefits from creative tension between t
 
 
 ```eval_rst
-.. hint:: 
+.. admonition::  We can help
+  :class: hint
 
   .. markdown::
-
-    **We can help**
 
     The Open Data Services team work in partnership with a range of organizations to deliver or support many of the roles above. 
 

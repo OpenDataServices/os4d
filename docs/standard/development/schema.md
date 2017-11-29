@@ -3,7 +3,8 @@
 This section outlines a number of the pattens we commonly use to develop the schema for an open data standard.
 
 ```eval_rst
-.. note:: Learning / reflection
+.. admonition:: Learning / reflection
+  :class: note
 
   .. markdown::
 
@@ -45,7 +46,10 @@ In particular, through [flatten-tool](http://flatten-tool.readthedocs.io) we des
 
 
 ```eval_rst
-.. note:: ToDo
+.. admonition:: Example
+    :class: note
+
+    ToDo
 
     We could include a simple example here.
 

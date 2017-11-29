@@ -5,8 +5,8 @@ This handbook is about policy-related open data standards. These cover both **co
 The handbook describes maintaining data specifications that can support the realization of policy goals. 
 
 ```eval_rst
-.. note:: 
-  For example:
+.. admonition:: Example
+  :class: note
 
   A campaign calls for organizations to publish their pay ratios between men and women, and highest and lowest paid employees, in order to highlight and address pay inequality. This is the policy goal. 
 

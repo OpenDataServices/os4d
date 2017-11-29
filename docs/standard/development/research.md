@@ -35,7 +35,8 @@ It may also be useful to compile a short history of the policy context, in order
 The development process for an open data standard needs to include a wide range of stakeholders, representing a range of different data producers, intermediaries and users. In particular, it is important to identify representatives with differing levels of capacity and operating in different contexts, in order to make sure the standard does not make unwarranted assumptions. 
 
 ```eval_rst
-.. note:: For example
+.. admonition:: Example
+    :class: note
 
     During the development of the 360Giving standard, we held a workshop inviting a number of grantmakers, data specialists, government officials, transparency advocates and voluntary organisation staff. During the workshop we identified a long-list of other stakeholders who might use data on philanthropy.
 
@@ -137,7 +138,9 @@ It may be appropriate to look at standards in related domains, or to look at cas
 It is important to check the licenses of any relevant existing standards to identify the extent to which the standard under development can build upon these.
 
 ```eval_rst
-.. note:: 
+.. admonition:: Example
+    :class: note
+
     .. markdown::
 
         The [Beneficial Ownership Data Standard - Desk Review](https://docs.google.com/document/d/1wCGSJdYTrFSxP3B8rM43qRtL9D6iyC3ghP5G6jzYeeE/edit) looked at 32 different existing standards, based on key challenges identified from the initial standard scoping.
