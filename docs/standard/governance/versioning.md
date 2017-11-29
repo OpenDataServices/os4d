@@ -4,11 +4,11 @@ Standards change: as a result versioning is an important part of many standards.
 
 ## Patterns
 
-### Normative and non-normative content
-
 ```eval_rst
 .. _pattern-normative:
 ```
+
+### Normative and non-normative content
 
 #### Problem
 
@@ -33,11 +33,11 @@ The IETF use the distinction between [normative and informative](https://www.iet
 #### Related components
 
 
-### Version numbers
-
 ```eval_rst
 .. _pattern-version-number:
 ```
+
+### Version numbers
 
 #### Problem
 
@@ -61,11 +61,11 @@ From version 1.1, OCDS included a `version` field. This must contain only `MAJOR
 
 
 
-### Release candidate versions
-
 ```eval_rst
 .. _pattern-release-candidate:
 ```
+
+### Release candidate versions
 
 #### Problem
 
@@ -87,11 +87,11 @@ See [release candidate (Wikipedia)](https://en.wikipedia.org/wiki/Software_relea
 
 
 
-### Semantic Versioning
-
 ```eval_rst
 .. _pattern-semver:
 ```
+
+### Semantic Versioning
 
 #### Problem
 
@@ -114,13 +114,13 @@ See [release candidate (Wikipedia)](https://en.wikipedia.org/wiki/Software_relea
 
 
 
-
-### Backwards compatibility 
 
 ```eval_rst
 .. _pattern-compatibility:
 ```
 
+### Backwards compatibility 
+
 #### Problem
 
 #### Solution
@@ -142,11 +142,11 @@ See [release candidate (Wikipedia)](https://en.wikipedia.org/wiki/Software_relea
 
 
 
-### Conformance statement
-
 ```eval_rst
 .. _pattern-conformance:
 ```
+
+### Conformance statement
 
 #### Problem
 

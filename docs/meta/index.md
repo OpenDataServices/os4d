@@ -57,11 +57,11 @@ These should be written using a Level 3 heading for the pattern, and level four 
 
 
 ````sphinx
-### Title
+```eval_rst
+.. _pattern-slug:
+```
 
-  ```eval_rst
-  .. _pattern-slug:
-  ```
+### Title
 
 #### Problem
 

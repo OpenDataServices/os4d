@@ -75,11 +75,11 @@ We use a number of custom properties in our JSON Schema implementation. A [patch
 * `codelist` - the filename of a .csv file that contains at least a `Code` column. Used by the CoVE validator to check for acceptable values.
 * `openCodelist` - a boolean value to indicate whether values can **only** come from the codelist, or whether additional values not on the codelist are permitted. When `openCodelist` = 'true' then encountering a value not on the codelist should generate a warning. when `openCodelist` = 'false' then encountering a value not on the codelist should generate an error. 
 
-### Deprecation properties
-
 ```eval_rst
   .. _component-deprecation:
 ```
+
+### Deprecation properties
 
 > "deprecation is the discouragement of use of some terminology, feature, design, or practice; typically because it has been superseded or is no longer considered efficient or safe – but without completely removing it or prohibiting its use."
 
@@ -117,11 +117,11 @@ Developing a good schema is an art as much as a science. It requires sensitivity
 
 The following section provides a non-exhaustive set of design patterns that can be drawn upon when developing a schema. 
 
-### Top-object
-
 ```eval_rst
   .. _pattern-top:
 ```
+
+### Top-object
 
 #### Problem
 
@@ -149,11 +149,11 @@ The 360 Giving Data Standard uses Grant as it's top-concept, rather than grantma
 
 
 
-### Permissive schema
-
 ```eval_rst
   .. _pattern-permissive:
 ```
+
+### Permissive schema
 
 #### Problem
 
@@ -192,11 +192,11 @@ A mapping document that indicates which fields, or field-value pairs are require
 
 
 
-### Object identifiers
-
 ```eval_rst
   .. _pattern-object-id:
 ```
+
+### Object identifiers
 
 #### Problem
 
@@ -259,11 +259,11 @@ See above.
 
 
 
-### Spreadsheet-first
-
 ```eval_rst
   .. _pattern-spreadsheet:
 ```
+
+### Spreadsheet-first
 
 #### Problem
 
@@ -291,11 +291,11 @@ TODO: Add example from Social Investment Data Lab Standard
 
 
 
-### Deprecation
-
 ```eval_rst
   .. _pattern-deprecation:
 ```
+
+### Deprecation
 
 #### Problem
 
@@ -319,11 +319,11 @@ OCDS Version 1.1 deprecated a number of fields. The validator will report when d
 #### Related components
 
 
-### Flexible vocabularies 
-
 ```eval_rst
   .. _pattern-vocabularies:
 ```
+
+### Flexible vocabularies 
 
 #### Problem
 
@@ -361,11 +361,11 @@ An alternative pattern, that org-id.guide recognises, is concatenation of scheme
 
 
 
-### Packaging
-
 ```eval_rst
   .. _pattern-packaging:
 ```
+
+### Packaging
 
 #### Problem
 
@@ -393,11 +393,12 @@ The Open Contracting Data Standard has a release package and record package sche
 
 
 
-### Immutability 
 
 ```eval_rst
-  .. _pattern-merging:
+  .. _pattern-immutability:
 ```
+
+### Immutability 
 
 #### Problem
 
@@ -420,11 +421,11 @@ ToDo
 #### Related components
 
 
-### Merging 
-
 ```eval_rst
   .. _pattern-merging:
 ```
+
+### Merging 
 
 #### Problem
 
@@ -451,11 +452,12 @@ The [OCDS releases and records model](http://standard.open-contracting.org/lates
 [Merge tool](component-merge-tool)
 
 
-### Extensibility
 
 ```eval_rst
-  .. _pattern-merging:
+  .. _pattern-extensibility:
 ```
+
+### Extensibility
 
 #### Problem
 

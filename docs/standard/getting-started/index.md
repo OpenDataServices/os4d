@@ -1,10 +1,10 @@
 # Getting started
 
-## Linking goals and design
-
 ```eval_rst
 .. _when:
 ```
+
+## Linking goals and design
 
 The design of a standard should reflect its goals and the policy context it is introduced into. 
 
@@ -66,11 +66,11 @@ The following questions are useful to answer before starting down the standardis
 Read more in our blog post: ['How do you know when you need an open data standard?'](http://www.opendataservices.coop/blog/2017/11/21/how-do-you-know-when-you-need-a-standard)
 
 
-## Building a team
-
 ```eval_rst
 .. _team:
 ```
+
+## Building a team
 
 There are many roles involved in developing and maintaining a standard. At the early stages of a standard one individual may play more than one role, and in later stages, many roles remain overlapping, or are part-time or ad-hoc. 
 
