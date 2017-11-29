@@ -53,15 +53,15 @@ A pattern consists of the following elements:
 * Example
 * Related patterns
 
-These should be written using a Level 3 heading for the pattern, and level four headings for each element (from problem onwards) using the template below (note, fix the space in the eval_rst block)
+These should be written using a Level 3 heading for the pattern, and level four headings for each element (from problem onwards) using the template below.
 
 
-```sphinx
+````sphinx
 ### Title
 
   ```eval_rst
   .. _pattern-slug:
-  `` `
+  ```
 
 #### Problem
 
@@ -79,4 +79,4 @@ These should be written using a Level 3 heading for the pattern, and level four 
 
 [Component name](component-slug); [Component name 2](component-slug-2); 
 
-```
+````
