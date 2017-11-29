@@ -1,3 +1,6 @@
+```eval_rst
+.. _component-versioning:
+```
 # Versioning 
 
 Standards change: as a result versioning is an important part of many standards. This section documents common versioning patterns. 

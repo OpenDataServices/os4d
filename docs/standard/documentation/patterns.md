@@ -3,25 +3,73 @@
 This section outlines a number of common patterns used to maintain documentation. 
 
 * Single Source of Truth
-* Version control for the schema and documentation
+* [Version control for the schema and documentation](pattern-version-control)
 * Governance process for normative changes to the schema and documentation 
 * Branch and release management
 * Automated build processes
-* Reproducible builds X
-* Deployment and rollback X
+* [Reproducible builds](pattern-reproducible-builds)
+* [Deployment and rollback](pattern-deployment-rollback)
+
+```eval_rst
+.. _pattern-version-control:
+```
+
+### Version control for the schema and documentation
+
+#### Problem
+
+It is important to know who changed what and when in a standard, for purposes of:
+
+* Auditing changes that have been made
+* Reverting changes
+* Understanding the context that lead to the way the standard is now
+
+#### Solution
+
+Using [version control](pattern-version-control) for the standard schema and documentation provides a full version history of changes. Tools like git/GitHub provide tooling to inspect who editing a specific line of a file.  ("git blame") 
+
+Changelogs provide a more granular view, that is easier/quicker for humans to read, to get a general overview of what has changed.
+
+#### Method
+
+#### Example
+
+e.g. for OCDS we have:
+
+```eval_rst
+* Changelog - http://standard.open-contracting.org/latest/en/schema/changelog/
+* History of every individual change to the OCDS docs/schema - https://github.com/open-contracting/standard/commits/1.1
+* When was each line in any given file last changed - https://github.com/open-contracting/standard/blame/1.1/standard/schema/release-schema.json
+```
+
+#### Related patterns
+
+[Pattern name](pattern-reproducible-builds);
+
+#### Related components
+
+[Versioning](component-versioning);
 
 
-## Reproducible builds
 
-### What and why?
 
-Using git version control for the standard schema and documentation provides a full version history of changes. 
+```eval_rst
+.. _pattern-reproducible-builds:
+```
 
-The build process for documentation may rely on external scripts and resources that may change independently of the standard's revision process. 
+### Reproducible builds
+
+#### Problem
+
+Using [version control](pattern-version-control) for the standard schema and documentation provides a full version history of changes. However, the build process for documentation may rely on external scripts and resources that may change independently of the standard's revision process. 
 
 It is important to be able to reproduce the same HTML (and other format) outputs for any given commit of the standard. 
 
-### How?
+#### Solution
+
+
+
+#### Method
 
 The following steps can help improve the reproducibility of builds:
 
@@ -32,24 +80,40 @@ The following steps can help improve the reproducibility of builds:
 
 Note that in some cases, reproducibility requirements might be relaxed. For example, a standard may be configured to always build with the latest version of an external theme, and so this would not be pinned. 
 
-### Where? (Examples)
+#### Example
 
-MINI-CASE STUDY AND POINTER TO CODE EXAMPLE
+#### Related patterns
 
-(IN A CLONE OF THIS FOR A PARTICULAR STANDARD, THIS WOULD POINT TO THE SPECIFIC CODE)
+[Version control](pattern-version-control); [Deployment and rollback](pattern deployment-rollback); 
+
+#### Related components
+
+[Component name](component-slug); [Component name 2](component-slug-2); 
 
 
-## Deployment and rollback
 
-### What and why?
+
+
+
+
+
+```eval_rst
+.. _pattern-deployment-rollback:
+```
+
+### Deployment and rollback
+
+#### Problem
 
 Sometimes the build process for a new version of a standard can go wrong. 
 
 Author-error can lead to mistakes in the standard, external dependencies may have been deleted from their source, or a key software service may be down. 
 
-For this reason, the 'live' releases of a standard should be manually deployed, and it should be possible to rollback changes at any time if problems are detected. 
+#### Solution
 
-### How? 
+'live' releases of a standard should be manually deployed, and it should be possible to rollback changes at any time if problems are detected. 
+
+#### Method
 
 The build and deployment process for the standard copies compiled static HTML files to the server in a folder named based on the branch and date of build.
 
@@ -59,8 +123,16 @@ This allows an administrator with access to the server to instantly switch the s
 
 The build process can be configured so that the symlink for full **releases** of the standard are only ever edited manually, preventing accidental changes to releases in use. 
 
-### Where? (Examples)
 
-MINI-CASE STUDY AND POINTER TO CODE EXAMPLE
+#### Example
 
-(IN A CLONE OF THIS FOR A PARTICULAR STANDARD, THIS WOULD POINT TO THE SPECIFIC CODE)
+Currently we only do this for OCDS....
+
+#### Related patterns
+
+[Pattern name](pattern-slug); [Pattern name 2](pattern-slug-2); 
+
+#### Related components
+
+[Component name](component-slug); [Component name 2](component-slug-2); 
+
