@@ -2,16 +2,38 @@
 
 This section outlines a number of common patterns used to maintain documentation. 
 
-* Single Source of Truth
+* [Single Source of Truth](pattern-ssot)
 * [Issue Tracker](pattern-issue-tracker)
 * [Version control and changelogs for the schema and documentation](pattern-version-control-changelog)
-* Governance process for normative changes to the schema and documentation 
-* Branch and release management
-* Automated build processes
+* [Governance process for normative changes to the schema and documentation](pattern-governance-normative)
+* [Branch and release management](pattern-branch-release-management)
+* [Automated build processes](pattern-automated-build)
 * [Reproducible builds](pattern-reproducible-builds)
 * [Deployment and rollback](pattern-deployment-rollback)
 
 
+
+---
+```eval_rst
+.. _pattern-ssot:
+```
+### Single Source of Truth
+
+#### Problem
+
+#### Solution
+
+#### Method
+
+#### Example
+
+#### Related patterns
+
+[Pattern name](pattern-slug); [Pattern name 2](pattern-slug-2); 
+
+#### Related components
+
+[Component name](component-slug); [Component name 2](component-slug-2); 
 
 
 
@@ -94,13 +116,88 @@ e.g. for OCDS we have:
 
 
 
+---
+```eval_rst
+.. _pattern-governance-normative:
+```
+### Governance process for normative changes to the schema and documentation
+
+#### Problem
+
+#### Solution
+
+#### Method
+
+#### Example
+
+#### Related patterns
+
+[Pattern name](pattern-slug); [Pattern name 2](pattern-slug-2); 
+
+#### Related components
+
+[Component name](component-slug); [Component name 2](component-slug-2); 
+
+
+
+
+
+
+---
+```eval_rst
+.. _pattern-branch-release-management:
+```
+### Branch and release management
+
+#### Problem
+
+#### Solution
+
+#### Method
+
+#### Example
+
+#### Related patterns
+
+[Pattern name](pattern-slug); [Pattern name 2](pattern-slug-2); 
+
+#### Related components
+
+[Component name](component-slug); [Component name 2](component-slug-2); 
+
+
+
+
+
+---
+```eval_rst
+.. _pattern-automated-build:
+```
+### Automated build processes
+
+#### Problem
+
+#### Solution
+
+#### Method
+
+#### Example
+
+#### Related patterns
+
+[Pattern name](pattern-slug); [Pattern name 2](pattern-slug-2); 
+
+#### Related components
+
+[Component name](component-slug); [Component name 2](component-slug-2); 
+
+
 
 
 ---
 ```eval_rst
 .. _pattern-reproducible-builds:
 ```
-
 ### Reproducible builds
 
 #### Problem
