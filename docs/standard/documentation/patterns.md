@@ -21,6 +21,13 @@ This section outlines a number of common patterns used to maintain documentation
 
 #### Problem
 
+Consider a piece of documentation about how a field within the data standard works.
+* This field will probably have a name and a description about how it is used.
+* Someone will write that down somewhere.
+* Someone else will share that with other people, via email, on a web page, in a pdf, in a presentation, as guidance in a data collection tool, etc
+* Unless those people work directly from the same source (of truth) they may introduce small changes, errors, or even improvements as they reproduce the information.
+* Further, the ‘master’ description may change over time. How do people know whether the new description, or the old one is the correct one to use? Which (trusted) source should they use? An email someone sent, or the PDF they have in their hand, or…?
+
 #### Solution
 
 #### Method
@@ -124,20 +131,26 @@ e.g. for OCDS we have:
 
 #### Problem
 
+There should be a [revision process](component-revision-process) for substantial changes to a standard, that require a new Major/minor release (see [Semantic Versioning](pattern-semver).
+However, we also want to make minor fixes as part of a "patch" release.
+
 #### Solution
+
+A lighter weight review process for "patch" releases.
 
 #### Method
 
 #### Example
 
+For OCDS patch releases, we have a 7 day comment period. e.g. [https://groups.google.com/a/open-contracting.org/forum/#!topic/standard-discuss/oV5yG7fQF_0](https://groups.google.com/a/open-contracting.org/forum/#!topic/standard-discuss/oV5yG7fQF_0)
+
 #### Related patterns
 
-[Pattern name](pattern-slug); [Pattern name 2](pattern-slug-2); 
+[Normative and non-normative content](pattern-normative);
 
 #### Related components
 
-[Component name](component-slug); [Component name 2](component-slug-2); 
-
+[Revision process](component-revision-process);
 
 
 
@@ -151,19 +164,32 @@ e.g. for OCDS we have:
 
 #### Problem
 
+We want to provide multiple versions of the documentation and schema at one time.
+
 #### Solution
+
+Branches corresponding to different deploys of the standard.
+Tags for specific patch releases of the standard.
 
 #### Method
 
+
+Deploying different copies of the docs for different versions of the standard.
+
+Making it easy to deploy a copy for any branch.
+
 #### Example
+
+OCDS:
+Branches are named: `Major.minor(-dev)` e.g. `1.0`, `1.1`, `1.0-dev`, `1.1-dev`
+Releases are named: `Major__minor__path` e.g. `1__0__3`, `1__1__2`
 
 #### Related patterns
 
-[Pattern name](pattern-slug); [Pattern name 2](pattern-slug-2); 
+[Automated build processes](pattern-automated-build);
 
 #### Related components
 
-[Component name](component-slug); [Component name 2](component-slug-2); 
 
 
 
