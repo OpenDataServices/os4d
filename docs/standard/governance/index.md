@@ -13,6 +13,8 @@
 
 Whenever standards are revised there needs to be a governance process.
 
+This is likely to make use of an [issue tracker](pattern-issue-tracker) and a [changelog](pattern-version-control-changelog).
+
 
 ### Worked example: OCDS 
 

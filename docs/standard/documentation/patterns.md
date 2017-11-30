@@ -3,18 +3,57 @@
 This section outlines a number of common patterns used to maintain documentation. 
 
 * Single Source of Truth
-* [Version control for the schema and documentation](pattern-version-control)
+* [Issue Tracker](pattern-issue-tracker)
+* [Version control for the schema and documentation](pattern-version-control-changelog)
 * Governance process for normative changes to the schema and documentation 
 * Branch and release management
 * Automated build processes
 * [Reproducible builds](pattern-reproducible-builds)
 * [Deployment and rollback](pattern-deployment-rollback)
 
-```eval_rst
-.. _pattern-version-control:
-```
 
-### Version control for the schema and documentation
+
+
+
+---
+```eval_rst
+.. _pattern-issue-tracker:
+```
+### Issue tracker
+
+#### Problem
+
+How do we keep track of suggested changes to the standard: new fields, bug fixes etc.
+
+#### Solution
+
+An issue tracker 
+
+#### Method
+
+We use GitHub issues.
+
+#### Example
+
+#### Related patterns
+
+[Pattern name](pattern-slug); [Pattern name 2](pattern-slug-2); 
+
+#### Related components
+
+[Component name](component-slug); [Component name 2](component-slug-2); 
+
+
+
+
+
+
+
+---
+```eval_rst
+.. _pattern-version-control-changelog:
+```
+### Version control and changelogs for the schema and documentation
 
 #### Problem
 
@@ -26,9 +65,11 @@ It is important to know who changed what and when in a standard, for purposes of
 
 #### Solution
 
-Using [version control](pattern-version-control) for the standard schema and documentation provides a full version history of changes. Tools like git/GitHub provide tooling to inspect who editing a specific line of a file.  ("git blame") 
+Using **version control** for the standard schema and documentation provides a full version history of changes. Tools like git/GitHub provide tooling to inspect who editing a specific line of a file.  ("git blame") 
 
-Changelogs provide a more granular view, that is easier/quicker for humans to read, to get a general overview of what has changed.
+A **changelog** provides a more granular view, that is easier/quicker for humans to read, to get a general overview of what has changed.
+
+Both version control commits and changelog entries can link to issues in an [issue tracker](pattern-issue-tracker), to give more info and discussion about how/why the change happened.
 
 #### Method
 
@@ -53,6 +94,9 @@ e.g. for OCDS we have:
 
 
 
+
+
+---
 ```eval_rst
 .. _pattern-reproducible-builds:
 ```
@@ -61,7 +105,7 @@ e.g. for OCDS we have:
 
 #### Problem
 
-Using [version control](pattern-version-control) for the standard schema and documentation provides a full version history of changes. However, the build process for documentation may rely on external scripts and resources that may change independently of the standard's revision process. 
+Using [version control](pattern-version-control-changelog) for the standard schema and documentation provides a full version history of changes. However, the build process for documentation may rely on external scripts and resources that may change independently of the standard's revision process. 
 
 It is important to be able to reproduce the same HTML (and other format) outputs for any given commit of the standard. 
 
@@ -84,7 +128,7 @@ Note that in some cases, reproducibility requirements might be relaxed. For exam
 
 #### Related patterns
 
-[Version control](pattern-version-control); [Deployment and rollback](pattern deployment-rollback); 
+[Version control](pattern-version-control-changelog); [Deployment and rollback](pattern-deployment-rollback); 
 
 #### Related components
 
@@ -97,6 +141,7 @@ Note that in some cases, reproducibility requirements might be relaxed. For exam
 
 
 
+---
 ```eval_rst
 .. _pattern-deployment-rollback:
 ```

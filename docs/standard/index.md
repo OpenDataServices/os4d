@@ -82,7 +82,7 @@ Most policy-related open data standards, once released, need ongoing maintenance
   * User contributions
     * License and contributor agreements
     * GitHub work flow
-    * Issue management
+    * Issue management (see also [Issue Tracker](pattern-issue-tracker))
   * Revisions
   * Conformance and deprecation policies
 * Tooling
