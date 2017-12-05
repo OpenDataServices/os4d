@@ -19,6 +19,8 @@ The list of components is below, with TODO: guidance as to what may make them mo
 
 #### Summary
 
+Setting out steps to encourage organizations to adopt the standard.
+
 #### Description
 
 #### Examples
@@ -38,6 +40,8 @@ The list of components is below, with TODO: guidance as to what may make them mo
 ### Blog
 
 #### Summary
+
+Sharing stories of successful implementation.
 
 #### Description
 
@@ -59,6 +63,8 @@ The list of components is below, with TODO: guidance as to what may make them mo
 
 #### Summary
 
+Setting out who is allowed to use the logo, and who implementers should describe their relationship to the standard.
+
 #### Description
 
 #### Examples
@@ -78,6 +84,8 @@ The list of components is below, with TODO: guidance as to what may make them mo
 ### Brand Guidance
 
 #### Summary
+
+Describing how to use the logo and how to talk about the standard
 
 #### Description
 
@@ -99,6 +107,8 @@ The list of components is below, with TODO: guidance as to what may make them mo
 
 #### Summary
 
+Accessible write-ups exploring adoption and impact through narrative stories for a general audience.
+
 #### Description
 
 #### Examples
@@ -118,6 +128,8 @@ The list of components is below, with TODO: guidance as to what may make them mo
 ### Communications Plan
 
 #### Summary
+
+Setting out steps to get media coverage of the standard.
 
 #### Description
 
@@ -139,6 +151,8 @@ The list of components is below, with TODO: guidance as to what may make them mo
 
 #### Summary
 
+Showcasing what can be done with data when it
+
 #### Description
 
 #### Examples
@@ -158,6 +172,8 @@ The list of components is below, with TODO: guidance as to what may make them mo
 ### Discourse Forum
 
 #### Summary
+
+An online space for community discussion of the standard, adoption and data use.
 
 #### Description
 
@@ -179,6 +195,8 @@ The list of components is below, with TODO: guidance as to what may make them mo
 
 #### Summary
 
+Asking potential adopters to sign-up and give their support to the standard.
+
 #### Description
 
 #### Examples
@@ -198,6 +216,30 @@ The list of components is below, with TODO: guidance as to what may make them mo
 ### Glossary
 
 #### Summary
+
+Providing clear definitions for all the terms of art used in a standard.
+
+#### Description
+
+#### Examples
+
+#### Prioritisation Factors
+
+#### Deprioritisation Factors
+
+#### Related Components
+
+#### Related Patterns
+
+```eval_rst
+.. _component-guidance-documentation:
+```
+
+### Guidance Documentation
+
+#### Summary
+
+Non-normative guidance on how to share data using the standard.
 
 #### Description
 
@@ -219,6 +261,8 @@ The list of components is below, with TODO: guidance as to what may make them mo
 
 #### Summary
 
+Common visual elements used across documentation and presentations.
+
 #### Description
 
 #### Examples
@@ -238,6 +282,8 @@ The list of components is below, with TODO: guidance as to what may make them mo
 ### Logo
 
 #### Summary
+
+A logo for the standard
 
 #### Description
 
@@ -259,6 +305,8 @@ The list of components is below, with TODO: guidance as to what may make them mo
 
 #### Summary
 
+Setting out high-level goals that adoption of the standard works towards.
+
 #### Description
 
 #### Examples
@@ -278,6 +326,8 @@ The list of components is below, with TODO: guidance as to what may make them mo
 ### Progressive Enhancement Framework
 
 #### Summary
+
+Supporting publishers to start with unstructured documents, and move on to provide structured and ultimately linked data.
 
 #### Description
 
@@ -299,6 +349,8 @@ The list of components is below, with TODO: guidance as to what may make them mo
 
 #### Summary
 
+Separating fields into 'basic', 'intermediate' and 'advanced' so that publishers can focus on a small set first.
+
 #### Description
 
 #### Examples
@@ -318,6 +370,8 @@ The list of components is below, with TODO: guidance as to what may make them mo
 ### Publisher Ranking
 
 #### Summary
+
+E.g. an annual report ranking datasets and their publishers based on an agreed methodology.
 
 #### Description
 
@@ -339,6 +393,8 @@ The list of components is below, with TODO: guidance as to what may make them mo
 
 #### Summary
 
+E.g. the requirement that publishers should use Creative Commons or Open Database License.
+
 #### Description
 
 #### Examples
@@ -358,6 +414,8 @@ The list of components is below, with TODO: guidance as to what may make them mo
 ### Tutorial Videos
 
 #### Summary
+
+Providing on-demand overview of how the use the standard.
 
 #### Description
 
@@ -379,6 +437,8 @@ The list of components is below, with TODO: guidance as to what may make them mo
 
 #### Summary
 
+(or similar) For communicating with the public.
+
 #### Description
 
 #### Examples
@@ -398,6 +458,8 @@ The list of components is below, with TODO: guidance as to what may make them mo
 ### Website
 
 #### Summary
+
+A shop-window on the standard, setting in context of wider goals
 
 #### Description
 
@@ -419,6 +481,8 @@ The list of components is below, with TODO: guidance as to what may make them mo
 
 #### Summary
 
+Describing how data should be accessed interactively.
+
 #### Description
 
 #### Examples
@@ -438,6 +502,8 @@ The list of components is below, with TODO: guidance as to what may make them mo
 ### Codelists
 
 #### Summary
+
+Classifications used in the standard.
 
 #### Description
 
@@ -459,6 +525,8 @@ The list of components is below, with TODO: guidance as to what may make them mo
 
 #### Summary
 
+Describing the coding practices and workflows for contributing to the standard or associated tools.
+
 #### Description
 
 #### Examples
@@ -478,6 +546,8 @@ The list of components is below, with TODO: guidance as to what may make them mo
 ### Developer Guidelines
 
 #### Summary
+
+Used to make sure all contributions to the standard are appropriately licensed, and to manage patent risks.
 
 #### Description
 
@@ -499,6 +569,8 @@ The list of components is below, with TODO: guidance as to what may make them mo
 
 #### Summary
 
+Allowing conversion between serialization formats (e.g. CSV -> XML; JSON -> XLS)
+
 #### Description
 
 #### Examples
@@ -519,25 +591,7 @@ The list of components is below, with TODO: guidance as to what may make them mo
 
 #### Summary
 
-#### Description
-
-#### Examples
-
-#### Prioritisation Factors
-
-#### Deprioritisation Factors
-
-#### Related Components
-
-#### Related Patterns
-
-```eval_rst
-.. _component-data-aggregator:
-```
-
-### Data Aggregator
-
-#### Summary
+Providing access to all the data shared using the standard.
 
 #### Description
 
@@ -559,6 +613,30 @@ The list of components is below, with TODO: guidance as to what may make them mo
 
 #### Summary
 
+Used to discuss the standard, or announce standard updates.
+
+#### Description
+
+#### Examples
+
+#### Prioritisation Factors
+
+#### Deprioritisation Factors
+
+#### Related Components
+
+#### Related Patterns
+
+```eval_rst
+.. _component-data-aggregator:
+```
+
+### Data Aggregator
+
+#### Summary
+
+Providing access to all the data shared using the standard.
+
 #### Description
 
 #### Examples
@@ -578,6 +656,8 @@ The list of components is below, with TODO: guidance as to what may make them mo
 ### Example Data
 
 #### Summary
+
+Auto-generated and manually created examples used in tutorials, and for testing the standard.
 
 #### Description
 
@@ -599,6 +679,8 @@ The list of components is below, with TODO: guidance as to what may make them mo
 
 #### Summary
 
+Addressing frequently asked questions from publishers and users.
+
 #### Description
 
 #### Examples
@@ -618,6 +700,8 @@ The list of components is below, with TODO: guidance as to what may make them mo
 ### Field-level Mapping Template
 
 #### Summary
+
+Used when preparing to publish data to cross-walk from existing systems.
 
 #### Description
 
@@ -639,6 +723,8 @@ The list of components is below, with TODO: guidance as to what may make them mo
 
 #### Summary
 
+User-friendly and filled with examples.
+
 #### Description
 
 #### Examples
@@ -658,6 +744,8 @@ The list of components is below, with TODO: guidance as to what may make them mo
 ### Issue Tracker
 
 #### Summary
+
+Providing a clear public trail for all discussions about changes to the standard.
 
 #### Description
 
@@ -679,6 +767,8 @@ The list of components is below, with TODO: guidance as to what may make them mo
 
 #### Summary
 
+Providing a place to ask implementation questions.
+
 #### Description
 
 #### Examples
@@ -698,6 +788,8 @@ The list of components is below, with TODO: guidance as to what may make them mo
 ### Helpdesk Phone Number
 
 #### Summary
+
+Direct access to talk to someone about adopting the standard.
 
 #### Description
 
@@ -719,6 +811,8 @@ The list of components is below, with TODO: guidance as to what may make them mo
 
 #### Summary
 
+To be filled in by someone planning to adopt the standard.
+
 #### Description
 
 #### Examples
@@ -738,6 +832,8 @@ The list of components is below, with TODO: guidance as to what may make them mo
 ### Maintenance Handbook
 
 #### Summary
+
+For the team maintaining and updating the standard.
 
 #### Description
 
@@ -759,6 +855,8 @@ The list of components is below, with TODO: guidance as to what may make them mo
 
 #### Summary
 
+Providing a report on technical validity of data against the schema.
+
 #### Description
 
 #### Examples
@@ -778,6 +876,8 @@ The list of components is below, with TODO: guidance as to what may make them mo
 ### Quality Tool
 
 #### Summary
+
+Providing feedback on the content of datasets, based on a set of data quality rules.
 
 #### Description
 
@@ -799,6 +899,8 @@ The list of components is below, with TODO: guidance as to what may make them mo
 
 #### Summary
 
+A list of fields that publishers are encouraged (but not required) to provide
+
 #### Description
 
 #### Examples
@@ -818,6 +920,8 @@ The list of components is below, with TODO: guidance as to what may make them mo
 ### Reference Documentation
 
 #### Summary
+
+Normative. Describing all the elements of the standard, and used as the basis for any judging correct or incorrect implementations.
 
 #### Description
 
@@ -839,6 +943,8 @@ The list of components is below, with TODO: guidance as to what may make them mo
 
 #### Summary
 
+Lookup lists for key concepts (e.g. organization registers).
+
 #### Description
 
 #### Examples
@@ -858,6 +964,8 @@ The list of components is below, with TODO: guidance as to what may make them mo
 ### Registry Of Datasets
 
 #### Summary
+
+Providing links to all known data that follows the standard.
 
 #### Description
 
@@ -879,6 +987,8 @@ The list of components is below, with TODO: guidance as to what may make them mo
 
 #### Summary
 
+A list of fields that MUST be provided.
+
 #### Description
 
 #### Examples
@@ -898,6 +1008,8 @@ The list of components is below, with TODO: guidance as to what may make them mo
 ### Research Report
 
 #### Summary
+
+Independent evidence concerning data publication and use.
 
 #### Description
 
@@ -919,6 +1031,8 @@ The list of components is below, with TODO: guidance as to what may make them mo
 
 #### Summary
 
+Machine and human-readable rules used to check data quality.
+
 #### Description
 
 #### Examples
@@ -938,6 +1052,8 @@ The list of components is below, with TODO: guidance as to what may make them mo
 ### Schema
 
 #### Summary
+
+The technical description of how data should be structured.
 
 #### Description
 
@@ -959,6 +1075,8 @@ The list of components is below, with TODO: guidance as to what may make them mo
 
 #### Summary
 
+So that standard users can describe the coverage and comprehensiveness of their data.
+
 #### Description
 
 #### Examples
@@ -978,6 +1096,8 @@ The list of components is below, with TODO: guidance as to what may make them mo
 ### Shared Documents Folder
 
 #### Summary
+
+Offering a public archive of meeting minutes, reports, presentations and other resources.
 
 #### Description
 
@@ -999,6 +1119,8 @@ The list of components is below, with TODO: guidance as to what may make them mo
 
 #### Summary
 
+For chat-type conversations with the community about development, adoption and use of the standard.
+
 #### Description
 
 #### Examples
@@ -1018,6 +1140,8 @@ The list of components is below, with TODO: guidance as to what may make them mo
 ### Specification
 
 #### Summary
+
+Comprising of the schema, codelists and normative documentation.
 
 #### Description
 
@@ -1039,6 +1163,8 @@ The list of components is below, with TODO: guidance as to what may make them mo
 
 #### Summary
 
+An editorialised template that can be filled in to provide data that meets the standard (Excel / AirTable etc.)
+
 #### Description
 
 #### Examples
@@ -1058,6 +1184,8 @@ The list of components is below, with TODO: guidance as to what may make them mo
 ### Training Resources
 
 #### Summary
+
+Used in online and offline training workshops to introduce the standard.
 
 #### Description
 
@@ -1079,6 +1207,8 @@ The list of components is below, with TODO: guidance as to what may make them mo
 
 #### Summary
 
+Automatically run whenever the specification, documentation or examples are updated.
+
 #### Description
 
 #### Examples
@@ -1098,6 +1228,8 @@ The list of components is below, with TODO: guidance as to what may make them mo
 ### Use Cases
 
 #### Summary
+
+A description of the ways in which data from the standard could be used.
 
 #### Description
 
@@ -1119,6 +1251,8 @@ The list of components is below, with TODO: guidance as to what may make them mo
 
 #### Summary
 
+A cross-walk between outcomes from data use, and the fields or data requirements to enable them.
+
 #### Description
 
 #### Examples
@@ -1138,6 +1272,8 @@ The list of components is below, with TODO: guidance as to what may make them mo
 ### User Tutorials
 
 #### Summary
+
+How to guidance on making use of published data
 
 #### Description
 
@@ -1159,6 +1295,8 @@ The list of components is below, with TODO: guidance as to what may make them mo
 
 #### Summary
 
+A list of known extensions to the standard
+
 #### Description
 
 #### Examples
@@ -1178,6 +1316,8 @@ The list of components is below, with TODO: guidance as to what may make them mo
 ### Extensions Mechanism
 
 #### Summary
+
+A mechanism for having optional new codelists, schema and documentation added to the standard.
 
 #### Description
 
