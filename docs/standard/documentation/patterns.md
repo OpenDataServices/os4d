@@ -203,20 +203,28 @@ Releases are named: `Major__minor__path` e.g. `1__0__3`, `1__1__2`
 
 #### Problem
 
+Normally, building the standard documentation and publishing the schema is a complicated process involving many steps to run and test.
+To save time, these need to be run automatically. Feedback needs to be given to the documentation or schema writers to check if their changes look correct. 
+Also, checks regarding the integrity of the documentation and schema need to be run for every change made.
+
 #### Solution
+
+Use continuous integration to run the tests and publish a version of the docs for every branch in the standard documentation. 
+This means that the integrity tests are run and you can see version of that branch schema/documentation online.
 
 #### Method
 
+We use Travis on github, both to run the tests and to push a built version of the docs/schema to a development server. We store private server access details on github outside our public build scripts.
+
 #### Example
+
+For OCDS we have a [travis script](https://github.com/open-contracting/standard/blob/1.1-dev/.travis.yml) that runs the tests and deploys all the branches.
 
 #### Related patterns
 
-[Pattern name](pattern-slug); [Pattern name 2](pattern-slug-2); 
+[Branch and release management](pattern-branch-release-management);
 
 #### Related components
-
-[Component name](component-slug); [Component name 2](component-slug-2); 
-
 
 
 
