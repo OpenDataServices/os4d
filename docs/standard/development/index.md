@@ -1,4 +1,4 @@
-# Development 
+# Development
 
 
 
@@ -19,29 +19,5 @@ This section outlines considerations during the development of an open data stan
 
 
 ```
-
-
-
-* Development
-  * Origins
-    * Research
-    * Stakeholders
-    * Supply side
-    * Demand
-      * User stories and use cases
-    * Existing standards
-  * Stages 
-    * Conceptual framework
-    * Alpha
-    * Beta
-    * Release candidate
-    * Live
-    * Revision
-
-  * Social & policy design
-    * Quality frameworks
-    * Guidance
-    * Implementation levels
-  * Licensing
 
 

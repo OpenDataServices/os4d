@@ -1,4 +1,4 @@
-# Stages
+# Stages of standard development
 
 The development of a standard should follow a number of stages. 
 

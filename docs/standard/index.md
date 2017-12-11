@@ -1,4 +1,4 @@
-# Standard development and maintenance
+# Development and maintenance
 
 This handbook is about policy-related open data standards. These cover both **content** (what to publish) and **representation** (how to publish). 
 
@@ -29,13 +29,12 @@ Most policy-related open data standards, once released, need ongoing maintenance
    :maxdepth: 3
    :glob:
 
-   *
    getting-started/index
    development/index
    documentation/index
    governance/index
    tooling/index
-
+   *
 
 ```
 
