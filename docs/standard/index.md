@@ -1,4 +1,4 @@
-# Development and maintenance
+# Development
 
 This handbook is about policy-related open data standards. These cover both **content** (what to publish) and **representation** (how to publish). 
 

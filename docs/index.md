@@ -42,6 +42,8 @@ This guide is split into three sections.
    :glob:
 
    standard/index
+   adoption/index
+   learning/index
    */index
    
 

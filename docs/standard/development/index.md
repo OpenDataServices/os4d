@@ -1,6 +1,4 @@
-# Development
-
-
+# Development & maintenance
 
 This section outlines considerations during the development of an open data standard. 
 
@@ -16,7 +14,6 @@ This section outlines considerations during the development of an open data stan
    social
    licensing
    *
-
 
 ```
 

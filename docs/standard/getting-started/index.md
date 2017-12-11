@@ -1,7 +1,7 @@
 # Getting started
 
 ```eval_rst
-.. _when:
+.. _getting_started:
 ```
 
 ## Linking goals and design
