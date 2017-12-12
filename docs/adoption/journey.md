@@ -13,13 +13,14 @@ The Open Contracting Data Standard uses the [7-step model below to describe the 
     :class: note
 
     .. markdown:: 
-    The five steps for 360Giving data publication are:
 
-    * Discuss and plan
-    * Select your publishing template
-    * Prepare your data
-    * Publish on your website
-    * Register with 360Giving
+        The five steps for 360Giving data publication are:
+
+        1. Discuss and plan
+        1. Select your publishing template
+        1. Prepare your data
+        1. Publish on your website
+        1. Register with 360Giving
     
 ```
 
@@ -33,7 +34,7 @@ For policy related open data standards there will often be a process for securin
 
 ### Map
 
-In general, the data to be represented through a standard already exists in some system, or systems that *could* collect it exist. The mapping stage addresses the systems and business processes that will need to change to produce or consumer standardised data, as well as look at the level of individual data elements to agree how data will be represented or consumed. 
+In general, the data to be represented through a standard already exists in some system, or systems that *could* collect it exist. The mapping stage addresses the systems and business processes that will need to change to produce or consume standardised data, as well as look at the level of individual data elements to agree how data will be represented or consumed. 
 
 ### Build
 
