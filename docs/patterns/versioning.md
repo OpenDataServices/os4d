@@ -1,23 +1,22 @@
 ```eval_rst
 .. _component-versioning:
 ```
-# Versioning 
+# Versioning Patterns
 
 Standards change: as a result versioning is an important part of many standards. This section documents common versioning patterns. 
 
-## Patterns
 
 ```eval_rst
 .. _pattern-normative:
 ```
 
-### Normative and non-normative content
+## Normative and non-normative content
 
-#### Problem
+### Problem
 
 Some elements of a standards' documentation can be changed without changing what the standard means. Other elements may have consequences that may substantially affect data owners and users - and which should be subject to a governance and review process. 
 
-#### Solution
+### Solution
 
 Clearly separate **normative** and **non-normative** sections of documentation. 
 
@@ -27,40 +26,40 @@ Non-normative sections contain explanation, guidance and context that MAY be use
 
 The IETF use the distinction between [normative and informative](https://www.ietf.org/iesg/statement/normative-informative.html)
 
-#### Method
+### Method
 
-#### Example
+### Example
 
-#### Related patterns
+### Related patterns
 
-#### Related components
+### Related components
 
 
 ```eval_rst
 .. _pattern-version-number:
 ```
 
-### Version numbers
+## Version numbers
 
-#### Problem
+### Problem
 
 Parsers, validators and other tools need to know what version of the schema a particular data file is using.
 
-#### Solution
+### Solution
 
 The [package](pattern-packaging) meta-data for any file should include a `version` field with a version number. 
 
-#### Method
+### Method
 
-#### Example
+### Example
 
 From version 1.1, OCDS included a `version` field. This must contain only `MAJOR.MINOR' version (not 'MAJOR.MINOR.PATCH')
 
-#### Related patterns
+### Related patterns
 
 [Semantic versioning](pattern-semver)
 
-#### Related components
+### Related components
 
 
 
@@ -68,25 +67,25 @@ From version 1.1, OCDS included a `version` field. This must contain only `MAJOR
 .. _pattern-release-candidate:
 ```
 
-### Release candidate versions
+## Release candidate versions
 
-#### Problem
+### Problem
 
 When a new version of a standard is released, and implementers start to use it, small problems are often discovered. These may require changes to the standard, sparking a whole new iteration of the governance process.
 
-#### Solution
+### Solution
 
 Major or minor versions of a standard may be provided as a 'Release Candidate' for a period of time, before, subject to no substantial changes being required, they can then be turned into a release version. 
 
 See [release candidate (Wikipedia)](https://en.wikipedia.org/wiki/Software_release_life_cycle#Release_candidate). 
 
-#### Method
+### Method
 
-#### Example
+### Example
 
-#### Related patterns
+### Related patterns
 
-#### Related components
+### Related components
 
 
 
@@ -94,23 +93,23 @@ See [release candidate (Wikipedia)](https://en.wikipedia.org/wiki/Software_relea
 .. _pattern-semver:
 ```
 
-### Semantic Versioning
+## Semantic Versioning
 
-#### Problem
+### Problem
 
 
 
-#### Solution
+### Solution
 
-#### Method
+### Method
 
-#### Example
+### Example
 
-#### Related patterns
+### Related patterns
 
 [Pattern name](pattern-slug); [Pattern name 2](pattern-slug-2); 
 
-#### Related components
+### Related components
 
 [Component name](component-slug); [Component name 2](component-slug-2); 
 
@@ -122,21 +121,21 @@ See [release candidate (Wikipedia)](https://en.wikipedia.org/wiki/Software_relea
 .. _pattern-compatibility:
 ```
 
-### Backwards compatibility 
+## Backwards compatibility 
 
-#### Problem
+### Problem
 
-#### Solution
+### Solution
 
-#### Method
+### Method
 
-#### Example
+### Example
 
-#### Related patterns
+### Related patterns
 
 [Pattern name](pattern-slug); [Pattern name 2](pattern-slug-2); 
 
-#### Related components
+### Related components
 
 [Component name](component-slug); [Component name 2](component-slug-2); 
 
@@ -149,21 +148,21 @@ See [release candidate (Wikipedia)](https://en.wikipedia.org/wiki/Software_relea
 .. _pattern-conformance:
 ```
 
-### Conformance statement
+## Conformance statement
 
-#### Problem
+### Problem
 
-#### Solution
+### Solution
 
-#### Method
+### Method
 
-#### Example
+### Example
 
-#### Related patterns
+### Related patterns
 
 [Pattern name](pattern-slug); [Pattern name 2](pattern-slug-2); 
 
-#### Related components
+### Related components
 
 [Component name](component-slug); [Component name 2](component-slug-2); 
 

@@ -110,22 +110,23 @@ These should be written using a Level 3 heading for the pattern, and level four 
 .. _pattern-slug:
 ```
 
-### Title
+## Title
 
-#### Problem
+### Problem
 
-#### Solution
+### Solution
 
-#### Method
+### Method
 
-#### Example
+### Example
 
-#### Related patterns
+### Related patterns
 
 [Pattern name](pattern-slug); [Pattern name 2](pattern-slug-2);
 
-#### Related components
+### Related components
 
 [Component name](component-slug); [Component name 2](component-slug-2);
+
 
 ````
