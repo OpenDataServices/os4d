@@ -23,13 +23,21 @@ Setting out steps to encourage organizations to adopt the standard.
 
 #### Description
 
+An advocacy plan provides the resources and sets out the steps that will be followed to encourage organisations to adopt a standard, as well as key arguments. It should be updated regularly as the standard matures and as the standard starts to have an impact.
+
 #### Examples
 
 #### Prioritisation Factors
 
+An advocacy plan should be prioritised for standards that are being developed outside of the organisations that are expected to adopt the standard, especially if there is a perceived cost
+
 #### Deprioritisation Factors
 
+An advocacy plan may not be as important if a standard is emerging from consensus among the organisations that are expected to use it
+
 #### Related Components
+
+Blog
 
 #### Related Patterns
 
@@ -45,11 +53,17 @@ Sharing stories of successful implementation.
 
 #### Description
 
+A blog that is regularly updated can provide updates to the community, resources for them to refer back to, and act as a 'shop window' for the standard, demonstrating that it is maintained and used.
+
 #### Examples
 
 #### Prioritisation Factors
 
+A blog should be prioritised for standards where a wide audience is sought
+
 #### Deprioritisation Factors
+
+A blog shouldn't be started if there isn't the resource available to make regular updates.
 
 #### Related Components
 
@@ -63,17 +77,25 @@ Sharing stories of successful implementation.
 
 #### Summary
 
-Setting out who is allowed to use the logo, and who implementers should describe their relationship to the standard.
+Setting out who is allowed to use the logo, and how implementers should describe their relationship to the standard.
 
 #### Description
+
+Standards that have developed a brand need to ensure that it is used in a way that benefits the community and the standard. This will likely include guidance as to when the logo can be used, how tools should describe themselves relative to the standard, and ensure that the brand is only used when relevant
 
 #### Examples
 
 #### Prioritisation Factors
 
+Brand agreements are more important when a standard is growing quickly, and there is a proliferation of tools and adopters. They may also be more important for standards where there are multiple standards, or the name of the standard uses a common term.
+
 #### Deprioritisation Factors
 
+Brand agreements are less important for standards where there is a trusted community or less of a strong brand.
+
 #### Related Components
+
+Brand Guidance
 
 #### Related Patterns
 
@@ -1314,6 +1336,50 @@ A list of known extensions to the standard
 ```
 
 ### Extensions Mechanism
+
+#### Summary
+
+A mechanism for having optional new codelists, schema and documentation added to the standard.
+
+#### Description
+
+#### Examples
+
+#### Prioritisation Factors
+
+#### Deprioritisation Factors
+
+#### Related Components
+
+#### Related Patterns
+
+```eval_rst
+.. _component-workshops:
+```
+
+### Workshops
+
+#### Summary
+
+A mechanism for having optional new codelists, schema and documentation added to the standard.
+
+#### Description
+
+#### Examples
+
+#### Prioritisation Factors
+
+#### Deprioritisation Factors
+
+#### Related Components
+
+#### Related Patterns
+
+```eval_rst
+.. _component-governance-body:
+```
+
+### Governance Body
 
 #### Summary
 
