@@ -29,12 +29,14 @@ Most policy-related open data standards, once released, need ongoing maintenance
    :maxdepth: 3
    :glob:
 
-   getting-started/index
-   development/index
-   documentation/index
-   governance/index
-   tooling/index
-   components/index
+   getting-started
+   research
+   stages
+   schema
+   licensing
+   translation
+   governance
+   tooling
 
 ```
 

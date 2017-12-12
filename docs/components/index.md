@@ -1,5 +1,5 @@
-Components
-==========
+Component library
+=================
 
 On reviewing a range of policy-related data standards, including those that we maintain and those maintained by others, we identified approximately 60 components that at least two standards have chosen to create or adopt.
 

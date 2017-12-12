@@ -41,10 +41,13 @@ This guide is split into three sections.
    :maxdepth: 2
    :glob:
 
-   standard/index
+   development/index
    adoption/index
    learning/index
-   */index
+   components/index
+   patterns/index
+   about/index
+   meta/index
    
 
 ```

@@ -14,16 +14,6 @@ This section outlines a number of the pattens we commonly use to develop the sch
 
 ```
 
-
-```eval_rst
-.. toctree::
-   :maxdepth: 3
-   :glob:
-
-   schema
-
-```
-
 ## Schema language
 
 Our preferred schema language is [JSON Schema v0.4](https://tools.ietf.org/html/draft-zyp-json-schema-04). 

@@ -1,15 +1,6 @@
 # Governance
 
 ```eval_rst
-.. toctree::
-   :maxdepth: 2
-   :glob:
-
-   *
-
-```
-
-```eval_rst
 .. _component-revision-process:
 ```
 ## Revision process
