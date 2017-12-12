@@ -10,7 +10,7 @@ The handbook describes maintaining data specifications that can support the real
 
   A campaign calls for organizations to publish their pay ratios between men and women, and highest and lowest paid employees, in order to highlight and address pay inequality. This is the policy goal. 
 
-  A schema is developed and documented, describing how to publish CSV files on an organizations website that provide these figures. This is the data specification. 
+  A schema is developed and documented, describing how to publish CSV files on an organization's website that provide these figures. This is the data specification. 
 
   Further documentation, data-quality frameworks, and validation models are developed that can be used to check that the data provided using the specification is accessible, meaningful and actionable. Together with the specification, this constitutes the open data standard. 
 
