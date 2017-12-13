@@ -83,7 +83,7 @@ Some of the roles include:
 * **Schema author** - translating agreed data structures and fields into a schema language, and coordinating work to define fields and relationships. Also working on standard extensions where applicable. 
 * **Documentation author** - writing technical and user-focused documentation, creating worked examples, and developing training resources.
 * **Designer** - creating visual elements to support documentation and training around the standard. 
-* **Developer** - creating and implementing tools for maintaining a Single Source of Truth, managing documentation, performing data validation, and supporting standard adoption. 
+* **Developer** - creating and implementing tools for maintaining a [Single Source of Truth](pattern-ssot), managing documentation, performing data validation, and supporting standard adoption. 
 * **Translation manager & translators** - creating glossaries, arranging translation, and carrying out translations.
 * **Governance lead** - coordinating the process of standard updates.
 * **Community manager(s)** - engaging with technical and policy communities, supporting tool-building, documenting implementation case studies, ensuring community input into standard development. 

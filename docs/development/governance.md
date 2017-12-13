@@ -1,5 +1,20 @@
 # Governance and Revision
 
+``` eval_rst
+.. todo::
+
+  .. markdown::
+    
+    Sections missing:
+
+    * User contributions
+      * License and contributor agreements
+      * GitHub work flow
+      * Issue management (see also [Issue Tracker](pattern-issue-tracker))
+    * Revisions
+
+```
+
 ```eval_rst
 .. _component-revision-process:
 ```
@@ -44,15 +59,15 @@ For example, see the OCDS [conformance](http://standard.open-contracting.org/lat
 .. todo::
     
     Expand this section
-
-.. todo::
-    
-    Sections missing:
-
-    * User contributions
-      * License and contributor agreements
-      * GitHub work flow
-      * Issue management (see also [Issue Tracker](pattern-issue-tracker))
-    * Revisions
-
 ```
+
+
+## Versioning Patterns
+
+```eval_rst
+
+:ref:`patternpage-versioning`
+
+* :ref:`pattern-normative`
+* :ref:`pattern-version-number`
+* :ref:`pattern-release-candidate`

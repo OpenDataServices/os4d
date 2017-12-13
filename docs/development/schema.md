@@ -81,6 +81,8 @@ We also use the column title `Deprecated` with a version number as the cell valu
 ```eval_rst
 .. todo::
 
+  .. markdown::
+
     We should consider using `message` instead of `description` in the deprecated object in JSON schema. 
 
     We should consider using 'deprecatedInVersion' and 'deprecatedMessage' in the codelist CSV files, instead of just 'Deprecated' as a column heading

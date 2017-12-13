@@ -1,9 +1,25 @@
 ```eval_rst
-.. _component-versioning:
+.. _patternpage-versioning:
 ```
 # Versioning Patterns
 
 Standards change: as a result versioning is an important part of many standards. This section documents common versioning patterns. 
+
+```eval_rst
+.. ::
+    When you update this list, also update development/governance.md
+
+* :ref:`pattern-normative`
+* :ref:`pattern-version-number`
+* :ref:`pattern-release-candidate`
+
+.. todo::
+
+    * :ref:`pattern-semver`
+    * :ref:`pattern-compatibility`
+    * :ref:`pattern-conformance`
+
+```
 
 
 ---

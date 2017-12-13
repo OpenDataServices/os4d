@@ -56,7 +56,7 @@ A **self-service implementation** approach to standard adoption may involve a fo
 * Community forums
 * Code samples, libraries and tools;
 
-Both approaches should always be based on clear reference documentation. 
+Both approaches should always be based on clear reference documentation (see [Single Source of Truth pattern](pattern-ssot)). 
 
 Often, a **supported approach** will be appropriate during the early development of a standard, where both the adopters, and the standard developers are learning about what makes for effective adoption. Over time, the emphasis may need to shift to a **self-service** adoption approach, in order to allow adoption to scale up. 
 

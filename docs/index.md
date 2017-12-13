@@ -11,7 +11,7 @@ It is written as both a standalone guide, and also as template to create individ
 
 This guide is split into three sections.
 
-* [Development and maintenance](standard/index) covers the initiation, development, maintenance and revision of a standard;
+* [Development and maintenance](development/index) covers the initiation, development, maintenance and revision of a standard;
 * [Adoption](adoption/index) covers approaches to supporting adoption of an open data standard through engagement with data publishers, intermediaries and users;
 * [Learning](learning/index) covers monitoring standard uptake and impact, and maintaining ongoing alignment with the overall policy goals of a standard.
 

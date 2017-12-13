@@ -1,15 +1,25 @@
+```eval_rst
+  .. _patternpage-documentation:
+```
 # Documentation patterns
 
 This section outlines a number of common patterns used to maintain documentation. 
 
-* [Single Source of Truth](pattern-ssot)
-* [Issue Tracker](pattern-issue-tracker)
-* [Version control and changelogs for the schema and documentation](pattern-version-control-changelog)
-* [Governance process for normative changes to the schema and documentation](pattern-governance-normative)
-* [Branch and release management](pattern-branch-release-management)
-* [Automated build processes](pattern-automated-build)
-* [Reproducible builds](pattern-reproducible-builds)
-* [Deployment and rollback](pattern-deployment-rollback)
+```eval_rst
+
+.. ::
+
+    When you update this list, also update development/documentation.md
+
+* :ref:`pattern-ssot`
+* :ref:`pattern-issue-tracker`
+* :ref:`pattern-version-control-changelog`
+* :ref:`pattern-governance-normative`
+* :ref:`pattern-branch-release-management`
+* :ref:`pattern-automated-build`
+* :ref:`pattern-reproducible-builds`
+* :ref:`pattern-deployment-rollback`
+```
 
 
 
@@ -127,12 +137,16 @@ e.g. for OCDS we have:
 ### Related patterns
 
 ```eval_rst
-:ref:`pattern-reproducible-builds`;
+:ref:`pattern-reproducible-builds`; :ref:`patternpage-versioning`
 ```
 
-### Related components
+```eval_rst
+.. todo::
 
-[Versioning](component-versioning);
+  .. markdown::
+    
+    ### Related components
+```
 
 
 
