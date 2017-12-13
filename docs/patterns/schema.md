@@ -1,4 +1,25 @@
+```eval_rst
+  .. _patternpage-schema:
+```
 # Schema patterns
+
+
+```eval_rst
+* :ref:`pattern-top`
+* :ref:`pattern-permissive`
+* :ref:`pattern-object-id`
+* :ref:`pattern-spreadsheet`
+* :ref:`pattern-deprecation`
+* :ref:`pattern-vocabularies`
+* :ref:`pattern-packaging`
+* :ref:`pattern-immutability`
+* :ref:`pattern-merging`
+* :ref:`pattern-extensibility`
+```
+
+```eval_rst
+  .. _pattern-top:
+```
 
 ## Top-object
 

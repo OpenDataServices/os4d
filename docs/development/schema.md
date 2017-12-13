@@ -36,10 +36,7 @@ In particular, through [flatten-tool](http://flatten-tool.readthedocs.io) we des
 
 
 ```eval_rst
-.. admonition:: Example
-    :class: note
-
-    ToDo
+.. todo::
 
     We could include a simple example here.
 
@@ -52,7 +49,7 @@ In particular, through [flatten-tool](http://flatten-tool.readthedocs.io) we des
 We use a number of custom properties in our JSON Schema implementation. A [patch against JSON Schema 0.4 to include these is found here](https://github.com/open-contracting/standard/blob/6e538252dd08344222b5cd16b864ed0a2a866197/standard/schema/metaschema/meta-schema-patch.json).
 
 ```eval_rst
-.. note:: ToDo
+.. todo::
 
     We need to document the fields in our schema patch.
     
@@ -82,7 +79,7 @@ See: [Deprecation (Wikipedia)](https://en.wikipedia.org/wiki/Deprecation)
 We also use the column title `Deprecated` with a version number as the cell value in codelist CSV files when a code has been deprecated. 
 
 ```eval_rst
-.. note:: ToDo
+.. todo::
 
     We should consider using `message` instead of `description` in the deprecated object in JSON schema. 
 
@@ -105,9 +102,30 @@ Behaviour for these is [described in the OCDS documentation](http://standard.ope
 
 Developing a good schema is an art as much as a science. It requires sensitivity to the needs of both data producers and data users, and an understanding of the incentive structures that will drive adoption of a standard. 
 
-The following section provides a non-exhaustive set of design patterns that can be drawn upon when developing a schema. 
+The following section provides links to a non-exhaustive set of design patterns that can be drawn upon when developing a schema. 
 
 ```eval_rst
-  .. _pattern-top:
-```
 
+:ref:`patternpage-schema`:
+
+* :ref:`pattern-top`
+* :ref:`pattern-permissive`
+* :ref:`pattern-object-id`
+* :ref:`pattern-spreadsheet`
+* :ref:`pattern-deprecation`
+* :ref:`pattern-vocabularies`
+* :ref:`pattern-packaging`
+* :ref:`pattern-immutability`
+* :ref:`pattern-merging`
+* :ref:`pattern-extensibility`
+
+
+.. todo::
+
+    Extra sections to add:
+
+    * Validation and additional checks
+    * Extensibility and extensions
+    * Codelist management
+
+```

@@ -45,10 +45,6 @@ Most policy-related open data standards, once released, need ongoing maintenance
     
     Sections missing from Development section:
 
-    * Schema and serialization
-      * Validation and additional checks
-      * Extensibility and extensions
-      * Codelist management
     * Social & policy design
       * Quality frameworks
       * Guidance
@@ -56,19 +52,8 @@ Most policy-related open data standards, once released, need ongoing maintenance
     * Documentation
       * Sphinx for documentation
       * Automated Testing
-      * Example data
+      * Example data `component-example-data`
       * Designing good documentation
         * Visual design
-    * Governance & revision
-      * User contributions
-        * License and contributor agreements
-        * GitHub work flow
-        * Issue management (see also [Issue Tracker](pattern-issue-tracker))
-      * Revisions
-    * Tooling
-      * Conversion
-      * Validation
-      * Exploration
-      * Helper tools
 
 ```

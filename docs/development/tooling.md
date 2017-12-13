@@ -7,3 +7,18 @@ For documentation we make extensive use of [sphinx](http://www.sphinx-doc.org/en
 We maintain a custom [sphinx-base](https://github.com/OpenDataServices/sphinx-base) project to use when starting new documentation sites.
 
 We have created a number of [custom directives documented here](https://github.com/OpenDataServices/sphinxcontrib-opendataservices).
+
+## Tooling components
+
+```eval_rst
+
+* :ref:`component-conversion-tools`
+* :ref:`component-online-validator`
+* :ref:`component-rules-for-additional-checks`
+
+.. todo::
+
+  * Exploration
+  * Helper tools
+
+```

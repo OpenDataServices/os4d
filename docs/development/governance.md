@@ -22,7 +22,13 @@ During the revision process, discussions took place in a range of fora, includin
 
 A [peer-review stage in OCDS revision provided an opportunity for formal feedback on changes](https://github.com/open-contracting/standard/issues/429), and was facilitated through the creation of a spreadsheet template that experts could work through. 
 
-<!--TODO - Add examples from the OCDS upgrade process, including slides used in engagement and possibly a timeline of the process -->
+```eval_rst
+
+.. todo::
+
+    Add examples from the OCDS upgrade process, including slides used in engagement and possibly a timeline of the process
+
+```
 
 ## Conformance and deprecation policies
 
@@ -33,4 +39,20 @@ A standard needs policies on:
 
 For example, see the OCDS [conformance](http://standard.open-contracting.org/latest/en/schema/conformance_and_extensions/) and [deprecation](http://standard.open-contracting.org/latest/en/schema/deprecation/) policies
 
-<!-- TODO: Expand this section --> 
+```eval_rst
+
+.. todo::
+    
+    Expand this section
+
+.. todo::
+    
+    Sections missing:
+
+    * User contributions
+      * License and contributor agreements
+      * GitHub work flow
+      * Issue management (see also [Issue Tracker](pattern-issue-tracker))
+    * Revisions
+
+```
