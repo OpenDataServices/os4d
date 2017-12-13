@@ -38,58 +38,37 @@ Most policy-related open data standards, once released, need ongoing maintenance
    governance
    tooling
 
+
+.. todo::
+
+  .. markdown::
+    
+    Sections missing from Development section:
+
+    * Schema and serialization
+      * Validation and additional checks
+      * Extensibility and extensions
+      * Codelist management
+    * Social & policy design
+      * Quality frameworks
+      * Guidance
+      * Implementation levels
+    * Documentation
+      * Sphinx for documentation
+      * Automated Testing
+      * Example data
+      * Designing good documentation
+        * Visual design
+    * Governance & revision
+      * User contributions
+        * License and contributor agreements
+        * GitHub work flow
+        * Issue management (see also [Issue Tracker](pattern-issue-tracker))
+      * Revisions
+    * Tooling
+      * Conversion
+      * Validation
+      * Exploration
+      * Helper tools
+
 ```
-
-
-* Getting started
-  * When do you need a standard?
-  * Skills and set-up
-* Development
-  * Origins
-    * Research
-    * Stakeholders
-    * Supply side
-    * Demand
-      * User stories and use cases
-    * Existing standards
-  * Stages
-    * Conceptual framework
-    * Alpha
-    * Beta
-    * Release candidate
-    * Live
-    * Revision
-  * Schema and serialization
-    * Extended JSON schema
-    * Alternative serializations
-    * Design patterns
-    * Validation and additional checks
-    * Extensibility and extensions
-    * Codelist management
-  * Social & policy design
-    * Quality frameworks
-    * Guidance
-    * Implementation levels
-  * Licensing
-* Documentation
-  * Single Source of Truth
-  * Sphinx for documentation
-  * Automated Testing
-  * Example data
-  * Translating documentation
-  * Designing good documentation
-    * Visual design
-* Governance & revision
-  * User contributions
-    * License and contributor agreements
-    * GitHub work flow
-    * Issue management (see also [Issue Tracker](pattern-issue-tracker))
-  * Revisions
-  * Conformance and deprecation policies
-* Tooling
-  * Conversion
-  * Validation
-  * Exploration
-  * Helper tools
-
-

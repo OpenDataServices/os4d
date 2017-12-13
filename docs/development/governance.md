@@ -1,4 +1,4 @@
-# Governance
+# Governance and Revision
 
 ```eval_rst
 .. _component-revision-process:
