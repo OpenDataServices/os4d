@@ -28,19 +28,26 @@ Consider a piece of documentation about how a field within the data standard wor
 * Unless those people work directly from the same source (of truth) they may introduce small changes, errors, or even improvements as they reproduce the information.
 * Further, the ‘master’ description may change over time. How do people know whether the new description, or the old one is the correct one to use? Which (trusted) source should they use? An email someone sent, or the PDF they have in their hand, or…?
 
-### Solution
+```eval_rst
+.. todo::
 
-### Method
+  .. markdown::
+    
+    ### Solution
 
-### Example
+    ### Method
 
-### Related patterns
+    ### Example
 
-[Pattern name](pattern-slug); [Pattern name 2](pattern-slug-2); 
+    ### Related patterns
 
-### Related components
+    [Pattern name](pattern-slug); [Pattern name 2](pattern-slug-2); 
 
-[Component name](component-slug); [Component name 2](component-slug-2); 
+    ### Related components
+
+    [Component name](component-slug); [Component name 2](component-slug-2); 
+
+```
 
 
 
@@ -62,16 +69,21 @@ An issue tracker
 
 We use GitHub issues.
 
-### Example
+```eval_rst
+.. todo::
 
-### Related patterns
+  .. markdown::
+    
+    ### Example
 
-[Pattern name](pattern-slug); [Pattern name 2](pattern-slug-2); 
+    ### Related patterns
 
-### Related components
+    [Pattern name](pattern-slug); [Pattern name 2](pattern-slug-2); 
 
-[Component name](component-slug); [Component name 2](component-slug-2); 
+    ### Related components
 
+    [Component name](component-slug); [Component name 2](component-slug-2); 
+```
 
 
 
@@ -114,7 +126,9 @@ e.g. for OCDS we have:
 
 ### Related patterns
 
-[Pattern name](pattern-reproducible-builds);
+```eval_rst
+:ref:`pattern-reproducible-builds`;
+```
 
 ### Related components
 
@@ -188,7 +202,13 @@ Releases are named: `Major__minor__path` e.g. `1__0__3`, `1__1__2`
 
 [Automated build processes](pattern-automated-build);
 
-### Related components
+```eval_rst
+.. todo::
+
+  .. markdown::
+    
+    ### Related components
+```
 
 
 
@@ -224,7 +244,13 @@ For OCDS we have a [travis script](https://github.com/open-contracting/standard/
 
 [Branch and release management](pattern-branch-release-management);
 
-### Related components
+```eval_rst
+.. todo::
+
+  .. markdown::
+    
+    ### Related components
+```
 
 
 
@@ -267,10 +293,15 @@ Note that in some cases, reproducibility requirements might be relaxed. For exam
 
 [Version control](pattern-version-control-changelog); [Deployment and rollback](pattern-deployment-rollback); 
 
-### Related components
+```eval_rst
+.. todo::
 
-[Component name](component-slug); [Component name 2](component-slug-2); 
+  .. markdown::
+    
+    ### Related components
 
+    [Component name](component-slug); [Component name 2](component-slug-2); 
+```
 
 
 
@@ -312,11 +343,17 @@ Currently we only use this approach for OCDS.
 
 Here's the [section about copying file to the server in the OCDS handbook](https://ocds-standard-development-handbook.readthedocs.io/en/latest/standard/technical/deployment/#copy-the-files-to-the-live-server).
 
-### Related patterns
+```eval_rst
+.. todo::
 
-[Pattern name](pattern-slug); [Pattern name 2](pattern-slug-2); 
+  .. markdown::
+    
+    ### Related patterns
 
-### Related components
+    [Pattern name](pattern-slug); [Pattern name 2](pattern-slug-2); 
 
-[Component name](component-slug); [Component name 2](component-slug-2); 
+    ### Related components
 
+    [Component name](component-slug); [Component name 2](component-slug-2); 
+
+```

@@ -6,6 +6,7 @@
 Standards change: as a result versioning is an important part of many standards. This section documents common versioning patterns. 
 
 
+---
 ```eval_rst
 .. _pattern-normative:
 ```
@@ -26,15 +27,22 @@ Non-normative sections contain explanation, guidance and context that MAY be use
 
 The IETF use the distinction between [normative and informative](https://www.ietf.org/iesg/statement/normative-informative.html)
 
-### Method
+```eval_rst
+.. todo::
 
-### Example
+  .. markdown::
+    
+    ### Method
 
-### Related patterns
+    ### Example
 
-### Related components
+    ### Related patterns
+
+    ### Related components
+```
 
 
+---
 ```eval_rst
 .. _pattern-version-number:
 ```
@@ -49,7 +57,13 @@ Parsers, validators and other tools need to know what version of the schema a pa
 
 The [package](pattern-packaging) meta-data for any file should include a `version` field with a version number. 
 
-### Method
+```eval_rst
+.. todo::
+
+  .. markdown::
+    
+    ### Method
+```
 
 ### Example
 
@@ -59,10 +73,16 @@ From version 1.1, OCDS included a `version` field. This must contain only `MAJOR
 
 [Semantic versioning](pattern-semver)
 
-### Related components
+```eval_rst
+.. todo::
+
+  .. markdown::
+    
+    ### Related components
+```
 
 
-
+---
 ```eval_rst
 .. _pattern-release-candidate:
 ```
@@ -79,92 +99,113 @@ Major or minor versions of a standard may be provided as a 'Release Candidate' f
 
 See [release candidate (Wikipedia)](https://en.wikipedia.org/wiki/Software_release_life_cycle#Release_candidate). 
 
-### Method
+```eval_rst
+.. todo::
 
-### Example
+  .. markdown::
+    
+    ### Method
 
-### Related patterns
+    ### Example
 
-### Related components
+    ### Related patterns
 
+    ### Related components
+```
 
-
+---
 ```eval_rst
 .. _pattern-semver:
 ```
 
-## Semantic Versioning
+```eval_rst
+.. todo::
 
-### Problem
+  .. markdown::
 
-
-
-### Solution
-
-### Method
-
-### Example
-
-### Related patterns
-
-[Pattern name](pattern-slug); [Pattern name 2](pattern-slug-2); 
-
-### Related components
-
-[Component name](component-slug); [Component name 2](component-slug-2); 
+    ## Semantic Versioning
+    
+    ### Problem
 
 
 
+    ### Solution
+
+    ### Method
+
+    ### Example
+
+    ### Related patterns
+
+    [Pattern name](pattern-slug); [Pattern name 2](pattern-slug-2); 
+
+    ### Related components
+
+    [Component name](component-slug); [Component name 2](component-slug-2); 
+
+```
 
 
+---
 ```eval_rst
 .. _pattern-compatibility:
 ```
 
-## Backwards compatibility 
+```eval_rst
+.. todo::
 
-### Problem
+  .. markdown::
+    
+    ## Backwards compatibility 
 
-### Solution
+    ### Problem
 
-### Method
+    ### Solution
 
-### Example
+    ### Method
 
-### Related patterns
+    ### Example
 
-[Pattern name](pattern-slug); [Pattern name 2](pattern-slug-2); 
+    ### Related patterns
 
-### Related components
+    [Pattern name](pattern-slug); [Pattern name 2](pattern-slug-2); 
 
-[Component name](component-slug); [Component name 2](component-slug-2); 
+    ### Related components
+
+    [Component name](component-slug); [Component name 2](component-slug-2); 
+
+```
 
 
 
 
-
-
+---
 ```eval_rst
 .. _pattern-conformance:
 ```
 
-## Conformance statement
+```eval_rst
+.. todo::
 
-### Problem
+  .. markdown::
+    
+    ## Conformance statement
 
-### Solution
+    ### Problem
 
-### Method
+    ### Solution
 
-### Example
+    ### Method
 
-### Related patterns
+    ### Example
 
-[Pattern name](pattern-slug); [Pattern name 2](pattern-slug-2); 
+    ### Related patterns
 
-### Related components
+    [Pattern name](pattern-slug); [Pattern name 2](pattern-slug-2); 
 
-[Component name](component-slug); [Component name 2](component-slug-2); 
+    ### Related components
+
+    [Component name](component-slug); [Component name 2](component-slug-2); 
 
 
-
+```

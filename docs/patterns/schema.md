@@ -26,10 +26,10 @@
 * :ref:`pattern-extensibility`
 ```
 
+---
 ```eval_rst
   .. _pattern-top:
 ```
-
 ## Top-object
 
 ### Problem
@@ -52,12 +52,18 @@ The Open Contracting Data Standard uses 'Contracting Process' as it's top-object
 
 The 360 Giving Data Standard uses Grant as it's top-concept, rather than grantmaking process. This reflects the design-principle of the standard to adopt a simple, static, representation of grants made. 
 
-### Related patterns
+```eval_rst
+.. todo::
 
-### Related components
+  .. markdown::
+    
+    ### Related patterns
 
+    ### Related components
 
+```
 
+---
 ```eval_rst
   .. _pattern-permissive:
 ```
@@ -100,7 +106,7 @@ A mapping document that indicates which fields, or field-value pairs are require
 
 
 
-
+---
 ```eval_rst
   .. _pattern-object-id:
 ```
@@ -167,7 +173,7 @@ See above.
 
 
 
-
+---
 ```eval_rst
   .. _pattern-spreadsheet:
 ```
@@ -186,29 +192,27 @@ Design with flattened representations in mind.
 
 Consider how a spreadsheet user would be able to analyse the data using simple spreadsheet functions such as pivot tables, or vLookup functions. 
 
-### Method
 
 
 ```eval_rst
 .. todo::
 
-    Add method
-```
+  .. markdown::
 
-### Example
+    ### Method
 
-```eval_rst
-.. todo::
+    ### Example
 
     Add example from Social Investment Data Lab Standard 
+
+    ### Related patterns
+
+    ### Related components
+
 ```
 
-### Related patterns
 
-### Related components
-
-
-
+---
 ```eval_rst
   .. _pattern-deprecation:
 ```
@@ -231,12 +235,20 @@ We use [extended JSON schema fields for deprecation](component-deprecation).
 
 OCDS Version 1.1 deprecated a number of fields. The validator will report when deprecated fields are encountered in data.
 
-### Related patterns
+```eval_rst
+.. todo::
+
+  .. markdown::
+    
+    ### Related patterns
 
 
-### Related components
+    ### Related components
+
+```
 
 
+---
 ```eval_rst
   .. _pattern-vocabularies:
 ```
@@ -258,7 +270,14 @@ Provide a codelist of recognise vocabularies or schemes, and provide recommendat
 
 Where mappings are available between vocabularies and schemes, make users aware of this. 
 
-### Method
+```eval_rst
+.. todo::
+
+  .. markdown::
+    
+    ### Method
+```
+
 
 ### Example
 
@@ -273,12 +292,19 @@ Where mappings are available between vocabularies and schemes, make users aware 
 
 An alternative pattern, that org-id.guide recognises, is concatenation of scheme and identifier, such that the above company number could also be represented as 'GB-COH-09506232'. 
 
-### Related patterns
 
-### Related components
+```eval_rst
+.. todo::
+
+  .. markdown::
+    
+    ### Related patterns
+
+    ### Related components
+```
 
 
-
+---
 ```eval_rst
   .. _pattern-packaging:
 ```
@@ -305,13 +331,18 @@ In some cases, meta-data may need to be embedded within each top object, particu
 
 The Open Contracting Data Standard has a release package and record package schema 
 
-### Related patterns
+```eval_rst
+.. todo::
 
-### Related components
+  .. markdown::
+    
+    ### Related patterns
+
+    ### Related components
+```
 
 
-
-
+---
 ```eval_rst
   .. _pattern-immutability:
 ```
@@ -326,27 +357,23 @@ Users may want to understand how data has changed over time. Source systems may 
 
 The normative guidance of a standard may specify immutability. Any top-object with a given `id`, once created, should not change. The `id` value should be incremented whenever the object changes. 
 
-### Method
 
 ```eval_rst
 .. todo::
+
+  .. markdown::
     
-    Add method
+    ### Method
+
+    ### Example
+
+    ### Related patterns
+
+    ### Related components
 ```
 
-### Example
 
-```eval_rst
-.. todo::
-
-    Add example
-```
-
-### Related patterns
-
-### Related components
-
-
+---
 ```eval_rst
   .. _pattern-merging:
 ```
@@ -379,6 +406,7 @@ The [OCDS releases and records model](http://standard.open-contracting.org/lates
 
 
 
+---
 ```eval_rst
   .. _pattern-extensibility:
 ```
@@ -407,10 +435,15 @@ When extensions are declared in packaging meta-data, validators and other tools 
 
 The [OCDS Extension Template](https://github.com/open-contracting/standard_extension_template) and [extensions registry](http://standard.open-contracting.org/latest/en/extensions/) document a technical approach to extensions. 
 
-### Related patterns
+```eval_rst
+.. todo::
 
-[Pattern name](pattern-slug); [Pattern name 2](pattern-slug-2); 
+  .. markdown::
+    
+    ### Related patterns
 
-### Related components
+    [Pattern name](pattern-slug); [Pattern name 2](pattern-slug-2); 
 
-[Component name](component-slug); [Component name 2](component-slug-2); 
+    ### Related components
+
+    [Component name](component-slug); [Component name 2](component-slug-2); 
