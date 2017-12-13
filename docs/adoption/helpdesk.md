@@ -58,10 +58,17 @@ A helpdesk might have the following modalities of work:
 
 * The [Open Contracting Data Standard helpdesk](http://standard.open-contracting.org/latest/en/support/) provides e-mail support, as well as working closely with the Open Contracting Partnership to identify adopters for priority support and outreach. The OCDS helpdesk is run by two partner organisations: Open Data Services Co-operative, and ILDA, who cover support for Latin America. 
 
-## Components
 
-A helpdesk makes use of some of the following components:
+```eval_rst
+.. todo::
+    
+    .. markdown::
 
-* TODO
+        ## Components
 
+        A helpdesk makes use of some of the following components:
+
+        TODO: Add a list of components
+
+```
 

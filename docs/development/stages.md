@@ -85,4 +85,8 @@ The released version of a standard is production ready, and no further changes w
 
 A standard will periodically be revised. See the section on versioning for more information. 
 
-<!--TODO: Add cross-references-->
+```eval_rst
+.. todo::
+
+    Add cross-references
+```

@@ -18,7 +18,11 @@ In October 2017 we held a workshop to explore shared learning on translating sta
 
 The workshop drew in particular on experiences from the Open Contracting Data Standard, and translations in Spanish. Here, issues have arisen around the translation of particular procurement terms, such as 'tender', which is variously translated as 'licitación', 'contratación', 'oferta' or 'propuesta' depending on the dialect, context or legal system in the country where the standard is being used. In some cases, the use in the standard of a term different from that in the law can create a hurdle to policy adoption of the standard, or risks confusion for users of the data in that country. 
 
-<!--ToDo: Update the synonmyns above based on Argentina Glossary activity: https://crm.open-contracting.org/issues/2871 -->
+```eval_rst
+.. todo::
+
+    Update the synonmyns above based on Argentina Glossary activity: https://crm.open-contracting.org/issues/2871
+```
 
 ------ 
 
@@ -42,11 +46,23 @@ In general, internationalisation is a task during the development of the Single 
 
 * **Examples** - consider the cultural relevance of the examples used in documentation, or expore whether examples can be generated using tools that support localisation.
 
-<!--TODO: Add links to technical translation docs -->
+```eval_rst
+.. todo::
+
+    Add links to technical translation docs
+
+```
 
 ### Translation patterns
 
-* **Develop a glossary first** to include the key technical terms and terms-of-art used in the standard. Write a concise description of each of these terms *in the context of the standard*. This can ensure terms are used consistently in the main language, and that translators have information to base their translations on. <!-- ToDo: Add an example glossary -->
+* **Develop a glossary first** to include the key technical terms and terms-of-art used in the standard. Write a concise description of each of these terms *in the context of the standard*. This can ensure terms are used consistently in the main language, and that translators have information to base their translations on.
+
+```eval_rst
+.. todo::
+
+    Add an example glossary
+```
+
 * **Separate translation and review** - and aim to have the same person reviewing all the translations to maintain consistency. 
 * **Test translations in context and invite feedback** - using tools like hypothes.is to support non-technical users to annotate a schema. 
 

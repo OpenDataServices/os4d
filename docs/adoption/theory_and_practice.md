@@ -62,8 +62,15 @@ Often, a **supported approach** will be appropriate during the early development
 
 There is an alternative strategy of 'consultant supported' adoption, in which a market emerges for adopters to buy in suitable implementation support. This can be complementary to self-service models.
 
-## Adoption components
+```eval_rst
+.. todo::
+    
+    .. markdown::
 
-The following components are often used as part of supported and self-service implementation strategies.
+        ## Adoption components
 
-* TODO: LIST OF COMPONENTS
+        The following components are often used as part of supported and self-service implementation strategies.
+
+        * TODO: LIST OF COMPONENTS
+
+```

@@ -179,11 +179,20 @@ Consider how a spreadsheet user would be able to analyse the data using simple s
 
 ### Method
 
-ToDo. 
+
+```eval_rst
+.. todo::
+
+    Add method
+```
 
 ### Example
 
-TODO: Add example from Social Investment Data Lab Standard 
+```eval_rst
+.. todo::
+
+    Add example from Social Investment Data Lab Standard 
+```
 
 ### Related patterns
 
@@ -310,11 +319,19 @@ The normative guidance of a standard may specify immutability. Any top-object wi
 
 ### Method
 
-ToDo
+```eval_rst
+.. todo::
+    
+    Add method
+```
 
 ### Example
 
-ToDo
+```eval_rst
+.. todo::
+
+    Add example
+```
 
 ### Related patterns
 
