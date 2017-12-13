@@ -3,8 +3,17 @@
 ```
 # Schema patterns
 
+```eval_rst
+.. todo::
+    
+    Add Automated Testing pattern
+
+```
 
 ```eval_rst
+.. ::
+    When you update this list, also update development/schema.md
+
 * :ref:`pattern-top`
 * :ref:`pattern-permissive`
 * :ref:`pattern-object-id`

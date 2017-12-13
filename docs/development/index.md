@@ -45,13 +45,8 @@ Most policy-related open data standards, once released, need ongoing maintenance
     
     Sections missing from Development section:
 
-    * Social & policy design
-      * Quality frameworks
-      * Guidance
-      * Implementation levels
     * Documentation
       * Sphinx for documentation
-      * Automated Testing
       * Example data `component-example-data`
       * Designing good documentation
         * Visual design
