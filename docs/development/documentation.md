@@ -1,5 +1,19 @@
 # Documentation
 
+Documentation is a vital part of any standard. In general, policy related open data standards need both:
+
+* **Technical reference documentation**
+
+and
+
+* **Supporting documentation** 
+
+These need to be approached differently, as the patterns below outline. 
+
+## Sphinx for documentation
+
+We make use of Sphinx to build documentation. The [sphinx-base](https://github.com/OpenDataServices/sphinx-base) project is generally used as the starting point for this. 
+
 ```eval_rst
 .. todo::
 
@@ -11,7 +25,6 @@
        * visual design
 
 ```
-
 
 ## Documentation patterns
 

@@ -1,34 +1,33 @@
 # Policy design patterns
 
-This is a list of potential 'design patterns' for Policy Related Open Data Standards. 
+This page will contain a list of potential patterns related to policy design.
 
-## Drivers
+```eval_rst
+..  todo:: 
+ 
+    ## Drivers
 
-* Translating principles into practical action
-* Focus on data usability
-* Meeting multiple user needs: aligning stakeholders
-* Building ecosystem
-* Enabling co-ordination and collaboration
+    * Translating principles into practical action
+    * Focus on data usability
+    * Meeting multiple user needs: aligning stakeholders
+    * Building ecosystem
+    * Enabling co-ordination and collaboration
 
-What problem is this addressing?
+    What problem is this addressing?
 
-What implications does this have for standards design? 
+    What implications does this have for standards design? 
 
-What implications for organizational strategy? 
+    What implications for organizational strategy? 
 
-## Methods
+    ## Methods
 
-* Monolithic standard
-* Modular standard
-* Rankings
-* Technical levels
-* Use-cases
-* Central registry
-* Central identifiers 
-* Implementation profiles
+    * Monolithic standard
+    * Modular standard
+    * Rankings
+    * Technical levels
+    * Use-cases
+    * Central registry
+    * Central identifiers 
+    * Implementation profiles
 
-
-## Discussion to foster
-
-What's the implication of these different choices? 
-
+```
