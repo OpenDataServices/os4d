@@ -36,7 +36,7 @@ It is important to distinguish a number of concepts:
 
 See also [W3C Localization vs. Internationalization](https://www.w3.org/International/questions/qa-i18n)
 
-In general, internationalisation is a task during the development of the Single Source of Truth (SSOT) for a standard. Translation can take place as part of the core development process, or by supporting community translations, and localisation is a part of implementation support in particular countries and contexts. 
+In general, internationalisation is a task during the development of the [Single Source of Truth (SSOT)](pattern-ssot) for a standard. Translation can take place as part of the core development process, or by supporting community translations, and localisation is a part of implementation support in particular countries and contexts. 
 
 ```eval_rst
 .. todo::

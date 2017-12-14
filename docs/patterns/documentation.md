@@ -35,19 +35,33 @@ Consider a piece of documentation about how a field within the data standard wor
 * This field will probably have a name and a description about how it is used.
 * Someone will write that down somewhere.
 * Someone else will share that with other people, via email, on a web page, in a pdf, in a presentation, as guidance in a data collection tool, etc
-* Unless those people work directly from the same source (of truth) they may introduce small changes, errors, or even improvements as they reproduce the information.
+* Those people may introduce small changes, errors, or even improvements as they reproduce the information.
 * Further, the ‘master’ description may change over time. How do people know whether the new description, or the old one is the correct one to use? Which (trusted) source should they use? An email someone sent, or the PDF they have in their hand, or…?
+
+In a worst case, people might incorrectly copy the structural information about the standard, e.g. a field name, or where it is nested; or, they might miss a field from a list that's intended to be complete.
+
+### Solution
+
+Establish a Single Source of Truth (SSOT) for documentation about how the standard works. Other copies should copy verbatim from this - any improvements should be made in the SSOT.
+
+### Method
+
+We use a [GitHub repository](pattern-version-control-changelog) to store our SSOT, as this provides very explicit and fine-grained versioning
+
+In order to ensure documentation is pulled from the SSOT, copies should preferentially be made programmatically.
+
+### Example
+
+For 360Giving, the following are all generated programmatically from the [JSON Schema SSOT](https://github.com/ThreeSixtyGiving/standard/blob/master/schema/360-giving-schema.json):
+* [Reference documentation](http://standard.threesixtygiving.org/en/latest/reference/#grants-sheet)
+* [Spreadsheet templates](http://standard.threesixtygiving.org/en/latest/#templates) 
+* [GrantNav](http://grantnav.threesixtygiving.org/) and the [Data Quality Tool](https://dataquality.threesixtygiving.org/) look up human readable titles in the schema.
 
 ```eval_rst
 .. todo::
 
   .. markdown::
     
-    ### Solution
-
-    ### Method
-
-    ### Example
 
     ### Related patterns
 
