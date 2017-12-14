@@ -83,7 +83,7 @@ The released version of a standard is production ready, and no further changes w
 
 ## Revision
 
-A standard will periodically be revised. See the section on versioning for more information. 
+A standard will periodically be revised. See [Governance and Revision](governance) for more information. 
 
 ```eval_rst
 .. todo::
