@@ -120,11 +120,15 @@ These should be written using a Level 3 heading for the pattern, and level four 
 
 ### Related patterns
 
-[Pattern name](pattern-slug); [Pattern name 2](pattern-slug-2);
+```eval_rst
+:ref:`pattern-slug`; :ref:`pattern-slug-2`;
+```
 
 ### Related components
 
-[Component name](component-slug); [Component name 2](component-slug-2);
+```eval_rst
+:ref:`component-slug`; :ref:`component-slug-2`;
+```
 
 
 ````

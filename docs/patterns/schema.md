@@ -447,3 +447,4 @@ The [OCDS Extension Template](https://github.com/open-contracting/standard_exten
     ### Related components
 
     [Component name](component-slug); [Component name 2](component-slug-2); 
+```

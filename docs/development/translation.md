@@ -26,7 +26,7 @@ The workshop drew in particular on experiences from the Open Contracting Data St
 
 ------ 
 
-### Key concepts & activities
+## Key concepts & activities
 
 It is important to distinguish a number of concepts:
 
@@ -38,14 +38,6 @@ See also [W3C Localization vs. Internationalization](https://www.w3.org/Internat
 
 In general, internationalisation is a task during the development of the Single Source of Truth (SSOT) for a standard. Translation can take place as part of the core development process, or by supporting community translations, and localisation is a part of implementation support in particular countries and contexts. 
 
-### Internationalisation patterns
-
-* **Schema design** - check that any data structures are not based on local cultural assumptions, or known falsehoods. There are a number of [lists of 'falsehoods programmers believe'](https://github.com/kdeldycke/awesome-falsehood) that provide a useful corrective to assumptions that might otherwise make it tricky to use data structures to represent names, addresses, locations or other information from particular parts of the world. 
-
-* **Cross-linking** - when linking to documentation from within schema field descriptions, use {lang} tokens, and replace these when compiling schemas and documentation, so that users are always linked to their own language versions of the documentation. 
-
-* **Examples** - consider the cultural relevance of the examples used in documentation, or expore whether examples can be generated using tools that support localisation.
-
 ```eval_rst
 .. todo::
 
@@ -53,20 +45,29 @@ In general, internationalisation is a task during the development of the Single 
 
 ```
 
-### Translation patterns
-
-* **Develop a glossary first** to include the key technical terms and terms-of-art used in the standard. Write a concise description of each of these terms *in the context of the standard*. This can ensure terms are used consistently in the main language, and that translators have information to base their translations on.
+## Internationalisation patterns
 
 ```eval_rst
-.. todo::
+:ref:`patternpage-i18n`
 
-    Add an example glossary
+* :ref:`pattern-i18n-schema-design`
+* :ref:`pattern-i18n-links-schema`
+* :ref:`pattern-i18n-examples`
 ```
 
-* **Separate translation and review** - and aim to have the same person reviewing all the translations to maintain consistency. 
-* **Test translations in context and invite feedback** - using tools like hypothes.is to support non-technical users to annotate a schema. 
+## Translation patterns
 
-### Status of translations
+```eval_rst
+:ref:`patternpage-translation`
+
+* :ref:`pattern-glossary`
+* :ref:`pattern-separate-translation-review`
+* :ref:`pattern-translation-feedback`
+* :ref:`pattern-translation-normative`
+* :ref:`pattern-translation-policy`
+```
+
+## Status of translations
 
 It is important to be clear about the status of translations. In general, there will be an authoriative language version (through which the SSOT is managed), and then secondary languages. 
 
@@ -84,7 +85,7 @@ Translations may also be divided into:
 
 To ensure readers have a clear understanding of the nature of translations, documentation and schema descriptions should include a clear translation note. 
 
-#### Example notice
+### Example notice
 
 > This is a {draft} {supported/community] language translation of OCDS. The authoritative version of OCDS is the version in English. This alternate language version is provided for the convenience of users.
 >
@@ -95,9 +96,9 @@ To ensure readers have a clear understanding of the nature of translations, docu
 > You can get find out how to contribute to this translation at {GITHUB ISSUE}
 
 
-### Principles & commitments
+## Principles & commitments
 
-#### Principles 
+### Principles 
 
 Each standard will need to develop it's own translation principles. The draft below is based on our October 2017 workshop:
 
@@ -115,7 +116,7 @@ Each standard will need to develop it's own translation principles. The draft be
 
 7. **Be tranparent** providing access to see the translation process and decision making. Glossaries and translator notes should also be public. 
 
-#### Commitments 
+### Commitments 
 
 In addition, a standard will need clear commitments about when translation should precede, or follow, updates to the SSOT. For example, the following draft commitments may be used by the Open Contracting Data Standard:
 
