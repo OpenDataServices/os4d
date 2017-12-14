@@ -10,21 +10,17 @@ and
 
 These need to be approached differently, as the patterns below outline. 
 
-## Sphinx for documentation
+## Technical approach
 
-We make use of Sphinx to build documentation. The [sphinx-base](https://github.com/OpenDataServices/sphinx-base) project is generally used as the starting point for this. 
+The documentation websites we maintain are static HTML sites generated using [sphinx](http://www.sphinx-doc.org/en/stable/index.html).
 
-```eval_rst
-.. todo::
+Sphinx has the ability to process and integrate documentation from different sources using directives. With Sphinx you can do things like gathering field descriptions from a schema file and compiling them as a table in a document, allowing you to use a component of a standard to document the standard itself.
 
-    sections to add:
+We have created a number of [custom directives documented here](https://github.com/OpenDataServices/sphinxcontrib-opendataservices).
 
-    * sphinx for documentation
-    * example data :ref:`component-example-data`
-    * designing good documentation
-       * visual design
+[reStructuredText](http://docutils.sourceforge.net/rst.html) is the native input format for Sphinx builds. However, with the bridge library recommommark, it is possible to use input files in markdown.
 
-```
+We maintain a custom [sphinx-base](https://github.com/OpenDataServices/sphinx-base) project to use when starting new documentation sites.
 
 ## Documentation patterns
 
