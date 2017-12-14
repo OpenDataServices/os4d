@@ -1,5 +1,18 @@
 # Documentation
 
+```eval_rst
+.. todo::
+
+    sections to add:
+
+    * sphinx for documentation
+    * example data :ref:`component-example-data`
+    * designing good documentation
+       * visual design
+
+```
+
+
 ## Documentation patterns
 
 ```eval_rst

@@ -40,16 +40,4 @@ Most policy-related open data standards, once released, need ongoing maintenance
    tooling
 
 
-.. todo::
-
-  .. markdown::
-    
-    Sections missing from Development section:
-
-    * Documentation
-      * Sphinx for documentation
-      * Example data `component-example-data`
-      * Designing good documentation
-        * Visual design
-
 ```

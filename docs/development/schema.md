@@ -63,7 +63,7 @@ We use a number of custom properties in our JSON Schema implementation. A [patch
 * `openCodelist` - a boolean value to indicate whether values can **only** come from the codelist, or whether additional values not on the codelist are permitted. When `openCodelist` = 'true' then encountering a value not on the codelist should generate a warning. when `openCodelist` = 'false' then encountering a value not on the codelist should generate an error. 
 
 ```eval_rst
-  .. _component-deprecation:
+.. _section-deprecation-properties:
 ```
 
 ### Deprecation properties

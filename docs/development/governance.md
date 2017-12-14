@@ -16,8 +16,9 @@
 ```
 
 ```eval_rst
-.. _component-revision-process:
+.. _section-revision-process
 ```
+
 ## Revision process
 
 Whenever standards are revised there needs to be a governance process.

@@ -88,7 +88,7 @@ This builds on the idea of designing to allow for '[the tussle](http://conferenc
 
 ### Method
 
-[Additional checks](component-additional-checks) and [rulesets](component-rulesets) can be used to report data quality issues to users in a validator. 
+[Additional checks](component-rules-for-additional-checks) can be used to report data quality issues to users in a validator. 
 
 A mapping document that indicates which fields, or field-value pairs are required for particular use-cases can guide contextualised recommendations about what to publish. 
 
@@ -102,7 +102,9 @@ A mapping document that indicates which fields, or field-value pairs are require
 
 ### Related components
 
-[Rulesets](component-rulesets); [Validator](component-validator);
+```eval_rst
+:ref:`component-rules-for-additional-checks`; :ref:`component-online-validator`;
+```
 
 
 
@@ -155,7 +157,12 @@ always design a schema as:
 }
 ```
 
-[Flatten-tool](component-flatten-tool) and our merging tools recognise `id` as a special property. 
+[Flatten-tool](component-conversion-tools) and our merging tools recognise `id` as a special property. 
+
+```eval_rst
+.. todo::
+    Make sure that the linked conversion tools page actually talks about flatten-tool
+```
 
 This pattern is not needed for objects that are not contained in an array. 
 
@@ -169,7 +176,9 @@ See above.
 
 ### Related components
 
-[Flatten-tool](component-flatten-tool);
+```eval_rst
+:ref:`component-conversion-tools`;
+```
 
 
 
@@ -229,7 +238,7 @@ Mark fields as deprecated for at least one version prior to their removal. Provi
 
 ### Method
 
-We use [extended JSON schema fields for deprecation](component-deprecation).
+We use [extended JSON schema fields for deprecation](section-deprecation-properties).
 
 ### Example
 
@@ -400,9 +409,14 @@ The [OCDS releases and records model](http://standard.open-contracting.org/lates
 
 [Immutability](pattern-immutability); [Object identifiers](pattern-object-id); 
 
-### Related components
+```eval_rst
+.. todo::
+  .. markdown::
+    ### Related components
 
-[Merge tool](component-merge-tool)
+    Note: this component doesn't exist:
+    [Merge tool](component-merge-tool)
+```
 
 
 

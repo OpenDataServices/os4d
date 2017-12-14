@@ -159,7 +159,7 @@ e.g. for OCDS we have:
 
 ### Problem
 
-There should be a [revision process](component-revision-process) for substantial changes to a standard, that require a new Major/minor release (see [Semantic Versioning](pattern-semver).
+There should be a [revision process](section-revision-process) for substantial changes to a standard, that require a new Major/minor release (see [Semantic Versioning](pattern-semver)).
 However, we also want to make minor fixes as part of a "patch" release.
 
 ### Solution
@@ -176,9 +176,13 @@ For OCDS patch releases, we have a 7 day comment period. e.g. [https://groups.go
 
 [Normative and non-normative content](pattern-normative);
 
-### Related components
+```eval_rst
+.. todo::
 
-[Revision process](component-revision-process);
+  .. markdown::
+    
+    ### Related components
+```
 
 
 
