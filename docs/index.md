@@ -3,7 +3,7 @@ Standards Lab: an open data standard toolkit
 
 This handbook provides an overview of the creation, maintenance and adoption of a policy-related open data standard. 
 
-It has been developed by [Open Data Services Co-operative](http://www.opendataservices.coop) to document our approach as part of the [Open Data Institute](tttp:/www.theodi.org) Open Standards for Data project. 
+It has been developed by [Open Data Services Co-operative](http://www.opendataservices.coop) to document our approach as part of the [Open Data Institute](tttp:/www.theodi.org) Open Standards for Data project as part of a program of work with Innovate UK, the UK’s innovation agency. 
 
 It is written as both a standalone guide, and also as template to create individual standard handbooks. 
 
