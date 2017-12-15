@@ -9,6 +9,7 @@ We conducted an exercise with representatives of several standards, asking them 
 
 The list of components is below, with TODO: guidance as to what may make them more or less important for a particular standard.
 
+---
 ```eval_rst
 .. _component-advocacy-plan:
 ```
@@ -42,6 +43,7 @@ An advocacy plan provides the resources and sets out the steps that will be foll
 
 #### Related Patterns
 
+---
 ```eval_rst
 .. _component-blog:
 ```
@@ -70,6 +72,7 @@ A blog that is regularly updated can provide updates to the community, resources
 
 #### Related Patterns
 
+---
 ```eval_rst
 .. _component-brand-agreements:
 ```
@@ -101,6 +104,7 @@ Standards that have developed a brand need to ensure that it is used in a way th
 
 #### Related Patterns
 
+---
 ```eval_rst
 .. _component-brand-guidance:
 ```
@@ -130,6 +134,7 @@ Brand guidance sets out how to use the name, logo, look-and-feel and other ident
 
 #### Related Patterns
 
+---
 ```eval_rst
 .. _component-case-studies:
 ```
@@ -163,6 +168,7 @@ Advocacy Plan
 
 #### Related Patterns
 
+---
 ```eval_rst
 .. _component-communications-plan:
 ```
@@ -190,6 +196,7 @@ A communications plan sets out the steps that are planned to encourage media cov
 
 #### Related Patterns
 
+---
 ```eval_rst
 .. _component-demonstration-applications:
 ```
@@ -219,6 +226,7 @@ Demonstration applications are either real-world or contrived applications using
 
 #### Related Patterns
 
+---
 ```eval_rst
 .. _component-discourse-forum:
 ```
@@ -248,6 +256,7 @@ An online space for community discussion of the standard, adoption and data use.
 
 #### Related Patterns
 
+---
 ```eval_rst
 .. _component-draft-commitments:
 ```
@@ -276,6 +285,7 @@ Draft commitments are templates for adopters to copy or adapt before signing and
 
 #### Related Patterns
 
+---
 ```eval_rst
 .. _component-glossary:
 ```
@@ -304,6 +314,7 @@ A glossary provides an authoritative and unambiguous list of the terms and their
 
 #### Related Patterns
 
+---
 ```eval_rst
 .. _component-guidance-documentation:
 ```
@@ -334,6 +345,7 @@ Standards typically comprise a detailed, technical definition of how to publish 
 
 #### Related Patterns
 
+---
 ```eval_rst
 .. _component-icons:
 ```
@@ -366,6 +378,7 @@ Icons help with recall of key concepts, and consistency across a range of assets
 
 #### Related Patterns
 
+---
 ```eval_rst
 .. _component-logo:
 ```
@@ -395,6 +408,7 @@ A logo helps to reinforce the brand of the standard, gives a visual cue for reco
 
 #### Related Patterns
 
+---
 ```eval_rst
 .. _component-principles:
 ```
@@ -419,6 +433,7 @@ Principles help to focus work around a standard, provide encouragement for those
 
 #### Related Patterns
 
+---
 ```eval_rst
 .. _component-progressive-enhancement-framework:
 ```
@@ -441,6 +456,7 @@ Supporting publishers to start with unstructured documents, and move on to provi
 
 #### Related Patterns
 
+---
 ```eval_rst
 .. _component-publication-levels:
 ```
@@ -463,6 +479,7 @@ Separating fields into 'basic', 'intermediate' and 'advanced' so that publishers
 
 #### Related Patterns
 
+---
 ```eval_rst
 .. _component-publisher-ranking:
 ```
@@ -485,6 +502,7 @@ E.g. an annual report ranking datasets and their publishers based on an agreed m
 
 #### Related Patterns
 
+---
 ```eval_rst
 .. _component-recommended-data-license:
 ```
@@ -514,6 +532,7 @@ A recommended license can help to ensure that adopters give due consideration to
 
 #### Related Patterns
 
+---
 ```eval_rst
 .. _component-tutorial-videos:
 ```
@@ -543,6 +562,7 @@ Videos provide the opportunity to deliver a path through learning materials that
 
 #### Related Patterns
 
+---
 ```eval_rst
 .. _component-microblogging:
 ```
@@ -571,6 +591,7 @@ Public microblogging services such as Twitter, Tumblr and Instagram allow a stan
 
 #### Related Patterns
 
+---
 ```eval_rst
 .. _component-website:
 ```
@@ -601,6 +622,7 @@ A standard's website brings together the various component of a standard, giving
 
 #### Related Patterns
 
+---
 ```eval_rst
 .. _component-api-specification:
 ```
@@ -632,6 +654,7 @@ APIs allow developers to access data stored elsewhere without needing to obtain 
 
 #### Related Patterns
 
+---
 ```eval_rst
 .. _component-codelists:
 ```
@@ -659,6 +682,7 @@ Codelists are lists of terms that are provided as part of a standard in order to
 
 #### Related Patterns
 
+---
 ```eval_rst
 .. _component-contributor-guidelines:
 ```
@@ -690,6 +714,7 @@ Developer Guidelines
 
 #### Related Patterns
 
+---
 ```eval_rst
 .. _component-developer-guidelines:
 ```
@@ -718,6 +743,7 @@ Contributor Guidelines
 
 #### Related Patterns
 
+---
 ```eval_rst
 .. _component-contributors-agreement:
 ```
@@ -740,6 +766,7 @@ Used to make sure all contributions to the standard are appropriately licensed, 
 
 #### Related Patterns
 
+---
 ```eval_rst
 .. _component-conversion-tools:
 ```
@@ -768,6 +795,7 @@ Data standards often use structured data formats such as JSON or XML to give mor
 
 #### Related Patterns
 
+---
 ```eval_rst
 .. _component-email-list:
 ```
@@ -798,6 +826,7 @@ Email lists are a widely-accessible and low-cost way for a group to hold discuss
 
 #### Related Patterns
 
+---
 ```eval_rst
 .. _component-data-aggregator:
 ```
@@ -828,6 +857,7 @@ Many standards consider one of the best arguments for standardisation is being a
 
 #### Related Patterns
 
+---
 ```eval_rst
 .. _component-example-data:
 ```
@@ -859,6 +889,7 @@ Adopters of the standard and users of the data are often helped by seeing exampl
 
 #### Related Patterns
 
+---
 ```eval_rst
 .. _component-faqs:
 ```
@@ -887,6 +918,7 @@ FAQs cover common issues and questions that are asked, and can be used to shape 
 
 #### Related Patterns
 
+---
 ```eval_rst
 .. _component-field-level-mapping-template:
 ```
@@ -913,6 +945,7 @@ Field-level mapping is a crucial stage in preparing to publish existing data to 
 
 #### Related Patterns
 
+---
 ```eval_rst
 .. _component-getting-started-documentation:
 ```
@@ -939,6 +972,7 @@ The normative documentation for standards is technical, prescise, authoratitive 
 
 #### Related Patterns
 
+---
 ```eval_rst
 .. _component-issue-tracker:
 ```
@@ -965,6 +999,7 @@ Discussions around changes to data standards and suggestions for improvements of
 
 #### Related Patterns
 
+---
 ```eval_rst
 .. _component-helpdesk-email-address:
 ```
@@ -991,6 +1026,7 @@ A helpdesk email address provides an accessible, on-demand, asynchronous way for
 
 #### Related Patterns
 
+---
 ```eval_rst
 .. _component-helpdesk-phone-number:
 ```
@@ -1019,6 +1055,7 @@ A direct phone number provides rapid access to implementation support, and can h
 
 #### Related Patterns
 
+---
 ```eval_rst
 .. _component-implementation-plan-template:
 ```
@@ -1045,6 +1082,7 @@ The Implementation Plan Template provides an overview of the planning required f
 
 #### Related Patterns
 
+---
 ```eval_rst
 .. _component-maintenance-handbook:
 ```
@@ -1071,6 +1109,7 @@ The maintenance handbook provides a place for the team developing and maintainin
 
 #### Related Patterns
 
+---
 ```eval_rst
 .. _component-online-validator:
 ```
@@ -1097,6 +1136,7 @@ Part of a standard is often schema, and reporting on technical validity against 
 
 #### Related Patterns
 
+---
 ```eval_rst
 .. _component-quality-tool:
 ```
@@ -1119,6 +1159,7 @@ Providing feedback on the content of datasets, based on a set of data quality ru
 
 #### Related Patterns
 
+---
 ```eval_rst
 .. _component-recommended-fields:
 ```
@@ -1141,6 +1182,7 @@ A list of fields that publishers are encouraged (but not required) to provide
 
 #### Related Patterns
 
+---
 ```eval_rst
 .. _component-reference-documentation:
 ```
@@ -1163,6 +1205,7 @@ Normative. Describing all the elements of the standard, and used as the basis fo
 
 #### Related Patterns
 
+---
 ```eval_rst
 .. _component-reference-lists:
 ```
@@ -1185,6 +1228,7 @@ Lookup lists for key concepts (e.g. organization registers).
 
 #### Related Patterns
 
+---
 ```eval_rst
 .. _component-registry-of-datasets:
 ```
@@ -1207,6 +1251,7 @@ Providing links to all known data that follows the standard.
 
 #### Related Patterns
 
+---
 ```eval_rst
 .. _component-required-fieds:
 ```
@@ -1229,6 +1274,7 @@ A list of fields that MUST be provided.
 
 #### Related Patterns
 
+---
 ```eval_rst
 .. _component-research-report:
 ```
@@ -1251,6 +1297,7 @@ Independent evidence concerning data publication and use.
 
 #### Related Patterns
 
+---
 ```eval_rst
 .. _component-rules-for-additional-checks:
 ```
@@ -1273,6 +1320,7 @@ Machine and human-readable rules used to check data quality.
 
 #### Related Patterns
 
+---
 ```eval_rst
 .. _component-schema:
 ```
@@ -1295,6 +1343,7 @@ The technical description of how data should be structured.
 
 #### Related Patterns
 
+---
 ```eval_rst
 .. _component-self-certification:
 ```
@@ -1317,6 +1366,7 @@ So that standard users can describe the coverage and comprehensiveness of their 
 
 #### Related Patterns
 
+---
 ```eval_rst
 .. _component-shared-documents-folder:
 ```
@@ -1339,6 +1389,7 @@ Offering a public archive of meeting minutes, reports, presentations and other r
 
 #### Related Patterns
 
+---
 ```eval_rst
 .. _component-slack:
 ```
@@ -1361,6 +1412,7 @@ For chat-type conversations with the community about development, adoption and u
 
 #### Related Patterns
 
+---
 ```eval_rst
 .. _component-specification:
 ```
@@ -1383,6 +1435,7 @@ Comprising of the schema, codelists and normative documentation.
 
 #### Related Patterns
 
+---
 ```eval_rst
 .. _component-spreadsheet-template:
 ```
@@ -1405,6 +1458,7 @@ An editorialised template that can be filled in to provide data that meets the s
 
 #### Related Patterns
 
+---
 ```eval_rst
 .. _component-training-resources:
 ```
@@ -1427,6 +1481,7 @@ Used in online and offline training workshops to introduce the standard.
 
 #### Related Patterns
 
+---
 ```eval_rst
 .. _component-unit-tests:
 ```
@@ -1449,6 +1504,7 @@ Automatically run whenever the specification, documentation or examples are upda
 
 #### Related Patterns
 
+---
 ```eval_rst
 .. _component-use-cases:
 ```
@@ -1471,6 +1527,7 @@ A description of the ways in which data from the standard could be used.
 
 #### Related Patterns
 
+---
 ```eval_rst
 .. _component-use-case-mapping:
 ```
@@ -1493,6 +1550,7 @@ A cross-walk between outcomes from data use, and the fields or data requirements
 
 #### Related Patterns
 
+---
 ```eval_rst
 .. _component-user-tutorials:
 ```
@@ -1515,6 +1573,7 @@ How to guidance on making use of published data
 
 #### Related Patterns
 
+---
 ```eval_rst
 .. _component-extensions-registry:
 ```
@@ -1537,6 +1596,7 @@ A list of known extensions to the standard
 
 #### Related Patterns
 
+---
 ```eval_rst
 .. _component-extensions-mechanism:
 ```
@@ -1559,6 +1619,7 @@ A mechanism for having optional new codelists, schema and documentation added to
 
 #### Related Patterns
 
+---
 ```eval_rst
 .. _component-workshops:
 ```
@@ -1581,6 +1642,7 @@ A mechanism for having optional new codelists, schema and documentation added to
 
 #### Related Patterns
 
+---
 ```eval_rst
 .. _component-governance-body:
 ```
@@ -1603,6 +1665,7 @@ A mechanism for having optional new codelists, schema and documentation added to
 
 #### Related Patterns
 
+---
 ```eval_rst
 .. _component-dashboard:
 ```
