@@ -10,6 +10,10 @@ and
 
 These need to be approached differently, as the patterns below outline. 
 
+```eval_rst
+.. _section-documentation-technical:
+```
+
 ## Technical approach
 
 The documentation websites we maintain are static HTML sites generated using [sphinx](http://www.sphinx-doc.org/en/stable/index.html).

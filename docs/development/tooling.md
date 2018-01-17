@@ -1,8 +1,8 @@
 # Tooling
 
-For the tooling we use to build thedocs itself, see [Documentation -> Technical approach](section-documentation-technical)
-This section details the tooling we use as part of our standard development.
+For the tooling we use to build documentation see [Documentation -> Technical approach](section-documentation-technical).
 
+This section details the tooling we use as part of our standard development.
 
 ## Tooling components
 
