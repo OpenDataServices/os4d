@@ -8,7 +8,7 @@ Open Data Services Co-operative was established in 2015 to support organisations
 
 We often act as the technical partner to policy-focussed initiatives, working under contract to develop and maintain open data standards, and to support standard implementation.
 
-Our team of 12 employees and members work across a range of tasks:
+Our team of employees and members work across a range of tasks:
 
 * **Software development** - creating re-usable open source code that helps us to do our work, and that supports the documentation, implementation and demonstration of open data standards;
 * **Analysis and implementation support** - working with policy initiatives, governments, non-profits and companies to equip them to publish and use open data with one of the standards we support;
