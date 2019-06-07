@@ -1,3 +1,7 @@
+# Standards Lab: an open data standard toolkit
+
+Visit https://os4d.opendataservices.coop to read the handbook.
+
 # Open Data Services Sphinx Base
 
 The base Sphinx setup (recommonmark + internationalisation) for Open Data
