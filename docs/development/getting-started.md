@@ -63,8 +63,6 @@ The following questions are useful to answer before starting down the standardis
 * Is there an existing community around this issue or data?
 * What are the priority goals of standardisation? (good practice, interoperability... etc. )
 
-Read more in our blog post: ['How do you know when you need an open data standard?'](http://www.opendataservices.coop/blog/2017/11/21/how-do-you-know-when-you-need-a-standard)
-
 
 ```eval_rst
 .. _team:
