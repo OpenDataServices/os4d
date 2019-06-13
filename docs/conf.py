@@ -357,6 +357,11 @@ locale_dirs = ['locale/']   # path is example but recommended.
 gettext_compact = False     # optional.
 
 
+# Link check: Ignore anchors as this requires page rendering of the link
+# e.g. github links with anchors will fail due to being implemented in js
+# see https://www.sphinx-doc.org/en/master/usage/configuration.html#confval-linkcheck_anchors
+linkcheck_anchors = False
+
 
 def setup(app):
     app.add_config_value('recommonmark_config', {
