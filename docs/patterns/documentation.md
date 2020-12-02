@@ -145,7 +145,7 @@ e.g. for OCDS we have:
 ```eval_rst
 * Changelog - http://standard.open-contracting.org/latest/en/schema/changelog/
 * History of every individual change to the OCDS docs/schema - https://github.com/open-contracting/standard/commits/1.1
-* When was each line in any given file last changed - https://github.com/open-contracting/standard/blame/1.1/standard/schema/release-schema.json
+* When was each line in any given file last changed - https://github.com/open-contracting/standard/blame/1.1/schema/release-schema.json
 ```
 
 ### Related patterns
@@ -270,11 +270,11 @@ We use two different automated build services, for different projects:
 
 (1) [Read the docs](https://readthedocs.org/) is designed specifically for building Sphinx docs. It will rebuild a version of the documentation every time a commit if pushed to the corresponding branch on GitHub. Read the Docs being designed specifically for Sphinx is useful because it will automatically hosts the docs, and provides a version/language switcher out of the docs. It gives a lot of control (e.g. you can have whatever custom directives and theming you want, you can point a custom domain at it), but is less flexible than a generic build service. It also requires a manual step to add a new branch/version to the docs. We use Read the Docs for lots of smaller docs sites
 
-(2) [Travis](https://travis-ci.org/) - is a generic build service (again building every time something is pushed to GitHub), so requires a bit more setup than Read the Docs, but also gives you maximum flexibility over what commands get run. It can also run tests of the documentation/schema before the build. It doesn’t host docs, but can be set up to push the built docs to a hosting provider of your choice.
+(2) [GitHub Actions](https://github.com/features/actions) - is a generic build service (again building every time something is pushed to GitHub), so requires a bit more setup than Read the Docs, but also gives you maximum flexibility over what commands get run. It can also run tests of the documentation/schema before the build. It doesn’t host docs, but can be set up to push the built docs to a hosting provider of your choice.
 
 ### Example
 
-For OCDS we have a [travis script](https://github.com/open-contracting/standard/blob/1.1-dev/.travis.yml) that runs the tests and deploys all the branches.
+For OCDS we have a [GitHub Actions script](https://github.com/open-contracting/standard/blob/1.1-dev/.github/workflows/ci.yml) that runs the tests and deploys all the branches.
 
 ### Related patterns
 
@@ -376,8 +376,6 @@ The build process can be configured so that the symlink for full **releases** of
 ### Example
 
 Currently we only use this approach for OCDS.
-
-Here's the [section about copying file to the server in the OCDS handbook](https://ocds-standard-development-handbook.readthedocs.io/en/latest/standard/technical/deployment/#copy-the-files-to-the-live-server).
 
 ```eval_rst
 .. todo::
