@@ -33,8 +33,6 @@ sudo apt-get install python3-venv
 python3 -m venv .ve    
 # Enter the venv, needs to be run for every new shell
 source .ve/bin/activate
-# Install pre-requirements
-pip install -r pre_requirements.txt
 # Install requirements
 pip install -r requirements.txt
 # Build the docs
