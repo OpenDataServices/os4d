@@ -363,6 +363,11 @@ gettext_compact = False     # optional.
 linkcheck_anchors = False
 
 
+linkcheck_ignore = [
+    # The ODI is now behind a Clouflare challenge that we can't check.
+    'http://www.theodi.org'
+]
+
 def setup(app):
     app.add_config_value('recommonmark_config', {
         #'url_resolver': lambda url: github_doc_root + url,
