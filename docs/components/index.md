@@ -825,7 +825,15 @@ Classifications used in the standard
 
 #### Description
 
-Codelists are lists of terms that are provided as part of a standard in order to ensure that values of fields where there are a limited range of options are properly limited in the data, and that concepts map correctly between datasets. For example, a codelist might specify currency codes, to avoid US Dollars being referred to as "$" in one data set and "USD" in another. Codelists can be open or closed - open codelists allow values to be added, while closed codelists do not permit additions
+Codelists are lists of terms that are provided as part of a standard in order to ensure that values of fields where there are a limited range of options are properly limited in the data, and that concepts map correctly between datasets. For example, a codelist might specify currency codes, to avoid US Dollars being referred to as "$" in one data set and "USD" in another. 
+
+Codelists are traditionally lists of codes which are given specific meaning in a particular context - such as the ISO 3166 country code lists, where the code "UK" is given the meaning "United Kingdom".
+
+In data standards, the term has often been expanded to include lists where the codes and the terms are the same (e.g. “English” stands alone, rather than having a code “EN”). 
+
+Codelists can be *open* or *closed* - open codelists allow values to be added, while closed codelists do not permit additions.
+
+Codelists can be either *internal* or *external* to a data standard. Internal codelists are supplied by, and governed alongside, the data standard. External codelists are supplied by, and governed by, a body that’s separate from the data standard. 
 
 #### Examples
 
