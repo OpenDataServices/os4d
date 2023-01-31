@@ -104,3 +104,12 @@ If translations are added locally, these can also be pushed up to Transifex:
 ```
 tx push -t --skip
 ```
+
+## Docker Builds and deploys
+
+To build and run on docker:
+
+```
+docker build -t os4d .
+docker run -it --rm -p 8000:80 os4d
+```
