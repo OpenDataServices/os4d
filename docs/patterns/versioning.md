@@ -115,6 +115,23 @@ Major or minor versions of a standard may be provided as a 'Release Candidate' f
 
 See [release candidate (Wikipedia)](https://en.wikipedia.org/wiki/Software_release_life_cycle#Release_candidate). 
 
+## Version management 
+
+### Problem 
+
+As more versions of a standard are released it's important that they are archived and managed carefully. This is especially important where several different versions of the standard are being used at the same time. There may also be cases where patches need to be applied across several versions simultaneously - such as minor changes to schema documentation. 
+
+### Solution 
+
+When using GitHub to store versions, we have found this approach to be effective. 
+
+* Use a 'live' branch for each minor version (e.g. 1.1). This allows for patches to be applied to older versions of a schema. 
+* Use a tag or a Git Hub "release" for each release (e.g. 1.1.5). This provides a snapshot of the schema at that point in time, and cannot be changed later. 
+
+Documentation is built from the live branches, only minor versions are shown in the documentation. 
+
+More information about how this approach is used can be found in the [OCDS Development Handbook](https://ocds-standard-development-handbook.readthedocs.io/en/latest/standard/technical/repository.html#branches-and-tags) 
+
 ```eval_rst
 .. todo::
 
