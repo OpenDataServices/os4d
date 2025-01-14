@@ -30,7 +30,7 @@ This is likely to make use of an [issue tracker](pattern-issue-tracker) and a [c
 
 The governance process for the Open Contracting Data Standard is set out in the diagram below.
 
-![Governance process](http://standard.open-contracting.org/latest/en/_images/upgrade_process_feb_2016.png)
+![Governance process](https://standard.open-contracting.org/latest/en/_images/upgrade_process.png)
 
 As the OCDS [ChangeLog illustrates](http://standard.open-contracting.org/latest/en/schema/changelog/), each change has a related GitHub issue where changes are discussed. 
 
