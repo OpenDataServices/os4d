@@ -90,7 +90,7 @@ This can take a variety of forms, but often involves collecting and analysing ex
 
 * The [initial supply side scoping for the Open Contracting Data Standard](http://www.timdavies.org.uk/2013/04/04/developing-data-standards-for-open-contracting/) identified common phases of the procurement process represented across 7 different datasets, chosen because they represented a range of levels of government capacity and different legal systems around the world. A visualisation was developed to illustrate the overlap between different source datasets, and support conversation about the feasibility of standardisation.
 
-* The [later supply side research for the Open Contracting Data Standard](https://www.open-contracting.org/wp-content/uploads/2016/02/OCDS2014-Supply-Side-Research.pdf) created an [interactive tool](http://ocds.open-contracting.org/opendatacomparison/)  to identify common fields across 20 different datasets. Creating this tool involved experiments with machine-learning to classify fields, and working to translate field titles from datasets in a range of languages. 
+* The [later supply side research for the Open Contracting Data Standard](https://www.open-contracting.org/wp-content/uploads/2016/02/OCDS2014-Supply-Side-Research.pdf) created an interactive tool to identify common fields across 20 different datasets. Creating this tool involved experiments with machine-learning to classify fields, and working to translate field titles from datasets in a range of languages. 
 
 ### Demand side research 
 

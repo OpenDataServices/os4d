@@ -21,7 +21,7 @@ The workshop drew in particular on experiences from the Open Contracting Data St
 ```eval_rst
 .. todo::
 
-    Update the synonmyns above based on Argentina Glossary activity: https://crm.open-contracting.org/issues/2871
+    Update the synonmyns above based on Argentina Glossary activity (OCP CRM issue #2871)
 ```
 
 ------ 

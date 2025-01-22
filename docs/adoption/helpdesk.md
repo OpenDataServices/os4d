@@ -54,7 +54,7 @@ A helpdesk might have the following modalities of work:
 
 ## Examples
 
-* The secretariat of the International Aid Transparency Initiative have [written about their helpdesk service](https://discuss.iatistandard.org/t/what-does-iati-support-look-like-some-internal-reflections/1131) that receives around 110 new support requests every month. They note that a number of other providers also offer support to particular segments of the implementing community (e.g UK NGOs)
+* The International Aid Transparency Initiative provides a helpdesk service that receives around 110 monthly support requests, as of November 2017). A number of other providers also offer support to particular segments of the implementing community (e.g UK NGOs)
 
 * The [Open Contracting Data Standard helpdesk](http://standard.open-contracting.org/latest/en/support/) provides e-mail support, as well as working closely with the Open Contracting Partnership to identify adopters for priority support and outreach. The OCDS helpdesk is run by two partner organisations: Open Data Services Co-operative, and ILDA, who cover support for Latin America. 
 

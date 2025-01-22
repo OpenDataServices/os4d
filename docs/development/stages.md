@@ -57,7 +57,7 @@ The alpha should be used as the target to test real-world data against. If real-
 
 An alpha might be presented through a document, or through an initial documentation website. 
 
-For example, [the alpha version of the Beneficial Ownership Data Standard](http://beneficial-ownership-data-standard.readthedocs.io/en/0.1-alpha/) is presented through a Sphinx documentation site, with embedded hypothes.is commenting tools to gather feedback.
+For example, the alpha version of the [Beneficial Ownership Data Standard](https://standard.openownership.org/) was presented through a Sphinx documentation site, with embedded hypothes.is commenting tools to gather feedback.
 
 ## Beta
 
