@@ -1,30 +1,34 @@
 Component library
 =================
 
-On reviewing a range of policy-related data standards, including those that we maintain and those maintained by others, we identified approximately 60 components that at least two standards have chosen to create or adopt.
+On reviewing a range of policy-related data standards, including those that we maintain and those maintained by others, we identified approximately 70 components that at least two standards have chosen to create or adopt.
 
 Whether or not these are important to a particular standard depends on lots of factors, including but not limited to the maturity of the standard, whether the standard’s adoption is being driven co-operatively or adversarially, political factors and the character of the people and organisations in the domain where the standard operates.
 
-We conducted an exercise with representatives of several standards, asking them to conduct a diamond ranking exercise of the components. Diamond ranking was chosen to allow a ‘fat middle’ while forcing a decision on the highest and lowest priority items. Participants were asked to consider a standard at different levels of maturity, using Charles Handy’s Second Curve model for describing maturity.
+During our research in 2016/17, we conducted an exercise with representatives of several standards, asking them to conduct a diamond ranking exercise of the components. Diamond ranking was chosen to allow a ‘fat middle’ while forcing a decision on the highest and lowest priority items. Participants were asked to consider a standard at different levels of maturity, using Charles Handy’s Second Curve model for describing maturity.
+
+This list was revised in 2021 to take account of developments in open data standards in the intervening period. 
 
 The list of components is below, with TODO: guidance as to what may make them more or less important for a particular standard.
 
 ---
 ```eval_rst
-.. _component-advocacy-plan:
+.. _component-advocacy-tools:
 ```
 
 ## Components
 
-### Advocacy Plan
+### Advocacy Tools
 
 #### Summary
 
-Setting out steps to encourage organizations to adopt the standard.
+Tools to support advocacy for the standard, including plans, arguments and evidence. 
 
 #### Description
 
 An advocacy plan provides the resources and sets out the steps that will be followed to encourage organisations to adopt a standard, as well as key arguments. It should be updated regularly as the standard matures and as the standard starts to have an impact.
+
+Evidence should be gathered over time, to help with advocacy efforts. 
 
 #### Examples
 
@@ -40,6 +44,35 @@ An advocacy plan provides the resources and sets out the steps that will be foll
 #### Related Components
 
 [Blog](component-blog)
+
+#### Related Patterns
+
+---
+```eval_rst
+.. _component-advocacy-applications:
+```
+
+### Advocacy Applications
+
+#### Summary
+
+Applications that provide a tangible benefit to publishers or users of data that uses a standard
+
+#### Description
+
+Advocacy applications are ways to both demonstrate the value of open data and provide value from publication or use. 
+
+Care should be taken to avoid creating applications that push out potential other applications; advocacy applications often will have limited features so as to ensure that there's space for innovation. 
+
+#### Examples
+
+#### Prioritisation Factors
+
+#### Deprioritisation Factors
+
+* If there is existing innovation around the data that stimulates publication and use
+
+#### Related Components
 
 #### Related Patterns
 
@@ -106,6 +139,43 @@ Standards that have developed a brand need to ensure that it is used in a way th
 
 ---
 ```eval_rst
+.. _component-brand-agreements:
+```
+
+### Brand Assets
+
+#### Summary
+
+Designs, patterns and files to reinforce the brand
+
+#### Description
+
+Alongside key assets such as the logo and icons, other brand assets such as document templates, event stand designs, photos and website templates help anyone creating media for the standard to do so in a consistent and high-quality way. 
+
+If there are partners who are particularly high-profile in their support of the initiative, their logos may form part of the brand's assets. 
+
+#### Examples
+
+#### Prioritisation Factors
+
+* Where a professional image is important in order to create legitimacy 
+
+#### Deprioritisation Factors
+
+* Where there is distrust of strong brands
+* If the community has a DIY ethos
+
+#### Related Components
+
+[Brand Agreements](component-brand-agreements)
+[Brand Guidance](component-brand-guidance)
+[Logo](component-logo)
+[Icons](component-icons)
+
+#### Related Patterns
+
+---
+```eval_rst
 .. _component-brand-guidance:
 ```
 
@@ -164,7 +234,7 @@ Case studies give real-world examples of when use of a standard has enabled a pa
 
 #### Related Components
 
-Advocacy Plan
+(Advocacy Tools)[component-advocacy-tools]
 
 #### Related Patterns
 
@@ -177,11 +247,15 @@ Advocacy Plan
 
 #### Summary
 
-Setting out steps to get media coverage of the standard.
+Setting out steps to raise the profile of the standard.
 
 #### Description
 
-A communications plan sets out the steps that are planned to encourage media coverage of the standard. Having a plan ensures that media opportunities are sought, and that representatives of the standard are well-equipped when taking advantage of opportunities. It can ensure that the standard is properly represented, setting expectations among potential users and beneficaries.
+A communications plan sets out the steps that are planned to raise the profile of the standard, across various media and platforms. 
+
+It can encompass social media, broadcast media and direct communications to important parties. 
+
+Having a plan ensures that opportunities are sought, and that representatives of the standard are well-equipped when taking advantage of opportunities. It can ensure that the standard is properly represented, setting expectations among potential users and beneficiaries.
 
 #### Examples
 
@@ -189,6 +263,47 @@ A communications plan sets out the steps that are planned to encourage media cov
 
 * If a standard is likely to be of interest to either general or specific media outlets
 * If a standard is intended to have an impact outside of its adopters
+
+#### Deprioritisation Factors
+
+#### Related Components
+
+#### Related Patterns
+
+---
+```eval_rst
+.. _component-data-store:
+```
+
+### Data Store
+
+#### Summary
+
+A store of all the known data published using a standard, optionally aggregated, enhanced or processed. 
+
+#### Description
+
+A data store brings together all of the data that is known to be published using a standard. Often, it will process the data in some way to make it easier to use, such as through aggregation, normalisation or enrichment. 
+
+Aggregations allow complex data to be presented in forms that meet specific analysis needs, while normalisation helps to ensure that all the data is structurally similar (if the standard allows structural divergence), and enrichment can help potential users avoid duplication of effort or common pitfalls when trying to work with the data in practical ways.
+
+Access to the data store might be public, available on application, or restricted to key users. Consideration should be given to the commitment that a datastore might result in for a standard organisation, if it starts to become a central part of products using the standard. 
+
+Data stores reduce the effort required for a developer, researcher or other interested party to start using data that's published to a standard, allowing them to more quickly start to experiment and understand what the data might be suitable for. 
+
+#### Examples
+
+The [IATI Datastore](https://iatistandard.org/en/iati-tools-and-resources/iati-datastore/) offers public access to IATI data
+
+Access to the [360Giving Data store](https://www.threesixtygiving.org/data/360giving-datastore/) is available on application, as this allows the team to discuss individual needs and understand the demand for data. The data store includes enrichment with names for charities and location information, which is uncontroversial in its application, and has extensive edge cases that have taken considerable investment to address. 
+
+[Kingfisher Summarize](https://kingfisher-summarize.readthedocs.io/en/latest/) carries out aggregation of data in the [OCDS Kingfisher](https://ocdskingfisher.readthedocs.io/en/latest/) data store, to prepare forms of the data that meet specific analysis needs, along with data quality information. 
+
+
+#### Prioritisation Factors
+
+* If there are lots of organisations publishing to a standard 
+* If published data proves to be hard to use for structural reasons 
 
 #### Deprioritisation Factors
 
@@ -209,7 +324,7 @@ Showcasing what can be done with data when it is published to a standard
 
 #### Description
 
-Demonstration applications are either real-world or contrived applications using standardised data to illustrate what the data could be used for. They can be used to demonstrate the advantages of using the standard at all, or using particular parts of the stardard.
+Demonstration applications are either real-world or contrived applications using standardised data to illustrate what the data could be used for. They can be used to demonstrate the advantages of using the standard at all, or using particular parts of the standard.
 
 #### Examples
 
@@ -228,10 +343,41 @@ Demonstration applications are either real-world or contrived applications using
 
 ---
 ```eval_rst
+.. _component-technical-tools:
+```
+
+### Technical Tools
+
+#### Summary
+
+Tools that address specific technical challenges associated with working with the standard
+
+#### Description
+
+The process of working with a standard can involve tasks which are complex and technical; sometimes these require obtaining a deep understanding of some mechanism which is rarely required. These are often ideal candidates for creating tools for, so that people working with the standard can do their work more effectively. 
+
+Often, these are command-line tools, as that's often the environment where these tasks are carried out. Command-line tools are often easier to create and develop, but the command line can present a considerable barrier to users who aren't familiar with it, and so web-based versions are often important as a standard matures. 
+
+#### Examples
+
+[ocdskit](https://github.com/open-contracting/ocdskit) carries out a range of helpful functions for OCDS on the command line
+
+[OCDS Toucan](https://toucan.open-contracting.org/) presents a web interface for the most commonly-used functions from ocdskit and [flatten-tool](https://github.com/OpenDataServices/flatten-tool/)
+
+#### Prioritisation Factors
+
+#### Deprioritisation Factors
+
+#### Related Components
+
+#### Related Patterns
+
+---
+```eval_rst
 .. _component-discourse-forum:
 ```
 
-### Discourse Forum
+### Forum
 
 #### Summary
 
@@ -242,6 +388,8 @@ An online space for community discussion of the standard, adoption and data use.
 An online space for community discussion of the standard, adoption and data use. By using a forum instead of other online communications mechanisms, a complete audit trail for decisions can be retained and referred to. Over time, forums can become a valuable resource for implementers, and provide rich content for support articles, FAQs and other resources.
 
 #### Examples
+
+[Discourse](https://www.discourse.org/) is a common choice
 
 #### Prioritisation Factors
 
@@ -600,13 +748,21 @@ Public microblogging services such as Twitter, Tumblr and Instagram allow a stan
 
 #### Summary
 
-A shop-window on the standard, setting in context of wider goals
+A shop-window on the initiative, setting out wider goals that the initiative is seeking to achieve and introducing the technical aspects in context. 
 
 #### Description
 
-A standard's website brings together the various component of a standard, giving a single place where the standard can be explained to different audiences, and will act as a place that adopters go to in order to discover resources.
+A standard's website brings together the various component of a standard, giving a single place where the standard can be explained to different audiences, and will act as a place that adopters go to in order to discover resources. 
+
+Often, standards are created as part of a wider initiative, and so the website can set out the initiative's wider goals, and put the technical work in context. 
+
+As a community grows, it may be appropriate to separate out technical resources into their own space, so that developers are able to focus on what's immediately important to them during implementation. 
 
 #### Examples
+
+[360Giving](https://threesixtygiving.org)
+[Open Contracting](https://open-contracting.org)
+[OpenActive](https://openactive.io)
 
 #### Prioritisation Factors
 
@@ -619,6 +775,8 @@ A standard's website brings together the various component of a standard, giving
 * If a standard is part of a wider operation that has its own web presence
 
 #### Related Components
+
+[Developer Guidelines](component-developer-guidelines)
 
 #### Related Patterns
 
@@ -667,7 +825,15 @@ Classifications used in the standard
 
 #### Description
 
-Codelists are lists of terms that are provided as part of a standard in order to ensure that values of fields where there are a limited range of options are properly limited in the data, and that concepts map correctly between datasets. For example, a codelist might specify currency codes, to avoid US Dollars being referred to as "$" in one data set and "USD" in another. Codelists can be open or closed - open codelists allow values to be added, while closed codelists do not permit additions
+Codelists are lists of terms that are provided as part of a standard in order to ensure that values of fields where there are a limited range of options are properly limited in the data, and that concepts map correctly between datasets. For example, a codelist might specify currency codes, to avoid US Dollars being referred to as "$" in one data set and "USD" in another. 
+
+Codelists are traditionally lists of codes which are given specific meaning in a particular context - such as the ISO 3166 country code lists, where the code "UK" is given the meaning "United Kingdom".
+
+In data standards, the term has often been expanded to include lists where the codes and the terms are the same (e.g. “English” stands alone, rather than having a code “EN”). 
+
+Codelists can be *open* or *closed* - open codelists allow values to be added, while closed codelists do not permit additions.
+
+Codelists can be either *internal* or *external* to a data standard. Internal codelists are supplied by, and governed alongside, the data standard. External codelists are supplied by, and governed by, a body that’s separate from the data standard. 
 
 #### Examples
 
@@ -710,7 +876,7 @@ Contributor guidelines set out the expectations of external contributions to the
 
 #### Related Components
 
-Developer Guidelines
+[Developer Guidelines](component-developer-guidelines)
 
 #### Related Patterns
 
@@ -727,7 +893,7 @@ Describing the coding practices and workflows for contributing to the standard o
 
 #### Description
 
-Developer guidelines set out the expectactions of external contributions to the standard or the tools that are provided to support adopters. They typically cover licensing, procedure for contributions to be reviewed, expectations around process, and technical expectations such as comments, naming conventions, tests and coding style.
+Developer guidelines set out the expectations of external contributions to the standard or the tools that are provided to support adopters. They typically cover licensing, procedure for contributions to be reviewed, expectations around process, and technical expectations such as comments, naming conventions, tests and coding style.
 
 #### Examples
 
@@ -740,6 +906,34 @@ Developer guidelines set out the expectactions of external contributions to the 
 #### Related Components
 
 Contributor Guidelines
+
+#### Related Patterns
+
+---
+```eval_rst
+.. _component-developer-tools:
+```
+
+### Software Libraries
+
+#### Summary
+
+Tools to help developers implement the standard in their own software
+
+#### Description
+
+Developers using a standard will often require tooling to support their work, and a standard can help by providing common components. Common examples include libraries to:
+* validate against schema and assess data quality
+* convert between formats 
+* download data from publishers 
+
+#### Examples
+
+#### Prioritisation Factors
+
+#### Deprioritisation Factors
+
+#### Related Components
 
 #### Related Patterns
 
@@ -852,6 +1046,37 @@ Many standards consider one of the best arguments for standardisation is being a
 
 * If the data cannot meaningfully be considered as a whole
 * If there are few data sources available, or their use of the standard is divergent enough as to make the data incomparable
+
+#### Related Components
+
+#### Related Patterns
+---
+```eval_rst
+.. _component-stakeholder-analysis:
+```
+
+### Stakeholder Analysis
+
+#### Summary
+
+An understanding of the stakeholders in the initiative
+
+#### Description
+
+Decisions around a standard will always require consideration of the impact on, and requirements of, the stakeholders in a standard. Ensuring that this is well-articulated and easily available to everyone making decisions helps to improve decisions. 
+
+In particular, this helps to ensure that voices that aren't present during development are heard. 
+
+#### Examples
+
+#### Prioritisation Factors
+
+* If the standard is operating in a complex environment
+* If the standard is being developed away from where it's likely to have impact
+
+#### Deprioritisation Factors
+
+* If the standard is being developed by people who are part of a community that contains most, if not all, of the stakeholders in the standard. 
 
 #### Related Components
 
@@ -1091,7 +1316,7 @@ The Implementation Plan Template provides an overview of the planning required f
 
 #### Summary
 
-For the team maintaining and updating the standard.
+Documentation for the team maintaining and updating the standard.
 
 #### Description
 
@@ -1128,7 +1353,63 @@ Part of a standard is often schema, and reporting on technical validity against 
 
 #### Prioritisation Factors
 
-* If there
+#### Deprioritisation Factors
+
+#### Related Components
+
+#### Related Patterns
+
+---
+```eval_rst
+.. _component-password-store:
+```
+
+### Password Store
+
+#### Summary
+
+Ensure that all relevant people have access to online services 
+
+#### Description
+
+Standards development will often involve multiple online services, each of which will have its own password. Although individual user accounts should be strongly preferred wherever possible, there are circumstances where this isn't possible. A password store serves both as a record of the services that the standard uses, and grants access to those services to people who require it. It should be encrypted, and passwords changed regularly - and always when someone's access to the store is revoked. 
+
+Some online services support team permissions, giving individual users access to the passwords that they require. In the absence of this, segmenting large password stores by function limits risk.   
+
+#### Examples
+
+#### Prioritisation Factors
+
+#### Deprioritisation Factors
+
+#### Related Components
+
+#### Related Patterns
+
+---
+```eval_rst
+.. _component-quality-framework:
+```
+
+### Quality Framework
+
+#### Summary
+
+A framework to describe what constitutes quality in the context of a particular standard. 
+
+#### Description
+
+What constitutes "quality" in data is, to a degree, subjective. 
+
+Certain factors (for example, whether or not specific fields are provided) are important for some applications, but not other; therefore, their absence isn't necessarily an indicator of poor overall quality, but rather poor suitability for a particular purpose. 
+
+Other factors are more universally applicable - such as dates being realistic, descriptions and titles being of appropriate length. 
+
+A data quality framework allows all participants in an open data ecosystem to understand the quality of data in a more nuanced and targeted way. 
+
+#### Examples
+
+#### Prioritisation Factors
 
 #### Deprioritisation Factors
 
@@ -1145,11 +1426,44 @@ Part of a standard is often schema, and reporting on technical validity against 
 
 #### Summary
 
-Providing feedback on the content of datasets, based on a set of data quality rules.
+Providing feedback on the quality of datasets, based on a set of rules or a framework. 
 
 #### Description
 
+In many data ecosystems, data is published automatically from a system. When the system is being developed, a quality tool allows developers and other stakeholders in that system to understand the data that is being created in the context of the data ecosystem, so that they can ensure that it is of appropriate quality for the uses that they are intending it to be put to. 
+
+Open data standards advocates can use quality tools to demonstrate where existing data excels, and where improvements can be made. 
+
 #### Examples
+
+#### Prioritisation Factors
+
+#### Deprioritisation Factors
+
+#### Related Components
+
+#### Related Patterns
+
+---
+```eval_rst
+.. _component-quality-monitoring-tool:
+```
+
+### Quality Monitoring Tool
+
+#### Summary
+
+Providing continuous feedback on the quality of datasets, based on a set of rules or a framework. 
+
+#### Description
+
+In many data ecosystems, data is published automatically from systems, and quality can change over time due to changes in those systems. For example, a data aggregator might start to include new sources, or existing sources might change in ways that aren't compatible with the publication. Or, simple tweaks made over time might improve the data as underlying systems improve. 
+
+Continuous quality monitoring allows open data advocates to detect changes in quality and investigate them, as well as helping create a sense of community and transparency around the data. 
+
+#### Examples
+
+[OCDS Pelican](https://www.open-contracting.org/2020/01/28/meet-pelican-our-new-tool-for-assessing-the-quality-of-open-contracting-data/)
 
 #### Prioritisation Factors
 
@@ -1172,6 +1486,8 @@ A list of fields that publishers are encouraged (but not required) to provide
 
 #### Description
 
+When modeling a concept, there is always a balance to be found between requiring so many fields as to make publication unduly arduous, and requiring so few fields as to make the data difficult to use. Recommended Fields allow a standard to highlight fields which are helpful to publish, but that may not exist in all systems, or be relevant in all contexts. 
+
 #### Examples
 
 #### Prioritisation Factors
@@ -1179,6 +1495,8 @@ A list of fields that publishers are encouraged (but not required) to provide
 #### Deprioritisation Factors
 
 #### Related Components
+
+[Extensions Mechanism](component-extensions-mechanism)
 
 #### Related Patterns
 
@@ -1310,6 +1628,8 @@ Machine and human-readable rules used to check data quality.
 
 #### Description
 
+Building on the data quality framework, Additional Checks can be implemented by both tools created by the initiative and publishers/users of the standard developing their own tooling. 
+
 #### Examples
 
 #### Prioritisation Factors
@@ -1317,6 +1637,8 @@ Machine and human-readable rules used to check data quality.
 #### Deprioritisation Factors
 
 #### Related Components
+
+[Data Quality Framework](component-quality-framework)
 
 #### Related Patterns
 
@@ -1394,7 +1716,7 @@ Offering a public archive of meeting minutes, reports, presentations and other r
 .. _component-slack:
 ```
 
-### Slack
+### Instant Messaging
 
 #### Summary
 
@@ -1403,6 +1725,8 @@ For chat-type conversations with the community about development, adoption and u
 #### Description
 
 #### Examples
+
+Slack, Discord and IRC are all popular choices. 
 
 #### Prioritisation Factors
 
@@ -1447,6 +1771,31 @@ Comprising of the schema, codelists and normative documentation.
 An editorialised template that can be filled in to provide data that meets the standard (Excel / AirTable etc.)
 
 #### Description
+
+#### Examples
+
+#### Prioritisation Factors
+
+#### Deprioritisation Factors
+
+#### Related Components
+
+#### Related Patterns
+
+---
+```eval_rst
+.. _component-sustainability-plan:
+```
+
+### Sustainability Plan
+
+#### Summary
+
+A plan to ensure that the standard can continue to be maintained as circumstances change
+
+#### Description
+
+
 
 #### Examples
 
@@ -1628,7 +1977,7 @@ A mechanism for having optional new codelists, schema and documentation added to
 
 #### Summary
 
-A mechanism for having optional new codelists, schema and documentation added to the standard.
+Regular or one-off events where the community can learn more about how to use the standard
 
 #### Description
 
