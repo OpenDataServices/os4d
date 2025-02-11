@@ -13,7 +13,6 @@ Services docs projects.
 * Internationalisation
 * Wrapping text in tables, to avoid having horizontal scrollbars
 
-
 ## Building the documentation
 
 ### Build the docs locally
@@ -42,7 +41,6 @@ make dirhtml
 
 Built docs are in `docs/_build/dirhtml`.
 
-
 Viewing the docs:
 ```
 cd _build/dirhtml
@@ -50,7 +48,6 @@ python -m http.server
 ```
 
 Then go to http://localhost:8000/ in a browser.
-
 
 ### Building on readthedocs
 

@@ -1,20 +1,13 @@
 # Tooling
 
-For the tooling we use to build documentation see [Documentation -> Technical approach](section-documentation-technical).
+For the tooling we use to build documentation see [Documentation -> Technical approach](documentation.md#technical-approach).
 
 This section details the tooling we use as part of our standard development.
 
-## Tooling components
+```{seealso}
 
-```eval_rst
+Tooling components:
 
-* :ref:`component-conversion-tools`
-* :ref:`component-online-validator`
-* :ref:`component-rules-for-additional-checks`
-
-.. todo::
-
-  * Exploration
-  * Helper tools
-
-```
+* [Conversion tools](../components/index.md#conversion-tools)
+* [Online validator](../components/index.md#online-validator)
+* [Rules for additional checks](../components/index.md#rules-for-additional-checks)```

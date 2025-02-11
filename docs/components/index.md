@@ -1,5 +1,4 @@
-Component library
-=================
+# Component library
 
 On reviewing a range of policy-related data standards, including those that we maintain and those maintained by others, we identified approximately 60 components that at least two standards have chosen to create or adopt.
 
@@ -8,11 +7,6 @@ Whether or not these are important to a particular standard depends on lots of f
 We conducted an exercise with representatives of several standards, asking them to conduct a diamond ranking exercise of the components. Diamond ranking was chosen to allow a ‘fat middle’ while forcing a decision on the highest and lowest priority items. Participants were asked to consider a standard at different levels of maturity, using Charles Handy’s Second Curve model for describing maturity.
 
 The list of components is below, with TODO: guidance as to what may make them more or less important for a particular standard.
-
----
-```eval_rst
-.. _component-advocacy-plan:
-```
 
 ## Components
 
@@ -30,23 +24,18 @@ An advocacy plan provides the resources and sets out the steps that will be foll
 
 #### Prioritisation Factors
 
-* Where standards are being developed outside of the organisations that are expected to adopt the standard
-* If there is a perceived cost to adopting a standard
+- Where standards are being developed outside of the organisations that are expected to adopt the standard
+- If there is a perceived cost to adopting a standard
 
 #### Deprioritisation Factors
 
-* Where a standard is emerging from consensus among the organisations that are expected to use it
+- Where a standard is emerging from consensus among the organisations that are expected to use it
 
 #### Related Components
 
-[Blog](component-blog)
+[Blog](#blog)
 
 #### Related Patterns
-
----
-```eval_rst
-.. _component-blog:
-```
 
 ### Blog
 
@@ -62,20 +51,15 @@ A blog that is regularly updated can provide updates to the community, resources
 
 #### Prioritisation Factors
 
-* Where a wide audience is sought
+- Where a wide audience is sought
 
 #### Deprioritisation Factors
 
-* If there isn't the resource available to make regular updates.
+- If there isn't the resource available to make regular updates.
 
 #### Related Components
 
 #### Related Patterns
-
----
-```eval_rst
-.. _component-brand-agreements:
-```
 
 ### Brand Agreements
 
@@ -91,23 +75,18 @@ Standards that have developed a brand need to ensure that it is used in a way th
 
 #### Prioritisation Factors
 
-* When a standard is growing quickly
-* There is a proliferation of tools and adopters, especially those who might use the name of the standard in their services.
+- When a standard is growing quickly
+- There is a proliferation of tools and adopters, especially those who might use the name of the standard in their services.
 
 #### Deprioritisation Factors
 
-* Where there is a trusted community or less of a strong brand.
+- Where there is a trusted community or less of a strong brand.
 
 #### Related Components
 
-[Brand Guidance](component-brand-guidance)
+[Brand Guidance](#brand-guidance)
 
 #### Related Patterns
-
----
-```eval_rst
-.. _component-brand-guidance:
-```
 
 ### Brand Guidance
 
@@ -123,21 +102,16 @@ Brand guidance sets out how to use the name, logo, look-and-feel and other ident
 
 #### Prioritisation Factors
 
-* If a standard uses the name of a related concept in its own name
-* During phases of rapid growth with a proliferation
+- If a standard uses the name of a related concept in its own name
+- During phases of rapid growth with a proliferation
 
 #### Deprioritisation Factors
 
-* If a standard has not developed a strong brand
+- If a standard has not developed a strong brand
 
 #### Related Components
 
 #### Related Patterns
-
----
-```eval_rst
-.. _component-case-studies:
-```
 
 ### Case Studies
 
@@ -153,25 +127,20 @@ Case studies give real-world examples of when use of a standard has enabled a pa
 
 #### Prioritisation Factors
 
-* Where a standard is more mature and at least one useful real example exists that can be described
-* Where a strong advocacy is required to encourage adoption
-* Where a standard's value proposition is concerned with impact beyond the use of the data - such as social outcomes
+- Where a standard is more mature and at least one useful real example exists that can be described
+- Where a strong advocacy is required to encourage adoption
+- Where a standard's value proposition is concerned with impact beyond the use of the data - such as social outcomes
 
 #### Deprioritisation Factors
 
-* Where no real stories exist
-* Where the community around a standard already share details with each other
+- Where no real stories exist
+- Where the community around a standard already share details with each other
 
 #### Related Components
 
 Advocacy Plan
 
 #### Related Patterns
-
----
-```eval_rst
-.. _component-communications-plan:
-```
 
 ### Communications Plan
 
@@ -187,19 +156,14 @@ A communications plan sets out the steps that are planned to encourage media cov
 
 #### Prioritisation Factors
 
-* If a standard is likely to be of interest to either general or specific media outlets
-* If a standard is intended to have an impact outside of its adopters
+- If a standard is likely to be of interest to either general or specific media outlets
+- If a standard is intended to have an impact outside of its adopters
 
 #### Deprioritisation Factors
 
 #### Related Components
 
 #### Related Patterns
-
----
-```eval_rst
-.. _component-demonstration-applications:
-```
 
 ### Demonstration Applications
 
@@ -215,21 +179,16 @@ Demonstration applications are either real-world or contrived applications using
 
 #### Prioritisation Factors
 
-* Where the value proposition of a standard is hard to articulate in words
+- Where the value proposition of a standard is hard to articulate in words
 
 #### Deprioritisation Factors
 
-* Early in a standard's development, as demonstration applications are likely to be costly to develop
-* Where the community around a standard are developing applications as part of their adoption of the standard
+- Early in a standard's development, as demonstration applications are likely to be costly to develop
+- Where the community around a standard are developing applications as part of their adoption of the standard
 
 #### Related Components
 
 #### Related Patterns
-
----
-```eval_rst
-.. _component-discourse-forum:
-```
 
 ### Discourse Forum
 
@@ -245,21 +204,16 @@ An online space for community discussion of the standard, adoption and data use.
 
 #### Prioritisation Factors
 
-* When a standard has multiple stakeholders who don't meet regularly in person
-* More mature standards
+- When a standard has multiple stakeholders who don't meet regularly in person
+- More mature standards
 
 #### Deprioritisation Factors
 
-* When the community around a standard regularly meet in person
+- When the community around a standard regularly meet in person
 
 #### Related Components
 
 #### Related Patterns
-
----
-```eval_rst
-.. _component-draft-commitments:
-```
 
 ### Draft Commitments
 
@@ -275,20 +229,15 @@ Draft commitments are templates for adopters to copy or adapt before signing and
 
 #### Prioritisation Factors
 
-* If a standard requires a relatively high level of commitment to be useful
-* If a standard is targetting public sector organisations that are keen to formally launch commitments
-* If a very early-stage standard requires commitment in principle before development begins
+- If a standard requires a relatively high level of commitment to be useful
+- If a standard is targetting public sector organisations that are keen to formally launch commitments
+- If a very early-stage standard requires commitment in principle before development begins
 
 #### Deprioritisation Factors
 
 #### Related Components
 
 #### Related Patterns
-
----
-```eval_rst
-.. _component-glossary:
-```
 
 ### Glossary
 
@@ -304,20 +253,15 @@ A glossary provides an authoritative and unambiguous list of the terms and their
 
 #### Prioritisation Factors
 
-* If a standard is to be localised or translated
+- If a standard is to be localised or translated
 
 #### Deprioritisation Factors
 
-* If the standard relates to unambiguously defined terms in a sector
+- If the standard relates to unambiguously defined terms in a sector
 
 #### Related Components
 
 #### Related Patterns
-
----
-```eval_rst
-.. _component-guidance-documentation:
-```
 
 ### Guidance Documentation
 
@@ -333,22 +277,17 @@ Standards typically comprise a detailed, technical definition of how to publish 
 
 #### Prioritisation Factors
 
-* If the standard is large
-* If the standard uses a representation of concepts that may be unfamiliar to adopters
-* If early adopters encountered issues or misunderstandings
+- If the standard is large
+- If the standard uses a representation of concepts that may be unfamiliar to adopters
+- If early adopters encountered issues or misunderstandings
 
 #### Deprioritisation Factors
 
-* If the standard is small, and implementation guidance can be included in the standard
+- If the standard is small, and implementation guidance can be included in the standard
 
 #### Related Components
 
 #### Related Patterns
-
----
-```eval_rst
-.. _component-icons:
-```
 
 ### Icons
 
@@ -364,24 +303,19 @@ Icons help with recall of key concepts, and consistency across a range of assets
 
 #### Prioritisation Factors
 
-* If a standard is being discussed across media (eg in print, online and in person)
-* If the standard is being translated
-* If the standard introduces concepts unfamiliar to typical adopters
-* If the standard is being discussed across policy and technical boundaries
+- If a standard is being discussed across media (eg in print, online and in person)
+- If the standard is being translated
+- If the standard introduces concepts unfamiliar to typical adopters
+- If the standard is being discussed across policy and technical boundaries
 
 #### Deprioritisation Factors
 
-* If the standard does not have a defined visual language
-* If the standard only uses concepts that will be familiar to adopters
+- If the standard does not have a defined visual language
+- If the standard only uses concepts that will be familiar to adopters
 
 #### Related Components
 
 #### Related Patterns
-
----
-```eval_rst
-.. _component-logo:
-```
 
 ### Logo
 
@@ -397,21 +331,16 @@ A logo helps to reinforce the brand of the standard, gives a visual cue for reco
 
 #### Prioritisation Factors
 
-* If the standard will be used by a range of organisations
-* If the standard is operating in an environment where it needs to be given legitimacy and authority
+- If the standard will be used by a range of organisations
+- If the standard is operating in an environment where it needs to be given legitimacy and authority
 
 #### Deprioritisation Factors
 
-* If the standard is emerging from a community and is mostly for the use of that community
+- If the standard is emerging from a community and is mostly for the use of that community
 
 #### Related Components
 
 #### Related Patterns
-
----
-```eval_rst
-.. _component-principles:
-```
 
 ### Principles
 
@@ -433,11 +362,6 @@ Principles help to focus work around a standard, provide encouragement for those
 
 #### Related Patterns
 
----
-```eval_rst
-.. _component-progressive-enhancement-framework:
-```
-
 ### Progressive Enhancement Framework
 
 #### Summary
@@ -455,11 +379,6 @@ Supporting publishers to start with unstructured documents, and move on to provi
 #### Related Components
 
 #### Related Patterns
-
----
-```eval_rst
-.. _component-publication-levels:
-```
 
 ### Publication Levels
 
@@ -479,11 +398,6 @@ Separating fields into 'basic', 'intermediate' and 'advanced' so that publishers
 
 #### Related Patterns
 
----
-```eval_rst
-.. _component-publisher-ranking:
-```
-
 ### Publisher Ranking
 
 #### Summary
@@ -502,11 +416,6 @@ E.g. an annual report ranking datasets and their publishers based on an agreed m
 
 #### Related Patterns
 
----
-```eval_rst
-.. _component-recommended-data-license:
-```
-
 ### Recommended Data License
 
 #### Summary
@@ -521,21 +430,16 @@ A recommended license can help to ensure that adopters give due consideration to
 
 #### Prioritisation Factors
 
-* If adopters are unlikely to consider licensing as part of their adoption process
-* If adopters are likely to have concerns over how their data can be used
+- If adopters are unlikely to consider licensing as part of their adoption process
+- If adopters are likely to have concerns over how their data can be used
 
 #### Deprioritisation Factors
 
-* If the data that the standard relates to is already governed by a license restriction
+- If the data that the standard relates to is already governed by a license restriction
 
 #### Related Components
 
 #### Related Patterns
-
----
-```eval_rst
-.. _component-tutorial-videos:
-```
 
 ### Tutorial Videos
 
@@ -551,21 +455,16 @@ Videos provide the opportunity to deliver a path through learning materials that
 
 #### Prioritisation Factors
 
-* If resources around the standard are unlikely to change dramatically
-* If adopters find it hard to learn how to do certain things with the standard on account of resources being spread out
+- If resources around the standard are unlikely to change dramatically
+- If adopters find it hard to learn how to do certain things with the standard on account of resources being spread out
 
 #### Deprioritisation Factors
 
-* If the standard and related resources are rapidly evolving
+- If the standard and related resources are rapidly evolving
 
 #### Related Components
 
 #### Related Patterns
-
----
-```eval_rst
-.. _component-microblogging:
-```
 
 ### Microblogging
 
@@ -581,20 +480,15 @@ Public microblogging services such as Twitter, Tumblr and Instagram allow a stan
 
 #### Prioritisation Factors
 
-* If there is a community of potential adopters who already use a particular microblogging service
+- If there is a community of potential adopters who already use a particular microblogging service
 
 #### Deprioritisation Factors
 
-* If the time, people or infrastructure required to make regular updates is not available
+- If the time, people or infrastructure required to make regular updates is not available
 
 #### Related Components
 
 #### Related Patterns
-
----
-```eval_rst
-.. _component-website:
-```
 
 ### Website
 
@@ -610,22 +504,17 @@ A standard's website brings together the various component of a standard, giving
 
 #### Prioritisation Factors
 
-* If there are multiple resources relating to a standard
-* If a standard is intended to be used by a wider community than those instigating it
+- If there are multiple resources relating to a standard
+- If a standard is intended to be used by a wider community than those instigating it
 
 #### Deprioritisation Factors
 
-* If a standard is intended to only be used for a particular community who are involved in creating it
-* If a standard is part of a wider operation that has its own web presence
+- If a standard is intended to only be used for a particular community who are involved in creating it
+- If a standard is part of a wider operation that has its own web presence
 
 #### Related Components
 
 #### Related Patterns
-
----
-```eval_rst
-.. _component-api-specification:
-```
 
 ### API Specification
 
@@ -641,23 +530,18 @@ APIs allow developers to access data stored elsewhere without needing to obtain 
 
 #### Prioritisation Factors
 
-* If applications may be portable between data providers using the standard
-* If an adopter is considering building an API
+- If applications may be portable between data providers using the standard
+- If an adopter is considering building an API
 
 #### Deprioritisation Factors
 
-* Early stage standards
-* If there is no consideration of APIs
-* If applications are unlikely to be portable between data providers
+- Early stage standards
+- If there is no consideration of APIs
+- If applications are unlikely to be portable between data providers
 
 #### Related Components
 
 #### Related Patterns
-
----
-```eval_rst
-.. _component-codelists:
-```
 
 ### Codelists
 
@@ -667,25 +551,20 @@ Classifications used in the standard
 
 #### Description
 
-Codelists are lists of terms that are provided as part of a standard in order to ensure that values of fields where there are a limited range of options are properly limited in the data, and that concepts map correctly between datasets. For example, a codelist might specify currency codes, to avoid US Dollars being referred to as "$" in one data set and "USD" in another. Codelists can be open or closed - open codelists allow values to be added, while closed codelists do not permit additions
+Codelists are lists of terms that are provided as part of a standard in order to ensure that values of fields where there are a limited range of options are properly limited in the data, and that concepts map correctly between datasets. For example, a codelist might specify currency codes, to avoid US Dollars being referred to as "\$" in one data set and "USD" in another. Codelists can be open or closed - open codelists allow values to be added, while closed codelists do not permit additions
 
 #### Examples
 
 #### Prioritisation Factors
 
-* If there are currencies, languages or other commonly enumerated concepts in the standard
-* If there are data elements that would be rendered as 'pick one from the list' in a form
+- If there are currencies, languages or other commonly enumerated concepts in the standard
+- If there are data elements that would be rendered as 'pick one from the list' in a form
 
 #### Deprioritisation Factors
 
 #### Related Components
 
 #### Related Patterns
-
----
-```eval_rst
-.. _component-contributor-guidelines:
-```
 
 ### Contributor Guidelines
 
@@ -701,23 +580,18 @@ Contributor guidelines set out the expectations of external contributions to the
 
 #### Prioritisation Factors
 
-* If there are individuals or organisations who are keen to contribute directly to the standard or tools
-* If the standard is starting to draw extensively on the ideas and work of the community to develop
+- If there are individuals or organisations who are keen to contribute directly to the standard or tools
+- If the standard is starting to draw extensively on the ideas and work of the community to develop
 
 #### Deprioritisation Factors
 
-* If the standard is being developed entirely by the organisation that maintains it with little external input
+- If the standard is being developed entirely by the organisation that maintains it with little external input
 
 #### Related Components
 
 Developer Guidelines
 
 #### Related Patterns
-
----
-```eval_rst
-.. _component-developer-guidelines:
-```
 
 ### Developer Guidelines
 
@@ -733,7 +607,7 @@ Developer guidelines set out the expectactions of external contributions to the 
 
 #### Prioritisation Factors
 
-* If there are individuals or organisations who are keen to contribute directly to the standard or tools
+- If there are individuals or organisations who are keen to contribute directly to the standard or tools
 
 #### Deprioritisation Factors
 
@@ -742,11 +616,6 @@ Developer guidelines set out the expectactions of external contributions to the 
 Contributor Guidelines
 
 #### Related Patterns
-
----
-```eval_rst
-.. _component-contributors-agreement:
-```
 
 ### Contributors Agreement
 
@@ -766,11 +635,6 @@ Used to make sure all contributions to the standard are appropriately licensed, 
 
 #### Related Patterns
 
----
-```eval_rst
-.. _component-conversion-tools:
-```
-
 ### Conversion Tools
 
 #### Summary
@@ -785,20 +649,15 @@ Data standards often use structured data formats such as JSON or XML to give mor
 
 #### Prioritisation Factors
 
-* If the standard uses a structured data format, while data publishers and/or users prefer flat representations.
+- If the standard uses a structured data format, while data publishers and/or users prefer flat representations.
 
 #### Deprioritisation Factors
 
-* If the standard uses a data format that is the same as both publishers and users prefer to use
+- If the standard uses a data format that is the same as both publishers and users prefer to use
 
 #### Related Components
 
 #### Related Patterns
-
----
-```eval_rst
-.. _component-email-list:
-```
 
 ### Email List
 
@@ -814,22 +673,17 @@ Email lists are a widely-accessible and low-cost way for a group to hold discuss
 
 #### Prioritisation Factors
 
-* In the early stages of a standard
-* If a public archive of discussions is important
-* If key people in the development of the standard are comfortable with public email lists
+- In the early stages of a standard
+- If a public archive of discussions is important
+- If key people in the development of the standard are comfortable with public email lists
 
 #### Deprioritisation Factors
 
-* If there is reticence among users about public email lists
+- If there is reticence among users about public email lists
 
 #### Related Components
 
 #### Related Patterns
-
----
-```eval_rst
-.. _component-data-aggregator:
-```
 
 ### Data Aggregator
 
@@ -845,22 +699,17 @@ Many standards consider one of the best arguments for standardisation is being a
 
 #### Prioritisation Factors
 
-* If enough sources of standardised data exist to be usefully aggregated
-* If having access to the whole data set is meaningful
+- If enough sources of standardised data exist to be usefully aggregated
+- If having access to the whole data set is meaningful
 
 #### Deprioritisation Factors
 
-* If the data cannot meaningfully be considered as a whole
-* If there are few data sources available, or their use of the standard is divergent enough as to make the data incomparable
+- If the data cannot meaningfully be considered as a whole
+- If there are few data sources available, or their use of the standard is divergent enough as to make the data incomparable
 
 #### Related Components
 
 #### Related Patterns
-
----
-```eval_rst
-.. _component-example-data:
-```
 
 ### Example Data
 
@@ -876,23 +725,18 @@ Adopters of the standard and users of the data are often helped by seeing exampl
 
 #### Prioritisation Factors
 
-* If the standard is large or complicated
-* If adopters or users are often misunderstanding the requirements of the standard or strugging to 'get it'
+- If the standard is large or complicated
+- If adopters or users are often misunderstanding the requirements of the standard or strugging to 'get it'
 
 #### Deprioritisation Factors
 
-* If the standard is intentionally loose
-* If the standard is rapidly changing
-* If the standard does not have schema or a field model
+- If the standard is intentionally loose
+- If the standard is rapidly changing
+- If the standard does not have schema or a field model
 
 #### Related Components
 
 #### Related Patterns
-
----
-```eval_rst
-.. _component-faqs:
-```
 
 ### FAQs
 
@@ -908,20 +752,15 @@ FAQs cover common issues and questions that are asked, and can be used to shape 
 
 #### Prioritisation Factors
 
-* If a standard helpdesk has sufficient traffic to be able to identify common issues
+- If a standard helpdesk has sufficient traffic to be able to identify common issues
 
 #### Deprioritisation Factors
 
-* If a standard wants to ensure that they are in contact with all implementers from an early stage
+- If a standard wants to ensure that they are in contact with all implementers from an early stage
 
 #### Related Components
 
 #### Related Patterns
-
----
-```eval_rst
-.. _component-field-level-mapping-template:
-```
 
 ### Field-level Mapping Template
 
@@ -937,18 +776,13 @@ Field-level mapping is a crucial stage in preparing to publish existing data to 
 
 #### Prioritisation Factors
 
-* If publishers are extracting data from existing systems to publish using the standard
+- If publishers are extracting data from existing systems to publish using the standard
 
 #### Deprioritisation Factors
 
 #### Related Components
 
 #### Related Patterns
-
----
-```eval_rst
-.. _component-getting-started-documentation:
-```
 
 ### Getting Started Documentation
 
@@ -964,18 +798,13 @@ The normative documentation for standards is technical, prescise, authoratitive 
 
 #### Prioritisation Factors
 
-* If people who weren't involved in designing the standard are involved in implementation
+- If people who weren't involved in designing the standard are involved in implementation
 
 #### Deprioritisation Factors
 
 #### Related Components
 
 #### Related Patterns
-
----
-```eval_rst
-.. _component-issue-tracker:
-```
 
 ### Issue Tracker
 
@@ -991,18 +820,13 @@ Discussions around changes to data standards and suggestions for improvements of
 
 #### Prioritisation Factors
 
-* If discussions around the standard are happening in multiple places
+- If discussions around the standard are happening in multiple places
 
 #### Deprioritisation Factors
 
 #### Related Components
 
 #### Related Patterns
-
----
-```eval_rst
-.. _component-helpdesk-email-address:
-```
 
 ### Helpdesk Email Address
 
@@ -1018,18 +842,13 @@ A helpdesk email address provides an accessible, on-demand, asynchronous way for
 
 #### Prioritisation Factors
 
-* If there are implementers who aren't already part of the network creating the standard
+- If there are implementers who aren't already part of the network creating the standard
 
 #### Deprioritisation Factors
 
 #### Related Components
 
 #### Related Patterns
-
----
-```eval_rst
-.. _component-helpdesk-phone-number:
-```
 
 ### Helpdesk Phone Number
 
@@ -1045,20 +864,15 @@ A direct phone number provides rapid access to implementation support, and can h
 
 #### Prioritisation Factors
 
-* If implementation questions can easily be answered over the phone
+- If implementation questions can easily be answered over the phone
 
 #### Deprioritisation Factors
 
-* If there aren't sufficient staff or volunteers to offer the level of cover expected
+- If there aren't sufficient staff or volunteers to offer the level of cover expected
 
 #### Related Components
 
 #### Related Patterns
-
----
-```eval_rst
-.. _component-implementation-plan-template:
-```
 
 ### Implementation Plan Template
 
@@ -1074,18 +888,13 @@ The Implementation Plan Template provides an overview of the planning required f
 
 #### Prioritisation Factors
 
-* If implementing the standard requires multiple stakeholders
+- If implementing the standard requires multiple stakeholders
 
 #### Deprioritisation Factors
 
 #### Related Components
 
 #### Related Patterns
-
----
-```eval_rst
-.. _component-maintenance-handbook:
-```
 
 ### Maintenance Handbook
 
@@ -1101,18 +910,13 @@ The maintenance handbook provides a place for the team developing and maintainin
 
 #### Prioritisation Factors
 
-* If there are multiple people developing the standard
+- If there are multiple people developing the standard
 
 #### Deprioritisation Factors
 
 #### Related Components
 
 #### Related Patterns
-
----
-```eval_rst
-.. _component-online-validator:
-```
 
 ### Online Validator
 
@@ -1128,18 +932,13 @@ Part of a standard is often schema, and reporting on technical validity against 
 
 #### Prioritisation Factors
 
-* If there
+- If there
 
 #### Deprioritisation Factors
 
 #### Related Components
 
 #### Related Patterns
-
----
-```eval_rst
-.. _component-quality-tool:
-```
 
 ### Quality Tool
 
@@ -1159,11 +958,6 @@ Providing feedback on the content of datasets, based on a set of data quality ru
 
 #### Related Patterns
 
----
-```eval_rst
-.. _component-recommended-fields:
-```
-
 ### Recommended Fields
 
 #### Summary
@@ -1181,11 +975,6 @@ A list of fields that publishers are encouraged (but not required) to provide
 #### Related Components
 
 #### Related Patterns
-
----
-```eval_rst
-.. _component-reference-documentation:
-```
 
 ### Reference Documentation
 
@@ -1205,11 +994,6 @@ Normative. Describing all the elements of the standard, and used as the basis fo
 
 #### Related Patterns
 
----
-```eval_rst
-.. _component-reference-lists:
-```
-
 ### Reference Lists
 
 #### Summary
@@ -1227,11 +1011,6 @@ Lookup lists for key concepts (e.g. organization registers).
 #### Related Components
 
 #### Related Patterns
-
----
-```eval_rst
-.. _component-registry-of-datasets:
-```
 
 ### Registry Of Datasets
 
@@ -1251,11 +1030,6 @@ Providing links to all known data that follows the standard.
 
 #### Related Patterns
 
----
-```eval_rst
-.. _component-required-fieds:
-```
-
 ### Required Fields
 
 #### Summary
@@ -1273,11 +1047,6 @@ A list of fields that MUST be provided.
 #### Related Components
 
 #### Related Patterns
-
----
-```eval_rst
-.. _component-research-report:
-```
 
 ### Research Report
 
@@ -1297,11 +1066,6 @@ Independent evidence concerning data publication and use.
 
 #### Related Patterns
 
----
-```eval_rst
-.. _component-rules-for-additional-checks:
-```
-
 ### Rules For Additional Checks
 
 #### Summary
@@ -1319,11 +1083,6 @@ Machine and human-readable rules used to check data quality.
 #### Related Components
 
 #### Related Patterns
-
----
-```eval_rst
-.. _component-schema:
-```
 
 ### Schema
 
@@ -1343,11 +1102,6 @@ The technical description of how data should be structured.
 
 #### Related Patterns
 
----
-```eval_rst
-.. _component-self-certification:
-```
-
 ### Self-Certification
 
 #### Summary
@@ -1365,11 +1119,6 @@ So that standard users can describe the coverage and comprehensiveness of their 
 #### Related Components
 
 #### Related Patterns
-
----
-```eval_rst
-.. _component-shared-documents-folder:
-```
 
 ### Shared Documents Folder
 
@@ -1389,11 +1138,6 @@ Offering a public archive of meeting minutes, reports, presentations and other r
 
 #### Related Patterns
 
----
-```eval_rst
-.. _component-slack:
-```
-
 ### Slack
 
 #### Summary
@@ -1411,11 +1155,6 @@ For chat-type conversations with the community about development, adoption and u
 #### Related Components
 
 #### Related Patterns
-
----
-```eval_rst
-.. _component-specification:
-```
 
 ### Specification
 
@@ -1435,11 +1174,6 @@ Comprising of the schema, codelists and normative documentation.
 
 #### Related Patterns
 
----
-```eval_rst
-.. _component-spreadsheet-template:
-```
-
 ### Spreadsheet Template
 
 #### Summary
@@ -1457,11 +1191,6 @@ An editorialised template that can be filled in to provide data that meets the s
 #### Related Components
 
 #### Related Patterns
-
----
-```eval_rst
-.. _component-training-resources:
-```
 
 ### Training Resources
 
@@ -1481,11 +1210,6 @@ Used in online and offline training workshops to introduce the standard.
 
 #### Related Patterns
 
----
-```eval_rst
-.. _component-unit-tests:
-```
-
 ### Unit Tests
 
 #### Summary
@@ -1503,11 +1227,6 @@ Automatically run whenever the specification, documentation or examples are upda
 #### Related Components
 
 #### Related Patterns
-
----
-```eval_rst
-.. _component-use-cases:
-```
 
 ### Use Cases
 
@@ -1527,11 +1246,6 @@ A description of the ways in which data from the standard could be used.
 
 #### Related Patterns
 
----
-```eval_rst
-.. _component-use-case-mapping:
-```
-
 ### Use-Case Mapping
 
 #### Summary
@@ -1549,11 +1263,6 @@ A cross-walk between outcomes from data use, and the fields or data requirements
 #### Related Components
 
 #### Related Patterns
-
----
-```eval_rst
-.. _component-user-tutorials:
-```
 
 ### User Tutorials
 
@@ -1573,11 +1282,6 @@ How to guidance on making use of published data
 
 #### Related Patterns
 
----
-```eval_rst
-.. _component-extensions-registry:
-```
-
 ### Extensions Registry
 
 #### Summary
@@ -1595,11 +1299,6 @@ A list of known extensions to the standard
 #### Related Components
 
 #### Related Patterns
-
----
-```eval_rst
-.. _component-extensions-mechanism:
-```
 
 ### Extensions Mechanism
 
@@ -1619,11 +1318,6 @@ A mechanism for having optional new codelists, schema and documentation added to
 
 #### Related Patterns
 
----
-```eval_rst
-.. _component-workshops:
-```
-
 ### Workshops
 
 #### Summary
@@ -1641,11 +1335,6 @@ A mechanism for having optional new codelists, schema and documentation added to
 #### Related Components
 
 #### Related Patterns
-
----
-```eval_rst
-.. _component-governance-body:
-```
 
 ### Governance Body
 
@@ -1665,11 +1354,6 @@ A mechanism for having optional new codelists, schema and documentation added to
 
 #### Related Patterns
 
----
-```eval_rst
-.. _component-dashboard:
-```
-
 ### Dashboard (data publication statistics)
 
 #### Summary
@@ -1680,17 +1364,17 @@ A single location for accessing reports on the number of publishers, status of c
 
 A dashboard helps to answer questions like:
 
-* Who is publishing using the standard?
-* How many publishers are using version 1.0 or 1.1?
-* How many publishers are using this specific field?
-* What values are used in this specific field?
-* Which codelists are publishers using?
-* Which are the most common validation errors?
-* If we deprecate a particular field, which publishers will be affected?
+- Who is publishing using the standard?
+- How many publishers are using version 1.0 or 1.1?
+- How many publishers are using this specific field?
+- What values are used in this specific field?
+- Which codelists are publishers using?
+- Which are the most common validation errors?
+- If we deprecate a particular field, which publishers will be affected?
 
 #### Examples
 
-* The [IATI Dashboard](http://dashboard.iatistandard.org/) fetches changed data on a nightly basis (based on data in the IATI registry) and builds a collection of statistical reports, as well as maintaining historical data to show change over time. 
+- The [IATI Dashboard](http://dashboard.iatistandard.org/) fetches changed data on a nightly basis (based on data in the IATI registry) and builds a collection of statistical reports, as well as maintaining historical data to show change over time.
 
 #### Prioritisation Factors
 
@@ -1698,20 +1382,9 @@ A dashboard helps to answer questions like:
 
 #### Related Components
 
-```eval_rst
-
-* :ref:`component-registry-of-datasets`
-
-```
+[Registry of datasets](#registry-of-datasets)
 
 #### Related Patterns
-
-
-
-
-```eval_rst
-.. _component-crm:
-```
 
 ### Contact Relationship Management (CRM)
 
@@ -1723,39 +1396,39 @@ A Contact Relationship Management (CRM) system can be used to track the differen
 
 A CRM may be used for:
 
-* **Outreach and engagement** - identifying potential standard adopters, users and champions, and keeping track of communication and engagement with them;
-* **Knowledge management** - keeping track of communication with particular standard adopters; making sure technical support and policy engagement is joined up; and providing access to consistent technical support answers;
-* **Time tracking** - to supported charging by helpdesk consultants, or to allow reporting on which adopters require the greatest investment of time and support;
-* **Reporting** - to track progress towards key adoption metrics, and to measure key performance indicators for a helpdesk;
+- **Outreach and engagement** - identifying potential standard adopters, users and champions, and keeping track of communication and engagement with them;
+- **Knowledge management** - keeping track of communication with particular standard adopters; making sure technical support and policy engagement is joined up; and providing access to consistent technical support answers;
+- **Time tracking** - to supported charging by helpdesk consultants, or to allow reporting on which adopters require the greatest investment of time and support;
+- **Reporting** - to track progress towards key adoption metrics, and to measure key performance indicators for a helpdesk;
 
 Useful CRM features for supporting a standard include:
 
-* Contact profiles
-* Task tracking
-* Agile board
-* E-mail integration or e-mail helpdesk
-* Knowledge base
-
+- Contact profiles
+- Task tracking
+- Agile board
+- E-mail integration or e-mail helpdesk
+- Knowledge base
 
 #### Examples
 
-* The Open Contracting Data Standard makes use of a customised instance of [RedmineUp](http://redmineup.com), using the helpdesk plugin to create new contacts for each incoming e-mail, and using time-tracking against tickets for regular reporting.
+- The Open Contracting Data Standard makes use of a customised instance of [RedmineUp](http://redmineup.com), using the helpdesk plugin to create new contacts for each incoming e-mail, and using time-tracking against tickets for regular reporting.
 
-* 360Giving uses Salesforce to track the progress of publishers.
+- 360Giving uses Salesforce to track the progress of publishers.
 
 #### Prioritisation Factors
 
-* The standard needs to report on levels of adoption
-* The standard is providing a helpdesk to adopters
-* There are multiple teams engaging with each adopters
+- The standard needs to report on levels of adoption
+- The standard is providing a helpdesk to adopters
+- There are multiple teams engaging with each adopters
 
 #### Deprioritisation Factors
 
-* The standard is early stage
-* There is no central support offer
+- The standard is early stage
+- There is no central support offer
 
 #### Related Components
 
-[Helpdesk e-mail address](component-helpdesk-email-address) | [Helpdesk phone number](component-helpdesk-phone-number)
+- [Helpdesk e-mail address](#helpdesk-email-address)
+- [Helpdesk phone number](#helpdesk-phone-number)
 
 #### Related Patterns

@@ -1,8 +1,7 @@
 # Meta
 
-```eval_rst
-
-.. toctree::
+```{toctree}
     
-    howto
-    todo
+howto
+
+```
