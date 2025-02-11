@@ -7,8 +7,15 @@ It is useful to think of standards development as a diamond-shaped process, each
 In this diamond model, we can identify four distinct phases: starting from a focussed problem; scoping out the original problem and broadening out from it to identify other use-cases and related data; developing the standard to accommodate as many of these use-cases as feasible (which may be far from the full set); and focussing down to a release version.
 
 ```{mermaid}
+:align: center
 graph LR
-  {"Problem\n\nScoping and Research\n\nDevelopment\n\nRelease"}
+  1{"Problem
+  <br />
+  Scoping and Research
+  <br />
+  Development
+  <br />
+  Release"}
 ```
 
 Development is an iterative process: going through stages of developing a broad understanding of the problem space that standard addresses, and stages of focussing down to develop concrete data elements and structures that address some aspect of that problem space.

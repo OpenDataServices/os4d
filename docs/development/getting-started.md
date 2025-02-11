@@ -29,8 +29,9 @@ We think of effective open data standards as tools of **mass collaboration**, pr
 The design of a standard is fundamentally about who has to do the hard work to address data quality, interoperability and comparability. In a simplified model, this can be seen as how costs and benefits fall on data owners, intermediaries, and users.
 
 ```{mermaid}
+:align: center
 graph LR
-  "Data owner" --> "Intermediary" --> "User"
+    1("Data owner") --> 2("Intermediary") --> 3("Data user")
 ```
 
 Without a standard, users or intermediaries have to do the hard work of making sense of different datasets. If data owners do not share key information in their data, the users will have to negotiate with each data provider individually.
