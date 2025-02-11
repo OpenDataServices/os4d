@@ -10,4 +10,5 @@ Tooling components:
 
 * [Conversion tools](../components/index.md#conversion-tools)
 * [Online validator](../components/index.md#online-validator)
-* [Rules for additional checks](../components/index.md#rules-for-additional-checks)```
+* [Rules for additional checks](../components/index.md#rules-for-additional-checks)
+```
