@@ -2,6 +2,8 @@
 
 This section outlines a number of common patterns used to maintain documentation.
 
+---
+
 ## Single Source of Truth
 
 ### Problem
@@ -34,6 +36,8 @@ For 360Giving, the following are all generated programmatically from the [JSON S
 - [Spreadsheet templates](http://standard.threesixtygiving.org/en/latest/#templates)
 - [GrantNav](http://grantnav.threesixtygiving.org/) and the [Data Quality Tool](https://dataquality.threesixtygiving.org/) look up human readable titles in the schema.
 
+---
+
 ## Issue tracker
 
 ### Problem
@@ -47,6 +51,8 @@ An issue tracker
 ### Method
 
 We use GitHub issues.
+
+---
 
 ## Version control and changelogs for the schema and documentation
 
@@ -66,8 +72,6 @@ A **changelog** provides a less granular view, that is easier/quicker for humans
 
 Both version control commits and changelog entries can link to issues in an [issue tracker](#issue-tracker), to give more info and discussion about how/why the change happened.
 
-### Method
-
 ### Example
 
 e.g. for OCDS we have:
@@ -81,6 +85,8 @@ e.g. for OCDS we have:
 - [Reproducible builds](#reproducible-builds)
 - [Versioning](versioning.md)
 
+---
+
 ## Governance process for normative changes to the schema and documentation
 
 ### Problem
@@ -92,8 +98,6 @@ However, we also want to make minor fixes as part of a "patch" release.
 
 A lighter weight review process for "patch" releases.
 
-### Method
-
 ### Example
 
 For OCDS patch releases, we have a 7 day comment period. e.g. [https://groups.google.com/a/open-contracting.org/forum/#!topic/standard-discuss/oV5yG7fQF_0](https://groups.google.com/a/open-contracting.org/forum/#!topic/standard-discuss/oV5yG7fQF_0)
@@ -101,6 +105,8 @@ For OCDS patch releases, we have a 7 day comment period. e.g. [https://groups.go
 ### Related patterns
 
 - [Normative and non-normative content](versioning.md#normative-and-non-normative-content);
+
+---
 
 ## Branch and release management
 
@@ -128,6 +134,8 @@ Releases are named: `Major__minor__path` e.g. `1__0__3`, `1__1__2`
 ### Related patterns
 
 - [Automated build processes](#automated-build-processes);
+
+---
 
 ## Automated build processes
 
@@ -158,6 +166,8 @@ For OCDS we have a [GitHub Actions script](https://github.com/open-contracting/s
 
 - [Branch and release management](#branch-and-release-management)
 
+---
+
 ## Reproducible builds
 
 ### Problem
@@ -186,12 +196,12 @@ Some specific examples of how we pull in specific versions:
 
 Note that in some cases, reproducibility requirements might be relaxed. For example, a standard may be configured to always build with the latest version of an external theme, and so this would not be pinned.
 
-### Example
-
 ### Related patterns
 
 - [Version control](#version-control-and-changelogs-for-the-schema-and-documentation)
 - [Deployment and rollback](#deployment-and-rollback);
+
+---
 
 ## Deployment and rollback
 

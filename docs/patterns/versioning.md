@@ -2,6 +2,8 @@
 
 Standards change: as a result versioning is an important part of many standards. This section documents common versioning patterns.
 
+---
+
 ## Normative and non-normative content
 
 ### Problem
@@ -18,13 +20,7 @@ Non-normative sections contain explanation, guidance and context that MAY be use
 
 The IETF use the distinction between [normative and informative](https://www.ietf.org/iesg/statement/normative-informative.html)
 
-### Method
-
-### Example
-
-### Related patterns
-
-### Related components
+---
 
 ## Version numbers
 
@@ -36,8 +32,6 @@ Parsers, validators and other tools need to know what version of the schema a pa
 
 The [package](schema.md#packaging) meta-data for any file should include a `version` field with a version number.
 
-### Method
-
 ### Example
 
 From version 1.1, OCDS included a `version` field. This must contain only \`MAJOR.MINOR' version (not 'MAJOR.MINOR.PATCH')
@@ -46,7 +40,7 @@ From version 1.1, OCDS included a `version` field. This must contain only \`MAJO
 
 [Semantic versioning](#semantic-versioning)
 
-### Related components
+---
 
 ## Release candidate versions
 
@@ -59,6 +53,8 @@ When a new version of a standard is released, and implementers start to use it, 
 Major or minor versions of a standard may be provided as a 'Release Candidate' for a period of time, before, subject to no substantial changes being required, they can then be turned into a release version.
 
 See [release candidate (Wikipedia)](https://en.wikipedia.org/wiki/Software_release_life_cycle#Release_candidate).
+
+---
 
 ## Version management
 
@@ -121,44 +117,14 @@ Display only minor versions on the documentation site.
 
 For each Git tag, publish a version of the schema at a URL that includes the tag name (version number in `MAJOR.MINOR.PATCH` format), e.g. http://example.com/standard/1\_\_0\_\_0/schema.json. When using [Read the Docs](https://about.readthedocs.com/) for deployment, this can be achieved by building and hiding a version of the documentation site for each Git tag, as in the [Risk Data Library Standard](https://docs.riskdatalibrary.org/en/latest/).
 
+---
+
 ## Semantic Versioning
 
-### Problem
-
-### Solution
-
-### Method
-
-### Example
-
-### Related patterns
-
-### Related components
+---
 
 ## Backwards compatibility
 
-### Problem
-
-### Solution
-
-### Method
-
-### Example
-
-### Related patterns
-
-### Related components
+---
 
 ## Conformance statement
-
-### Problem
-
-### Solution
-
-### Method
-
-### Example
-
-### Related patterns
-
-### Related components

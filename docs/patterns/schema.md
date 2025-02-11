@@ -1,5 +1,7 @@
 # Schema patterns
 
+---
+
 ## Top-object
 
 ### Problem
@@ -22,9 +24,7 @@ The Open Contracting Data Standard uses 'Contracting Process' as it's top-object
 
 The 360 Giving Data Standard uses Grant as it's top-concept, rather than grantmaking process. This reflects the design-principle of the standard to adopt a simple, static, representation of grants made.
 
-### Related patterns
-
-### Related components
+---
 
 ## Permissive schema
 
@@ -63,6 +63,8 @@ A mapping document that indicates which fields, or field-value pairs are require
 
 - [Rules for additional checks](../components/index.md#rules-for-additional-checks)
 - [Online validator](../components/index.md#online-validator)
+
+---
 
 ## Object identifiers
 
@@ -124,6 +126,8 @@ See above.
 
 - [Conversion tools](../components/index.md#conversion-tools)
 
+---
+
 ## Spreadsheet-first
 
 ### Problem
@@ -138,15 +142,11 @@ Design with flattened representations in mind.
 
 Consider how a spreadsheet user would be able to analyse the data using simple spreadsheet functions such as pivot tables, or vLookup functions.
 
-### Method
-
 ### Example
 
 Add example from Social Investment Data Lab Standard
 
-### Related patterns
-
-### Related components
+---
 
 ## Deprecation
 
@@ -166,9 +166,7 @@ We use [extended JSON schema fields for deprecation](#deprecation).
 
 OCDS Version 1.1 deprecated a number of fields. The validator will report when deprecated fields are encountered in data.
 
-### Related patterns
-
-### Related components
+---
 
 ## Flexible vocabularies
 
@@ -187,8 +185,6 @@ Provide a codelist of recognise vocabularies or schemes, and provide recommendat
 
 Where mappings are available between vocabularies and schemes, make users aware of this.
 
-### Method
-
 ### Example
 
 [org-id.guide](http://org-id.guide/about) provides a list of `scheme` values for identifying organisations. For example, the following identifier block is recommended by org-id.guide to represent a UK company number.
@@ -202,9 +198,7 @@ Where mappings are available between vocabularies and schemes, make users aware 
 
 An alternative pattern, that org-id.guide recognises, is concatenation of scheme and identifier, such that the above company number could also be represented as 'GB-COH-09506232'.
 
-### Related patterns
-
-### Related components
+---
 
 ## Packaging
 
@@ -228,9 +222,7 @@ In some cases, meta-data may need to be embedded within each top object, particu
 
 The Open Contracting Data Standard has a release package and record package schema
 
-### Related patterns
-
-### Related components
+---
 
 ## Immutability
 
@@ -242,13 +234,7 @@ Users may want to understand how data has changed over time. Source systems may 
 
 The normative guidance of a standard may specify immutability. Any top-object with a given `id`, once created, should not change. The `id` value should be incremented whenever the object changes.
 
-### Method
-
-### Example
-
-### Related patterns
-
-### Related components
+---
 
 ## Merging
 
@@ -273,6 +259,8 @@ The [OCDS releases and records model](http://standard.open-contracting.org/lates
 - [Immutability](#immutability)
 - [Object identifiers](#object-identifiers)
 
+---
+
 ## Extensibility
 
 ### Problem
@@ -296,7 +284,3 @@ When extensions are declared in packaging meta-data, validators and other tools 
 ### Example
 
 The [OCDS Extension Template](https://github.com/open-contracting/standard_extension_template) and [extensions registry](http://standard.open-contracting.org/latest/en/extensions/) document a technical approach to extensions.
-
-### Related patterns
-
-### Related components
