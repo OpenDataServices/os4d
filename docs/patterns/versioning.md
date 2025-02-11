@@ -2,12 +2,6 @@
 
 Standards change: as a result versioning is an important part of many standards. This section documents common versioning patterns.
 
-```{contents}
----
-depth: 2
----
-```
-
 ## Normative and non-normative content
 
 ### Problem

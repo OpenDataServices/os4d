@@ -2,12 +2,6 @@
 
 This section outlines a number of common patterns used to maintain documentation.
 
-```{contents}
----
-depth: 2
----
-```
-
 ## Single Source of Truth
 
 ### Problem

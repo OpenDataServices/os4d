@@ -1,11 +1,5 @@
 # Translation patterns
 
-```{contents}
----
-depth: 2
----
-```
-
 ## Develop a glossary first
 
 ### Problem

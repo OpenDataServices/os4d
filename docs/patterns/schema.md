@@ -1,11 +1,5 @@
 # Schema patterns
 
-```{contents}
----
-depth: 2
----
-```
-
 ## Top-object
 
 ### Problem
