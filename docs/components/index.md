@@ -8,6 +8,16 @@ We conducted an exercise with representatives of several standards, asking them 
 
 The list of components is below.
 
+```{toctree}
+:hidden:
+
+advocacy_plan
+```
+
+## Advocacy and communications
+
+* [Advocacy plan](advocacy_plan.md)
+
 ## Components
 
 ### Advocacy Plan

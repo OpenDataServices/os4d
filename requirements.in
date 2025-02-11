@@ -1,5 +1,6 @@
 odsc-default-sphinx-theme
 myst-parser
 sphinx
+sphinx-design
 sphinx-intl
 sphinxcontrib-mermaid
