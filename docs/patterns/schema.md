@@ -22,7 +22,7 @@ Where a standard needs more than one top-object, consider treating the project a
 
 The Open Contracting Data Standard uses 'Contracting Process' as it's top-object, nesting information on each stage of contracting within this. This partially reflects the data found during research (though this was mostly structured around the idea of a 'notice', a 'contract' or an 'award') and substantially reflects user-demand for joined up data from across all stages of contracting. The choice of 'contracting process' plays a substantial normative role and seeks to change how existing data systems are understood.
 
-The 360 Giving Data Standard uses Grant as it's top-concept, rather than grantmaking process. This reflects the design-principle of the standard to adopt a simple, static, representation of grants made.
+The 360 Giving Data Standard uses Grant as it's top-concept, rather than grant making process. This reflects the design-principle of the standard to adopt a simple, static, representation of grants made.
 
 ---
 
@@ -140,7 +140,7 @@ Data structures which make sense in a hierarchical data format may be tricky to 
 
 Design with flattened representations in mind.
 
-Consider how a spreadsheet user would be able to analyse the data using simple spreadsheet functions such as pivot tables, or vLookup functions.
+Consider how a spreadsheet user would be able to analyse the data using simple spreadsheet functions such as pivot tables, or VLOOKUP functions.
 
 ### Example
 

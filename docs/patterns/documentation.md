@@ -12,11 +12,11 @@ Consider a piece of documentation about how a field within the data standard wor
 
 - This field will probably have a name and a description about how it is used.
 - Someone will write that down somewhere.
-- Someone else will share that with other people, via email, on a web page, in a pdf, in a presentation, as guidance in a data collection tool, etc
+- Someone else will share that with other people, via email, on a web page, in a PDF, in a presentation, as guidance in a data collection tool, etc
 - Those people may introduce small changes, errors, or even improvements as they reproduce the information.
 - Further, the ‘master’ description may change over time. How do people know whether the new description, or the old one is the correct one to use? Which (trusted) source should they use? An email someone sent, or the PDF they have in their hand, or…?
 
-In a worst case, people might incorrectly copy the structural information about the standard, e.g. a field name, or where it is nested; or, they might miss a field from a list that's intended to be complete.
+In the worst case, people might incorrectly copy the structural information about the standard, e.g. a field name, or where it is nested; or, they might miss a field from a list that's intended to be complete.
 
 ### Solution
 
@@ -34,7 +34,7 @@ For 360Giving, the following are all generated programmatically from the [JSON S
 
 - [Reference documentation](http://standard.threesixtygiving.org/en/latest/reference/#grants-sheet)
 - [Spreadsheet templates](http://standard.threesixtygiving.org/en/latest/#templates)
-- [GrantNav](http://grantnav.threesixtygiving.org/) and the [Data Quality Tool](https://dataquality.threesixtygiving.org/) look up human readable titles in the schema.
+- [GrantNav](http://grantnav.threesixtygiving.org/) and the [Data Quality Tool](https://dataquality.threesixtygiving.org/) look up human-readable titles in the schema.
 
 ---
 
@@ -100,7 +100,7 @@ A lighter weight review process for "patch" releases.
 
 ### Example
 
-For OCDS patch releases, we have a 7 day comment period. e.g. [https://groups.google.com/a/open-contracting.org/forum/#!topic/standard-discuss/oV5yG7fQF_0](https://groups.google.com/a/open-contracting.org/forum/#!topic/standard-discuss/oV5yG7fQF_0)
+For OCDS patch releases, we have a 7-day comment period. e.g. [https://groups.google.com/a/open-contracting.org/forum/#!topic/standard-discuss/oV5yG7fQF_0](https://groups.google.com/a/open-contracting.org/forum/#!topic/standard-discuss/oV5yG7fQF_0)
 
 ### Related patterns
 
@@ -148,13 +148,13 @@ Also, checks regarding the integrity of the documentation and schema need to be 
 ### Solution
 
 Use continuous integration to run the tests and publish a version of the docs for every branch in the standard documentation.
-This means that the integrity tests are run and you can see version of that branch schema/documentation online.
+This means that the integrity tests are run, and you can see version of that branch schema/documentation online.
 
 ### Method
 
 We use two different automated build services, for different projects:
 
-(1) [Read the docs](https://readthedocs.org/) is designed specifically for building Sphinx docs. It will rebuild a version of the documentation every time a commit if pushed to the corresponding branch on GitHub. Read the Docs being designed specifically for Sphinx is useful because it will automatically hosts the docs, and provides a version/language switcher out of the docs. It gives a lot of control (e.g. you can have whatever custom directives and theming you want, you can point a custom domain at it), but is less flexible than a generic build service. It also requires a manual step to add a new branch/version to the docs. We use Read the Docs for lots of smaller docs sites
+(1) [Read the docs](https://readthedocs.org/) is designed specifically for building Sphinx docs. It will rebuild a version of the documentation every time a commit if pushed to the corresponding branch on GitHub. Read the Docs being designed specifically for Sphinx is useful because it will automatically host the docs, and provides a version/language switcher out of the docs. It gives a lot of control (e.g. you can have whatever custom directives and theming you want, you can point a custom domain at it), but is less flexible than a generic build service. It also requires a manual step to add a new branch/version to the docs. We use Read the Docs for lots of smaller docs sites
 
 (2) [GitHub Actions](https://github.com/features/actions) - is a generic build service (again building every time something is pushed to GitHub), so requires a bit more setup than Read the Docs, but also gives you maximum flexibility over what commands get run. It can also run tests of the documentation/schema before the build. It doesn’t host docs, but can be set up to push the built docs to a hosting provider of your choice.
 
@@ -219,7 +219,7 @@ Author-error can lead to mistakes in the standard, external dependencies may hav
 
 The build and deployment process for the standard copies compiled static HTML files to the server in a folder named based on the branch and date of build.
 
-A symlink from the branch name, to this datestamped folder is then created.
+A symlink from the branch name, to this date stamped folder is then created.
 
 This allows an administrator with access to the server to instantly switch the symlink to point to any new or previous build as required.
 
@@ -227,4 +227,4 @@ The build process can be configured so that the symlink for full **releases** of
 
 ### Example
 
-Currently we only use this approach for OCDS.
+Currently, we only use this approach for OCDS.

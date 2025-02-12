@@ -41,11 +41,11 @@ We use a number of custom properties in our JSON Schema implementation. A [patch
 ### Codelist properties
 
 - `codelist` - the filename of a .csv file that contains at least a `Code` column. Used by the CoVE validator to check for acceptable values.
-- `openCodelist` - a boolean value to indicate whether values can **only** come from the codelist, or whether additional values not on the codelist are permitted. When `openCodelist` = 'true' then encountering a value not on the codelist should generate a warning. when `openCodelist` = 'false' then encountering a value not on the codelist should generate an error.
+- `openCodelist` - a boolean value to indicate whether values can **only** come from the codelist, or whether additional values not on the codelist are permitted. When `openCodelist` = 'true' then encountering a value not on the codelist should generate a warning. When `openCodelist` = 'false' then encountering a value not on the codelist should generate an error.
 
 ### Deprecation properties
 
-> "deprecation is the discouragement of use of some terminology, feature, design, or practice; typically because it has been superseded or is no longer considered efficient or safe – but without completely removing it or prohibiting its use."
+> "Deprecation is the discouragement of use of some terminology, feature, design, or practice; typically because it has been superseded or is no longer considered efficient or safe – but without completely removing it or prohibiting its use."
 
 See: [Deprecation (Wikipedia)](https://en.wikipedia.org/wiki/Deprecation)
 

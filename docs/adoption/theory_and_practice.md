@@ -18,7 +18,7 @@ Simon Wardley's framework of [Pioneers, Settlers and Town Planners](http://blog.
 
 - **Town planners** think big, considering how to scale up, and provide clear architectures and infrastructure for the long-term. They consider how a standard might be built into new systems, and design for institutionalisation.
 
-Each group may be present at any point in a standards development, but they will have different expectations about the agility, governance, documentation and support availability for the standard. Whereas pioneers may want fast-moving development to respond to their needs, settlers want clear documentation they can work with, and the town-planners may look for signals that the standard is on track to long-term maintenance and governance.
+Each group may be present at any point in a standard's development, but they will have different expectations about the agility, governance, documentation and support availability for the standard. Whereas pioneers may want fast-moving development to respond to their needs, settlers want clear documentation they can work with, and the town-planners may look for signals that the standard is on track to long-term maintenance and governance.
 
 ## Adoption and development: the second curve
 
@@ -26,7 +26,7 @@ To think about the interplay of development and adoption, it is useful to consid
 
 ![](/_static/images/SecondCurve.png)
 
-At (1) and (2) a standard may have pioneer adopters. It will providing a 'minimum viable standard' and may be changing regularly. Data produced against the standard at an early stage may need to be substantially updated before it works with the release version of the standard. Pioneers at this stage may build demonstrator tools that show the potential of the standard: and these may even enter adoption, based on early standard drafts.
+At (1) and (2) a standard may have pioneer adopters. It will provide a 'minimum viable standard' and may be changing regularly. Data produced against the standard at an early stage may need to be substantially updated before it works with the release version of the standard. Pioneers at this stage may build demonstrator tools that show the potential of the standard: and these may even enter adoption, based on early standard drafts.
 
 By (3) it is useful to have one or two 'settlers', early adopters, but working on stable adoptions that will act as case studies that can inspire other potential standard users.
 

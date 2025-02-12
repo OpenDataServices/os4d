@@ -6,13 +6,13 @@ There are many different aspects to monitoring and learning:
 
 - **Pipeline and publishers** - tracking how many organisations have expressed interest in the standard, started adopting it, or successfully published.
 
-- **Validation** - tracking how much of the data produced is valid against the standards schema, or against additional rulesets, and identifying common interoperability issues.
+- **Validation** - tracking how much of the data produced is valid against the standard's schema, or against additional rulesets, and identifying common interoperability issues.
 
 - **Coverage** - tracking the relative levels of use for particular fields, data elements and codelists, as well as looking at the use of extensions or additional fields in standards that support this.
 
 - **Quality and usability** - tracking whether data is clear, accurate and usable, and being put into use.
 
-- **Community** - tracking the size and levels of activity in the community around the standard, identifying whether or not a market is emerging around it, and looking at the range of contributors to standard development.
+- **Community** - tracking the size and levels of activity in the community around the standard, identifying whether a market is emerging around it, and looking at the range of contributors to standard development.
 
 ## Components
 

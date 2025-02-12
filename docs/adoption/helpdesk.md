@@ -35,7 +35,7 @@ This is a tension to manage. A helpdesk should keep in mind the overall policy g
 
 **Standards are always developing**
 
-The documentation will have gaps. A standard will not cater for all use cases. The helpdesk are able to identify gaps, and identify ways to address them through improved resources, or by feeding into the development of schemes and related tools.
+The documentation will have gaps. A standard will not cater for all use cases. The helpdesk is able to identify gaps, and identify ways to address them through improved resources, or by feeding into the development of schemes and related tools.
 
 A lot of the engagements a helpdesk has can be light-touch: aiming to provide quick replies to simple questions, to help keep implementations moving. In some cases, helpdesk engagements may be more in-depth, involving multiple days of work to support an implementer in planning, executing or evaluating their data publication.
 
@@ -44,7 +44,7 @@ A lot of the engagements a helpdesk has can be light-touch: aiming to provide qu
 A helpdesk might have the following modalities of work:
 
 - **Fielding direct enquiries** - with an e-mail address, twitter handle and instant messages going into a ticketing system, from which written replies can be sent, and through which management information on the types of enquiries and enquirers getting in touch can be logged. Enquiries may come direct from implementers, or may come from the advocacy partners seeking to promote adoption of the standard.
-- **Scoping notes** - working with prospective implementers to develop a shared understand of where the standard could help, and to identify options and steps for adoption;
+- **Scoping notes** - working with prospective implementers to develop a shared understanding of where the standard could help, and to identify options and steps for adoption;
 - **Mapping reviews** - providing templates to map existing systems to the standard, and reviewing implementer produced mappings.
 - **Implementation guidance** - sharing suggestions, resources and examples to highlight relevant technical and policy approaches to implementation.
 - **Data review and quality assurance** - performing automated and manual checks on data quality.
@@ -55,7 +55,7 @@ A helpdesk might have the following modalities of work:
 
 ## Examples
 
-- The International Aid Transparency Initiative provides a helpdesk service that receives around 110 monthly support requests, as of November 2017). A number of other providers also offer support to particular segments of the implementing community (e.g UK NGOs)
+- The International Aid Transparency Initiative provides a helpdesk service that receives around 110 monthly support requests, as of November 2017). A number of other providers also offer support to particular segments of the implementing community (e.g. UK NGOs)
 
 - The [Open Contracting Data Standard helpdesk](http://standard.open-contracting.org/latest/en/support/) provides e-mail support, as well as working closely with the Open Contracting Partnership to identify adopters for priority support and outreach. The OCDS helpdesk is run by two partner organisations: Open Data Services Co-operative, and ILDA, who cover support for Latin America.
 

@@ -8,7 +8,7 @@ We talk about 'sharing data' to accommodate cases where data is published as ope
 
 THIS IS DRAFT.
 
-Pages may contains the following elements:
+Pages may contain the following elements:
 
 - Narrative text
 - Checklists

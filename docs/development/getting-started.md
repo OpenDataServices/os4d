@@ -52,7 +52,7 @@ The following questions are useful to answer before starting down the standardis
 - Is there existing data?
 - Is the data open?
 - Is there an existing community around this issue or data?
-- What are the priority goals of standardisation? (good practice, interoperability... etc. )
+- What are the priority goals of standardisation? (good practice, interoperability... etc.)
 
 ```{eval-rst}
 .. _team:

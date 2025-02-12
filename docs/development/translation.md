@@ -4,7 +4,7 @@ If a data standard is designed for use across the world, then schema definitions
 
 In some cases, it may also be important to carry out governance discussions on updates to the standard in a number of languages, in order to make sure perspectives from across the full community of standard users are included.
 
-Thinking multilingually and cross-culturally when planning additions or updates to a standard can also help sharpen the choice of terminology and the design of definitions, and can help to address unconcious cultural biases in standard design.
+Thinking multilingually and cross-culturally when planning additions or updates to a standard can also help sharpen the choice of terminology and the design of definitions, and can help to address unconscious cultural biases in standard design.
 
 ______________________________________________________________________
 
@@ -40,7 +40,7 @@ In general, internationalisation is a task during the development of the [Single
 
 ## Status of translations
 
-It is important to be clear about the status of translations. In general, there will be an authoriative language version (through which the SSOT is managed), and then secondary languages.
+It is important to be clear about the status of translations. In general, there will be an authoritative language version (through which the SSOT is managed), and then secondary languages.
 
 Distinctions might be drawn between:
 
@@ -70,7 +70,7 @@ To ensure readers have a clear understanding of the nature of translations, docu
 
 ### Principles
 
-Each standard will need to develop it's own translation principles. The draft below is based on our October 2017 workshop:
+Each standard will need to develop its own translation principles. The draft below is based on our October 2017 workshop:
 
 1. **Be clear on the role of translation.** Who are we translating for? What is the purpose of translation?
 
@@ -84,15 +84,15 @@ Each standard will need to develop it's own translation principles. The draft be
 
 1. **Listen to user feedback and make sure there is a way to capture it**
 
-1. **Be tranparent** providing access to see the translation process and decision making. Glossaries and translator notes should also be public.
+1. **Be transparent** providing access to see the translation process and decision-making. Glossaries and translator notes should also be public.
 
 ### Commitments
 
 In addition, a standard will need clear commitments about when translation should precede, or follow, updates to the SSOT. For example, the following draft commitments may be used by the Open Contracting Data Standard:
 
-**Langauges**
+**Languages**
 
-- The authoriative language for the standard is English. All translations into other languages are provided for the convenience of users.
+- The authoritative language for the standard is English. All translations into other languages are provided for the convenience of users.
 
 - Our core supported translations are Spanish and French. Translations in these languages will be reviewed by domain and language experts.
 

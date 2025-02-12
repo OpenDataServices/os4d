@@ -1,6 +1,6 @@
 # The adoption journey
 
-Adopting a policy related open data standard is generally a multi stage process.
+Adopting a policy related open data standard is generally a multi-stage process.
 
 The Open Contracting Data Standard uses the [7-step model below to describe the process of data standard implementation](https://www.open-contracting.org/implement/#/) within the context of wider adoption of open contracting principles and practices.
 

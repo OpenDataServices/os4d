@@ -41,7 +41,7 @@ We may want to explore aligning these stages with the Government Service Design 
 
 Before starting on schema development, it is important to develop a clear shared understanding of the focus of a standard.
 
-A conceptual framework or consultation document will set out the rationale for a standard, summarise initial supply and demand side research, and will present an initial sketch of the proposed structure for data, and methods for data sharing. This may include diagrams and descriptions that support dialogue between data specialists and subject matter experts.
+A conceptual framework or consultation document will set out the rationale for a standard, summarise initial supply and demand side research, and will present an initial sketch of the proposed structure for data, and methods for data sharing. This may include diagrams and descriptions that support dialogue between data specialists and subject-matter experts.
 
 This document is important to secure agreement on issues such as:
 
@@ -53,7 +53,7 @@ This document is important to secure agreement on issues such as:
 
 The alpha release of a standard provides the first view of how data shared using the standard might look. It will usually involve a draft schema, but the schema may not have all fields implemented, or may only have limited definitions of data.
 
-The alpha should be used as the target to test real-world data against. If real-world data cannot be easily represented using the alpha, or if data modelled according to it's structures is hard to analyse, this may indicate the need for structural changes.
+The alpha should be used as the target to test real-world data against. If real-world data cannot be easily represented using the alpha, or if data modelled according to its structures is hard to analyse, this may indicate the need for structural changes.
 
 An alpha might be presented through a document, or through an initial documentation website.
 
@@ -79,7 +79,7 @@ Whilst minor changes might be made to field definitions or documentation at the 
 
 ## Release / live
 
-The released version of a standard is production ready, and no further changes will be made to it outside of a revision process.
+The released version of a standard is production ready, and no further changes will be made to it outside a revision process.
 
 ## Revision
 

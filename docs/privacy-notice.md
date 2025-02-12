@@ -6,7 +6,7 @@ We may change this notice from time to time by updating this page. This notice i
 
 Data controller:\
 Open Data Services Co-operative Limited, 1st Floor, Holyoake House, Hanover Street, Manchester, Greater Manchester, England, M60 0AS. [inbox+opendataservices+443f+data-protection@plan.io](mailto:inbox+opendataservices+443f+data-protection@plan.io).\
-Contact us if would like a copy of the information held on you or if you believe that any information we are holding on you is incorrect or incomplete.
+Contact us if you would like a copy of the information held on you or if you believe that any information we are holding on you is incorrect or incomplete.
 
 You have the following rights concerning this data:
 
@@ -24,7 +24,7 @@ We rely on legitimate interests ([GDPR Article 6(1)(f)](https://gdpr-info.eu/art
 
 ## Understanding website visitor and traffic patterns
 
-We collect data about your visits to the website, for the purpose of analysing how the website is used, so that we can improve it. A self hosted copy of [Matomo](http://matomo.org) is used for this.
+We collect data about your visits to the website, for the purpose of analysing how the website is used, so that we can improve it. A self-hosted copy of [Matomo](http://matomo.org) is used for this.
 
 Personal data we collect:
 
@@ -36,7 +36,7 @@ We do not use this data to personally identify individuals, but it is possible t
 
 You can opt out of this processing: If you have set your web browser to "I do not want to be tracked" (DoNotTrack is enabled) then Matomo will not track your visit.
 
-Matomo also it’s own opt out mechanism:
+Matomo also its own opt out mechanism:
 
 <!-- opt out iframe - clicking this will mean people can opt out of tracking -->
 

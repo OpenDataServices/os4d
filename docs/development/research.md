@@ -6,19 +6,19 @@ When developing a policy-related open data standard, it is important to begin wi
 
 The development of a policy related open data standard may take place in a variety of different ways.
 
-- **Policy -> Standard** - the standard is intended to support implementation of a policy framework that is already fixed. Creating the specification may require providing added specificity where the policy contains ambiguity, or may require faithfully representing the policy, even the gaps it contains.
+- **Policy → Standard** - the standard is intended to support implementation of a policy framework that is already fixed. Creating the specification may require providing added specificity where the policy contains ambiguity, or may require faithfully representing the policy, even the gaps it contains.
 
 - **Parallel development** - the standard and the policy are co-developed, feeding into each other. Sometimes the policy is embedded deeply within the technical specification; at other times, a looser coupling between policy and technical specification allows for the iterative development of both towards particular goals.
 
-- **Standard -> Policy** - the standard is created, and then policy set that references the standard, or requires data is shared using it.
+- **Standard → Policy** - the standard is created, and then policy set that references the standard, or requires data is shared using it.
 
 ### Examples
 
-- **Policy -> Standard** The [EU Standard Forms for Public Procurement](http://simap.ted.europa.eu/standard-forms-for-public-procurement) support implementation of European Procurement Directives. The forms must include information specified for disclosure in the directives, and the forms cannot add new information requirements not covered in the directives.
+- **Policy → Standard** The [EU Standard Forms for Public Procurement](http://simap.ted.europa.eu/standard-forms-for-public-procurement) support implementation of European Procurement Directives. The forms must include information specified for disclosure in the directives, and the forms cannot add new information requirements not covered in the directives.
 
 - **Parallel development** Version 1.0 of the [Open Contracting Data Standard](http://standard.open-contracting.org) provided a data model and a set of implementation levels used to assess the extent of data disclosure. A number of implementers made policy commitments to reach particular implementation levels.
 
-- **Standard -> Policy** In some countries, transparency advocates have pushed for adoption of OCDS, writing adoption of the standard into policy.
+- **Standard → Policy** In some countries, transparency advocates have pushed for adoption of OCDS, writing adoption of the standard into policy.
 
 ### Key questions
 
