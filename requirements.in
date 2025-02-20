@@ -1,5 +1,8 @@
 odsc-default-sphinx-theme
 myst-parser
+pygments-csv-lexer
 sphinx
+sphinx-design
 sphinx-intl
+sphinx-togglebutton
 sphinxcontrib-mermaid
