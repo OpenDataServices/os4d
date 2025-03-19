@@ -82,7 +82,6 @@ If you are using Python 3.3 or newer, `venv` is included in the standard Python 
 #### Install requirements
 
 ```bash
-pip install -r requirements.txt
 pip install -r requirements_dev.txt
 ```
 
@@ -107,14 +106,33 @@ To deploy a development branch to the live documentation site, [create a pull re
 
 ### Update requirements
 
+#### Update production requirements
+
 1. Edit `requirements.in`.
 1. Update `requirements.txt`.
    ```bash
    pip-compile
    ```
+1. Update `requirements_dev.txt`
+    ```bash
+    pip-compile requirements_dev.in
+    ```
 1. Install requirements.
    ```bash
-   pip-sync requirements.txt
+   pip-sync requirements_dev.txt
+   ```
+1. Commit your changes.
+
+#### Update development requirements
+
+1. Edit `requirements_dev.in`.
+1. Update `requirements_dev.txt`
+    ```bash
+    pip-compile requirements_dev.in
+    ```
+1. Install requirements.
+   ```bash
+   pip-sync requirements_dev.txt
    ```
 1. Commit your changes.
 
