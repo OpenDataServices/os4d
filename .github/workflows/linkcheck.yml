@@ -3,19 +3,14 @@ on: [push, pull_request]
 
 jobs:
   linkcheck:
-    # We need an old Ubuntu to get Python 3.6
-    runs-on: ubuntu-20.04
+    runs-on: ubuntu-24.04
     steps:
-    - uses: actions/checkout@v2
+    - uses: actions/checkout@v4
     - name: Setup python
-      uses: actions/setup-python@v2
+      uses: actions/setup-python@v5
       with:
-        python-version: 3.6
+        python-version: 3.13
         architecture: x64
-    - uses: actions/cache@v1
-      with:
-        path: ~/.cache/pip
-        key: ${{ runner.os }}-pip-${{ hashFiles('**/requirements.txt') }}
     - run: pip install -r requirements.txt
     - run: cd ./docs/ && make dirhtml
     - run: cd ./docs/ && make linkcheck

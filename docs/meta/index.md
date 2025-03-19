@@ -1,8 +1,8 @@
 # Meta
 
-```eval_rst
+```{toctree}
+:maxdepth: 2
 
-.. toctree::
-    
-    howto
-    todo
+howto
+
+```
