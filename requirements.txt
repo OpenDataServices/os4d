@@ -6,6 +6,8 @@
 #
 alabaster==1.0.0
     # via sphinx
+attrs==25.3.0
+    # via referencing
 babel==2.17.0
     # via
     #   sphinx
@@ -23,6 +25,7 @@ docutils==0.21.2
     #   myst-parser
     #   sphinx
     #   sphinx-togglebutton
+    #   sphinxcontrib-opendataservices-jsonschema
 furo==2024.8.6
     # via odsc-default-sphinx-theme
 idna==3.10
@@ -33,6 +36,16 @@ jinja2==3.1.5
     # via
     #   myst-parser
     #   sphinx
+jscc==0.3.0
+    # via sphinxcontrib-opendataservices-jsonschema
+json-merge-patch==0.2
+    # via jscc
+jsonpointer==3.0.0
+    # via sphinxcontrib-opendataservices-jsonschema
+jsonref==1.1.0
+    # via
+    #   jscc
+    #   sphinxcontrib-opendataservices-jsonschema
 markdown-it-py==3.0.0
     # via
     #   mdit-py-plugins
@@ -44,7 +57,9 @@ mdit-py-plugins==0.4.2
 mdurl==0.1.2
     # via markdown-it-py
 myst-parser==4.0.0
-    # via -r requirements.in
+    # via
+    #   -r requirements.in
+    #   sphinxcontrib-opendataservices-jsonschema
 odsc-default-sphinx-theme==0.0.1
     # via -r requirements.in
 packaging==24.2
@@ -60,8 +75,14 @@ pyyaml==6.0.2
     # via
     #   myst-parser
     #   sphinxcontrib-mermaid
+referencing==0.36.2
+    # via sphinxcontrib-opendataservices-jsonschema
 requests==2.32.3
-    # via sphinx
+    # via
+    #   jscc
+    #   sphinx
+rpds-py==0.23.1
+    # via referencing
 snowballstemmer==2.2.0
     # via sphinx
 soupsieve==2.6
@@ -93,6 +114,8 @@ sphinxcontrib-htmlhelp==2.1.0
 sphinxcontrib-jsmath==1.0.1
     # via sphinx
 sphinxcontrib-mermaid==1.0.0
+    # via -r requirements.in
+sphinxcontrib-opendataservices-jsonschema==0.7.1
     # via -r requirements.in
 sphinxcontrib-qthelp==2.0.0
     # via sphinx

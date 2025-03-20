@@ -168,9 +168,11 @@ Use the [`deprecated`](https://json-schema.org/understanding-json-schema/referen
 :class: dropdown
 [JSON Schema Draft 4](https://json-schema.org/draft-04/draft-zyp-json-schema-04) lacked a means to indicate a deprecated field. The `deprecated` keyword was added in Draft 2020-12.
 ```
-Use the following keywords from the [Open Data Services JSON Schema Extension]():
+Use the `deprecatedDetails` keyword from the [Open Data Services JSON Schema Extension](https://json-schema-extension.readthedocs.io) to provide information about the deprecation of a field:
 
-```{jsonschema} schema/meta-schema-patch.json
+```{jsonschema} ../../metaschema.json
+:allowexternalrefs:
+:nocrossref:
 :include: deprecatedDetails
 ```
 
@@ -184,7 +186,7 @@ The `.countryName` field is deprecated in favour of `.country`:
     "title": "Country name",
     "type": "string",
     "deprecated": true,
-    "deprecationDetails": {
+    "deprecatedDetails": {
       "deprecatedVersion": "1.1",
       "description": "This field is deprecated in favor of `country`, to promote standardized country codes instead of non-standardized country names."
     }
@@ -208,10 +210,13 @@ Annotate codes to indicate deprecation and replacements.
 
 ### Method
 
-Use the following columns from the [Open Data Services Codelist Schema]():
+Use the following columns from the [Open Data Services Codelist Schema](https://codelist-schema.readthedocs.io):
 
-```{jsonschema} schema/codelist-schema.json
-:include: "Deprecated", "Deprecation version", "Deprecation description"
+```{jsonschema} ../../codelist-schema.json
+:allowexternalrefs:
+:nocrossref:
+:pointer: /$defs/Row
+:include: Deprecated,Deprecation note
 ```
 
 ### Example
@@ -305,7 +310,13 @@ Merging together data in sequential order (oldest first) can create an object th
 
 ### Method
 
-To be documented.
+The Open Contracting Data Standard describes an approach to merge together releases of data from different point in time. We add a number of properties to indicate how merging should be approached.
+
+- `omitWhemMerged`
+- `wholeListMerge`
+- `versionId`
+
+Behaviour for these is [described in the OCDS documentation](http://standard.open-contracting.org/1.1/en/schema/merging/#merging-rules).
 
 ### Example
 

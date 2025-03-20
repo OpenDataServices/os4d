@@ -8,7 +8,9 @@ A data model is an abstract model that organizes elements of data and standardis
 
 Before authoring the schema for a standard and committing to specific implementation details, it is recommended to document a data mode to help stakeholders align on definitions and relationships.
 
-The data model for a standard should be based on its [research](research.md) and conceptual framework.
+The data model for a standard should be based on its [research](research.md) and conceptual framework. Documenting the data model for a standard involves identifying and defining the entities (classes), attributes (properties), relationships and permissable values (codelists) needed to the requirements, user stories and use cases the standard.
+
+Developing a good schema is an art as much as a science. It requires sensitivity to the needs of both data producers and data users, and an understanding of the incentive structures that will drive adoption of a standard.
 
 The recommended approach is to document the data model using the [standard development template](../tools.md#standard-development-template-airtable), which ensures that the data model is grounded through explicit links to the requirements, user stories and use cases met by each of its elements.
 
@@ -23,14 +25,14 @@ Previously, we moved straight from documenting a conceptual framework to documen
 
 A publication format is a format in which data can be published by implementers of a standard. Common publication formats include:
 
-* [JSON]()
-* [GeoJSON]()
-* [CSV]() and other tabular formats, such as XLSX and ODS.
-* [XML]()
+* [JSON](https://www.json.org/json-en.html)
+* [GeoJSON](https://datatracker.ietf.org/doc/html/rfc7946)
+* [CSV](https://en.wikipedia.org/wiki/Comma-separated_values) and other tabular formats, such as XLSX and ODS.
+* [XML](https://www.w3.org/TR/xml/)
 
 Based on your [research](research.md), you need to decide which publication formats to support.
 
-It is best practice for data publishers to provide data in multiple formats, so that as many users as possible can use the data without first having to transform it to their preferred format. Therefore, you should consider how to support publication in multiple formats.
+It is [best practice](https://www.w3.org/TR/dwbp/#MultipleFormats) for data publishers to provide data in multiple formats, so that as many users as possible can use the data without first having to transform it to their preferred format. Therefore, you should consider how to support publication in multiple formats.
 
 On a technical level, the recommended approach is to use JSON as the primary format around which a standard's tools are built, and to provide support for other formats through conversion tooling. Depending on the user needs identified in your research, a standard's documentation site and tooling might present an alternative format, such as CSV, as the primary format.
 
@@ -83,7 +85,7 @@ Previously, the recommended approach was to use [JSON Schema Draft 4](https://js
 
 A codelist defines a set of permissable values for a field.
 
-The recommended approach is to document codes, titles and descriptions in a CSV file, according to the [Open Data Services Codelist Schema](https://codelist-schema.opendataservices.coop/).
+The recommended approach is to document codes, titles and descriptions in a CSV file, according to the [Open Data Services Codelist Schema](https://codelist-schema.readthedocs.io/).
 
 ```{seealso}
 * 💡 [CSV codelists](../patterns/schema.md#csv-codelists)
@@ -93,7 +95,7 @@ The recommended approach is to document codes, titles and descriptions in a CSV 
 
 A packaging format is structued way of bundling together data and, sometimes, metadata. You can think of a packaging format as a container for multiple records, texts or documents.
 
-Packaging formats aid interoperability and reuse by providing tool developers and analysts with predicatable and consistent approaches to grouping records, streaming and pagination.
+Packaging formats aid interoperability and reuse by providing tool developers and analysts with predicatable and consistent approaches to grouping, streaming and pagination.
 
 Based on your chosen publication formats and the requirements identified in your research, you need to decide on a packaging format or formats for each publication format.
 
@@ -123,29 +125,12 @@ GeoJSON | GeoJSON [feature collections](https://datatracker.ietf.org/doc/html/rf
 
 ## Author your schema and codelists
 
-Developing a good schema is an art as much as a science. It requires sensitivity to the needs of both data producers and data users, and an understanding of the incentive structures that will drive adoption of a standard.
-
-```{seealso}
-[Schema patterns](../patterns/schema.md)
-The following section provides links to a non-exhaustive set of design patterns that can be drawn upon when developing a schema. 
-```
+Authoring the schema and codelists for a standard involves documenting the standard's data model in your chosen schema language and codelist formats.
 
 JSON Schema specifies a number of keywords to describe and constrain JSON data. For example, the `type` keyword is used to restrict a field to a specific type, like "string" or "number", whilst the `title` keyword is used to provide a human-readable title for a field.
 
 As well as the keywords specified in JSON Schema, the [Open Data Services JSON Schema Extension](https://json-schema-extension.opendataservices.coop) specifies additional keywords for linking fields to [CSV codelists](../patterns/schema.md#csv-codelists),  and providing information about [deprecated fields](../patterns/schema.md#deprecated-fields).
 
-### Merge strategies
-
-The Open Contracting Data Standard describes an approach to merge together releases of data from different point in time. We add a number of properties to indicate how merging should be approached.
-
-- `omitWhemMerged`
-- `wholeListMerge`
-- `versionId`
-
-Behaviour for these is [described in the OCDS documentation](http://standard.open-contracting.org/1.1/en/schema/merging/#merging-rules).
-
 ```{seealso}
-
-* 🧩 [Schema](../components/index.md#schema)
-
+💡 [Schema patterns](../patterns/schema.md)
 ```
