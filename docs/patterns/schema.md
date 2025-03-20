@@ -224,8 +224,8 @@ Use the following columns from the [Open Data Services Codelist Schema](https://
 The 'bestValueToGovernment' code is deprecated in favour of 'ratedCriteria':
 
 ```
-Code,Title,Description,Deprecated,Deprecated version,Deprecated description
-bestValueToGovernment,Best value to government,True,1.2,This code has been deprecated. 'ratedCriteria' is a likely alternatives for most procedures formerly mapped to this code.
+Code,Title,Description,Deprecated,Deprecation note
+bestValueToGovernment,Best value to government,1.2,This code has been deprecated. 'ratedCriteria' is a likely alternatives for most procedures formerly mapped to this code.
 ```
 
 ---
