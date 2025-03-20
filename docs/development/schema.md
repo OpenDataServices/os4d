@@ -129,7 +129,7 @@ Authoring the schema and codelists for a standard involves documenting the stand
 
 JSON Schema specifies a number of keywords to describe and constrain JSON data. For example, the `type` keyword is used to restrict a field to a specific type, like "string" or "number", whilst the `title` keyword is used to provide a human-readable title for a field.
 
-As well as the keywords specified in JSON Schema, the [Open Data Services JSON Schema Extension](https://json-schema-extension.opendataservices.coop) specifies additional keywords for linking fields to [CSV codelists](../patterns/schema.md#csv-codelists),  and providing information about [deprecated fields](../patterns/schema.md#deprecated-fields).
+As well as the keywords specified in JSON Schema, the [Open Data Services JSON Schema Extension](https://json-schema-extension.readthedocs.io/) specifies additional keywords for linking fields to [CSV codelists](../patterns/schema.md#csv-codelists),  and providing information about [deprecated fields](../patterns/schema.md#deprecated-fields).
 
 ```{seealso}
 💡 [Schema patterns](../patterns/schema.md)

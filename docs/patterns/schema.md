@@ -374,8 +374,8 @@ For each open or closed codelist in the schema, document its codes with at least
 
 For each field that references a codelist:
 
-1. Document the codelist as a CSV file according to the [Open Data Services Codelist Schema](https://codelist-schema.opendataservices.coop).
-1. Use the `codelist` keyword from the [Open Data Services JSON Schema Extension](https://json-schema-extension.opendataservices.coop) to specify the CSV file associated with the field.
+1. Document the codelist as a CSV file according to the [Open Data Services Codelist Schema](https://codelist-schema.readthedocs.io/).
+1. Use the `codelist` keyword from the [Open Data Services JSON Schema Extension](https://json-schema-extension.readthedocs.io/) to specify the CSV file associated with the field.
 
 ### Example
 

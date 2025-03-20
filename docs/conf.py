@@ -359,6 +359,6 @@ linkcheck_anchors = False
 
 
 linkcheck_ignore = [
-    # The ODI is now behind a Clouflare challenge that we can't check.
+    # The ODI is now behind a Cloudflare challenge that we can't check.
     'http://www.theodi.org'
 ]
