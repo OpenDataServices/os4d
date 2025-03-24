@@ -6,13 +6,13 @@ This page provides an overview of the steps involved in data modelling and schem
 
 A data model is an abstract model that organizes elements of data and standardises how they relate to one another and to the properties of real-world entities. A data model focuses on what data represents rather than how it is stored or exchanged.
 
-Before authoring the schema for a standard and committing to specific implementation details, it is recommended to document a data mode to help stakeholders align on definitions and relationships.
+Before authoring the schema for a standard and committing to specific implementation details, it is recommended to document a data model to help stakeholders align on definitions and relationships.
 
-The data model for a standard should be based on its [research](research.md) and conceptual framework. Documenting the data model for a standard involves identifying and defining the entities (classes), attributes (properties), relationships and permissable values (codelists) needed to satisfy the requirements, user stories and use cases for the standard.
+The data model for a standard should be based on [research](research.md) into the related policy-area and a thorough understanding of the concepts which underpin it (a conceptual model). Documenting the data model for a standard involves identifying and defining the entities (classes), attributes (properties), relationships and permissable values (codelists) needed to satisfy the requirements, user stories and use cases for the standard.
 
-Developing a good schema is an art as much as a science. It requires sensitivity to the needs of both data producers and data users, and an understanding of the incentive structures that will drive adoption of a standard.
+Developing a good data model is an art as much as a science. It requires sensitivity to the needs of both data producers and data users, and an understanding of the incentive structures that will drive adoption of a standard.
 
-The recommended approach is to document the data model using the [standard development template](../tools.md#standard-development-template-airtable), which ensures that the data model is grounded through explicit links to the requirements, user stories and use cases met by each of its elements.
+The recommended approach is to document the data model using the [standard development template](../tools.md#standard-development-template-airtable), which ensures that the data model is grounded through explicit links to the requirements, user stories and use cases.
 
 ```{admonition} History
 :class: dropdown
