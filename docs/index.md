@@ -41,6 +41,7 @@ adoption/index
 learning/index
 components/index
 patterns/index
+tools
 about/index
 meta/index
 

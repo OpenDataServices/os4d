@@ -30,7 +30,7 @@
 # Add any Sphinx extension module names here, as strings. They can be
 # extensions coming with Sphinx (named 'sphinx.ext.*') or your custom
 # ones.
-extensions = ['sphinxcontrib.mermaid', 'myst_parser', 'sphinxcontrib.mermaid']
+extensions = ['sphinxcontrib.mermaid', 'myst_parser', 'sphinxcontrib.mermaid', 'sphinx_togglebutton', 'sphinx_design', 'sphinxcontrib.jsonschema']
 
 # Myst parser configuration
 
@@ -359,6 +359,6 @@ linkcheck_anchors = False
 
 
 linkcheck_ignore = [
-    # The ODI is now behind a Clouflare challenge that we can't check.
+    # The ODI is now behind a Cloudflare challenge that we can't check.
     'http://www.theodi.org'
 ]
