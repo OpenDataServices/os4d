@@ -1,0 +1,14 @@
+{
+    "$defs": {
+        "Row": {
+            "properties": {
+                "Deprecated": {
+                    "$ref": "https://codelist-schema.readthedocs.io/1__0__0/codelist-schema.json#/$defs/Row/properties/Deprecated"
+                },
+                "Deprecation note": {
+                    "$ref": "https://codelist-schema.readthedocs.io/1__0__0/codelist-schema.json#/$defs/Row/properties/Deprecation note"
+                }
+            }
+        }
+    }    
+}

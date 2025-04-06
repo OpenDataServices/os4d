@@ -148,23 +148,85 @@ Add example from Social Investment Data Lab Standard
 
 ---
 
-## Deprecation
+## Deprecated fields
 
 ### Problem
 
-Fields may need to be removed from a standard. When these are removed, users may not know how to update their data.
+Fields sometimes need to be removed from a schema.
+
+Data publishers and data users need to know when a field is going to be removed and what field replaces it.
 
 ### Solution
 
-Mark fields as deprecated for at least one version prior to their removal. Provide a deprecation message that explains to users how to change their data.
+At least one version before removing a field, annotate it to indicate deprecation and replacements.
 
 ### Method
 
-We use [extended JSON schema fields for deprecation](#deprecation).
+Use the [`deprecated`](https://json-schema.org/understanding-json-schema/reference/annotations) keyword from JSON Schema to indicate deprecation.
+
+```{note} 
+:class: dropdown
+[JSON Schema Draft 4](https://json-schema.org/draft-04/draft-zyp-json-schema-04) lacked a means to indicate a deprecated field. The `deprecated` keyword was added in Draft 2020-12.
+```
+Use the `deprecatedDetails` keyword from the [Open Data Services JSON Schema Extension](https://json-schema-extension.readthedocs.io) to provide information about the deprecation of a field:
+
+```{jsonschema} ../../metaschema.json
+:allowexternalrefs:
+:nocrossref:
+:include: deprecatedDetails
+```
 
 ### Example
 
-OCDS Version 1.1 deprecated a number of fields. The validator will report when deprecated fields are encountered in data.
+The `.countryName` field is deprecated in favour of `.country`:
+
+```json
+{
+  "countryName": {
+    "title": "Country name",
+    "type": "string",
+    "deprecated": true,
+    "deprecatedDetails": {
+      "deprecatedVersion": "1.1",
+      "description": "This field is deprecated in favor of `country`, to promote standardized country codes instead of non-standardized country names."
+    }
+  }
+}
+```
+
+---
+
+## Deprecated codes
+
+### Problem
+
+Codes sometimes need to be removed from a codelist.
+
+Data publishers and data users need to know when a code is going to be removed and what code replaces it.
+
+### Solution
+
+Annotate codes to indicate deprecation and replacements.
+
+### Method
+
+Use the following columns from the [Open Data Services Codelist Schema](https://codelist-schema.readthedocs.io):
+
+```{jsonschema} ../../codelist-schema.json
+:allowexternalrefs:
+:nocrossref:
+:pointer: /$defs/Row
+:include: Deprecated,Deprecation note
+```
+
+### Example
+
+The 'bestValueToGovernment' code is deprecated in favour of 'ratedCriteria':
+
+```
+Code,Title,Description,Deprecated,Deprecation note
+bestValueToGovernment,Best value to government,1.2,This code has been deprecated. 'ratedCriteria' is a likely alternatives for most procedures formerly mapped to this code.
+```
 
 ---
 
@@ -248,7 +310,13 @@ Merging together data in sequential order (oldest first) can create an object th
 
 ### Method
 
-To be documented.
+The Open Contracting Data Standard describes an approach to merge together releases of data from different point in time. We add a number of properties to indicate how merging should be approached.
+
+- `omitWhemMerged`
+- `wholeListMerge`
+- `versionId`
+
+Behaviour for these is [described in the OCDS documentation](http://standard.open-contracting.org/1.1/en/schema/merging/#merging-rules).
 
 ### Example
 
@@ -284,3 +352,66 @@ When extensions are declared in packaging meta-data, validators and other tools 
 ### Example
 
 The [OCDS Extension Template](https://github.com/open-contracting/standard_extension_template) and [extensions registry](http://standard.open-contracting.org/latest/en/extensions/) document a technical approach to extensions.
+
+---
+
+
+## CSV codelists
+
+### Problem
+
+The JSON Schema [`enum` keyword](https://json-schema.org/understanding-json-schema/reference/enum) restricts a field to a fixed set of values. When applied to field of the [`string` type](https://json-schema.org/understanding-json-schema/reference/string), the restricted set of values is known as a closed codelist.
+
+Sometimes, it is desirable to specify a list of optional values for a field, whilst allowing values outside the list. Such lists of optional values are known as open codelists. JSON Schema does not provide a means to define an open codelist for a field.
+
+Data publishers and users need to understand the meaning of the values in a codelist. However, JSON Schema does not provide a means to annotate enumerated values with metadata like human-readable titles and descriptions.
+
+### Solution
+
+For each open or closed codelist in the schema, document its codes with at least a title and description, in a CSV file.
+
+### Method
+
+For each field that references a codelist:
+
+1. Document the codelist as a CSV file according to the [Open Data Services Codelist Schema](https://codelist-schema.readthedocs.io/).
+1. Use the `codelist` keyword from the [Open Data Services JSON Schema Extension](https://json-schema-extension.readthedocs.io/) to specify the CSV file associated with the field.
+
+### Example
+
+The `status` field refers to a closed codelist. Its codes are documented in `status.csv`.
+
+#### Schema
+
+```json
+{
+    "properties": {
+        "status": {
+            "title": "Status",
+            "type": [
+                "string"
+            ],
+            "enum": [
+                "planned",
+                "active",
+                "complete",
+            ],
+            "codelist": "status.csv",
+        }
+    }
+}
+```
+
+#### CSV codelist
+
+```csv
+Code,Title,Description
+planned,Planned,The process is planned
+active,Active,The process is active
+complete,Complete,The process is complete
+```
+
+
+
+
+
