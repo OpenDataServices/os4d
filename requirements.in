@@ -1,4 +1,4 @@
-odsc-default-sphinx-theme
+odsc-default-sphinx-theme>=v0.1.0
 myst-parser
 pygments-csv-lexer
 sphinx
