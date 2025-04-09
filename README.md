@@ -26,24 +26,24 @@ Subsequent instructions assume that your current working directory is `os4d`, un
 
 The following instructions assume you have [Python 3.10](https://www.python.org/downloads/) or newer installed on your machine.
 
-You can use either `pyenv`, `python3-venv` or a Python environment manager of your choice:
+You can use either [pyenv-virtualenv](https://github.com/pyenv/pyenv-virtualenv), `python3-venv` or a Python environment manager of your choice:
 
 ##### pyenv
 
-1. Install [pyenv](https://github.com/pyenv/pyenv). The [pyenv installer](https://github.com/pyenv/pyenv-installer) is recommended.
-1. Create a virtual environment.
+1. Install [pyenv](https://github.com/pyenv/pyenv) and the [pyenv-virtualenv](https://github.com/pyenv/pyenv-virtualenv) plugin. The [pyenv installer](https://github.com/pyenv/pyenv-installer) is recommended.
+1. Create a virtual environment:
 
    ```bash
    pyenv virtualenv os4d
    ```
 
-1. Activate the virtual environment
+1. Activate the virtual environment:
 
    ```bash
    pyenv activate os4d
    ```
 
-1. Set the local application-specific virtual environment. Once set, navigating to the `os4d` directory will automatically activate the environment.
+1. Set the local application-specific virtual environment. Once set, navigating to the `os4d` directory will automatically activate the environment:
 
    ```bash
    pyenv local os4d
@@ -53,27 +53,27 @@ You can use either `pyenv`, `python3-venv` or a Python environment manager of yo
 
 If you are using Python 3.3 or newer, `venv` is included in the standard Python installation.
 
-1. Create a virtual environment called .ve.
-    a. Linux/MacOS users
+1. Create a virtual environment called .ve:
+    a. Linux/MacOS:
 
       ```bash
       python3 -m venv .ve
       ```
 
-    a. Windows users
+    a. Windows:
 
       ```bash
       py -m venv .ve
       ```
 
-1. Activate the virtual environment. You must run this command for each new terminal session.
-    a. Linux/MacOS users
+1. Activate the virtual environment. You must run this command for each new terminal session.:
+    a. Linux/MacOS:
 
       ```bash
       source .ve/bin/activate
       ```
 
-    b. Windows users
+    b. Windows:
 
       ```bash
       .\.ve\Scripts\activate
@@ -109,15 +109,15 @@ To deploy a development branch to the live documentation site, [create a pull re
 #### Update production requirements
 
 1. Edit `requirements.in`.
-1. Update `requirements.txt`.
+1. Update `requirements.txt`:
    ```bash
    pip-compile
    ```
-1. Update `requirements_dev.txt`
+1. Update `requirements_dev.txt`:
     ```bash
     pip-compile requirements_dev.in
     ```
-1. Install requirements.
+1. Install requirements:
    ```bash
    pip-sync requirements_dev.txt
    ```
@@ -126,11 +126,11 @@ To deploy a development branch to the live documentation site, [create a pull re
 #### Update development requirements
 
 1. Edit `requirements_dev.in`.
-1. Update `requirements_dev.txt`
+1. Update `requirements_dev.txt`:
     ```bash
     pip-compile requirements_dev.in
     ```
-1. Install requirements.
+1. Install requirements:
    ```bash
    pip-sync requirements_dev.txt
    ```
