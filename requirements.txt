@@ -60,7 +60,7 @@ myst-parser==4.0.0
     # via
     #   -r requirements.in
     #   sphinxcontrib-opendataservices-jsonschema
-odsc-default-sphinx-theme==0.0.1
+odsc-default-sphinx-theme==0.1.0
     # via -r requirements.in
 packaging==24.2
     # via sphinx
