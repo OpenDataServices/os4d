@@ -1,4 +1,4 @@
-# Draft Commitments
+# Commitment templates
 
 ## Summary
 

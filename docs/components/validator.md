@@ -1,8 +1,8 @@
-# Online Validator
+# Validator and Quality Tool
 
 ## Summary
 
-Providing a report on technical validity of data against the schema.
+Providing a report on technical validity of data against the schema. Providing feedback on the content of datasets, based on a set of data quality rules. Machine and human-readable rules used to check data quality.
 
 ## Description
 

@@ -13,10 +13,7 @@ The list of components is below.
 * [Advocacy plan](advocacy_plan.md)
 * [Communications plan](communications_plan.md)
 * [Website](website.md)
-* Communications channels (new page), incorporating
-  * [Blog](blog.md)
-  * [Microblogging](microblogging.md) (Rename to 'Microblog')
-  * [Email list](email_list) (Rename to 'Mailing list')
+* [Communication channels](communication_channels.md)
 * [Research report](research_report.md)
 * [Use cases](use_cases.md)
 * [Case studies](case_studies.md)
@@ -27,14 +24,14 @@ The list of components is below.
 
 * [Logo](logo.md)
 * [Icons](icons.md)
-* [Brand guidance](brand_guidance.md), incorporating [Brand agreements](brand_agreements.md)
+* [Brand guidance](brand_guidance.md)
 
 ## Documentation and guidance
 
 * [Schema](schema.md)
 * [Required fields](required_fields.md)
 * [Codelists](codelists.md)
-* [Reference documentation](reference_documentation.md), incorporating [Specification](specification.md)
+* [Reference documentation](reference_documentation.md)
 * [Getting started documentation](getting_started_documentation.md)
 * [Guidance documentation](guidance_documentation.md)
 * [Example data](example_data.md)
@@ -45,34 +42,19 @@ The list of components is below.
 
 ## Community engagement and support
 
-* Community spaces (new page), incorporating:
-  * [Discussion forum](discourse_forum.md) (renamed from 'Discourse forum')
-  * [Chat channel](slack.md) (renamed from 'Slack')
-* Helpdesk service (new page), incorporating:
-  * [Helpdesk email address](helpdesk_email_address.md)
-  * [Helpdesk phone number](helpdesk_phone_number.md)
-  * [Contact Relationship Management (CRM)](contact_relationship_management_crm.md)
-* Training (new page), incorporating:
-  * [Training materials](training_resources.md)
-  * [Training events](workshops.md) (renamed from 'Workshops')
+* [Community spaces](community_spaces.md)
+* [Helpdesk service](helpdesk_service.md)
+* [Training](training.md)
 
 ## Implementation
 
-* [Commitment templates](draft_commitments.md) (renamed from 'Draft commitments')
+* [Commitment templates](commitment_templates.md)
 * [Implementation plan template](implementation_plan_template.md)
 * [Use case mapping](use_case_mapping.md) 
-* Implementation framework (new page), incorporating:
-  * [Incremental adoption model](progressive_enhancement_framework.md) (renamed from 'Progressive enhancement framework)
-  * [Publication levels](publication_levels.md)
-  * [Recommended fields](recommended_fields.md)
-* Extensions mechanism and registry (new page), incorporating:
-  * [Extensions mechanism](extensions_mechanism.md)
-  * [Extensions registry](extensions_registry.md) 
+* [Implementation framework](implementation_framework.md)
+* [Extensions mechanism and registry](extensions_mechanism_and_registry.md)
 * [Field-level mapping template](field_level_mapping_template.md) 
-* Validator and quality tool (new page), incorporating: 
-  * [Online validator](online_validator.md) 
-  * [Quality tool](quality_tool.md) 
-  * [Rules for additional checks](rules_for_additional_checks.md) 
+* [Validator and quality tool](validator.md) 
 * [Self certification](self_certification.md) 
 * [Conversion tools](conversion_tools.md)
 * [Spreadsheet template](spreadsheet_template.md)
@@ -86,14 +68,14 @@ The list of components is below.
 
 ## Maintainer, contributor and developer resources
 
-* [Development principles](principles.md) (renamed from 'principles')
+* [Development principles](development_principles.md)
 * [Issue tracker](issue_tracker.md)
 * [Maintenance handbook](maintenance_handbook.md)
 * [Contributor guidelines](contributor_guidelines.md)
 * [Contributor agreement](contributors_agreement.md) 
 * [Developer guidelines](developer_guidelines.md)
 * [Unit tests](unit_tests.md)
-* [Publication statistics dashboard](dashboard_data_publication_statistics.md) (renamed from 'Dashboard (data publication statistics)')
+* [Publication statistics dashboard](publication_statistics_dashboard.md)
 
 ## Governance
 

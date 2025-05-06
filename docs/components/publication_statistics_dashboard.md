@@ -1,4 +1,4 @@
-# Dashboard (data publication statistics)
+# Publication statistics dashboard
 
 ## Summary
 
