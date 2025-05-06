@@ -62,6 +62,5 @@ A helpdesk might have the following modalities of work:
 ```{seealso}
 Components:
 
-* [Helpdesk email address](../components/index.md#helpdesk-email-address)
-* [Helpdesk phone number](../components/index.md#helpdesk-phone-number)
+* [Helpdesk service](../components/helpdesk_service.md)
 ```

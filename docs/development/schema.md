@@ -54,7 +54,7 @@ The 360Giving Data Standard supports both spreadsheet and JSON formats, but most
 
 ```{seealso}
 
-* 🧩 [Conversion tools](../components/index.md#conversion-tools)
+* 🧩 [Conversion tools](../components/conversion_tools.md)
 * 💡 [Spreadsheet first schema design](../patterns/schema.md#spreadsheet-first)
 
 ```

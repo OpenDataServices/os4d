@@ -18,7 +18,7 @@ Write a concise description of each of these terms *in the context of the standa
 
 ### Related components
 
-- [Glossary](../components/index.md#glossary)
+- [Glossary](../components/glossary.md)
 
 ---
 
