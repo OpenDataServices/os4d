@@ -23,6 +23,3 @@ A dashboard helps to answer questions like:
 ## Related Components
 
 * [Registry of datasets](registry_of_datasets)
-
-## Related Patterns
-
