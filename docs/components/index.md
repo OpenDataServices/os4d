@@ -8,7 +8,6 @@ We conducted an exercise with representatives of several standards, asking them 
 
 The list of components is below.
 
-
 ## Advocacy and communication
 
 * [Advocacy plan](advocacy_plan.md)
@@ -100,3 +99,12 @@ The list of components is below.
 
 * [Governance body](governance_body.md) 
 * [Shared Documents Folder](shared_documents_folder.md)
+
+```{toctree}
+---
+maxdepth: 1
+glob:
+hidden:
+---
+*
+```
