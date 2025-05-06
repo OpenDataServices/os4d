@@ -14,6 +14,6 @@ Developer guidelines set out the expectactions of external contributions to the 
 
 ## Related Components
 
-* [Contributor Guidelines](#contributor-guidelines)
+* [Contributor Guidelines](contributor_guidelines)
 
 

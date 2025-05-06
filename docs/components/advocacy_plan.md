@@ -19,6 +19,6 @@ An advocacy plan provides the resources and sets out the steps that will be foll
 
 ## Related Components
 
-[Blog](#blog)
+[Communication channels](communication_channels)
 
 

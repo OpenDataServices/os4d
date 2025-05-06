@@ -21,6 +21,6 @@ Case studies give real-world examples of when use of a standard has enabled a pa
 
 ## Related Components
 
-* [Advocacy Plan](#advocacy-plan)
+* [Advocacy Plan](advocacy_plan)
 
 
