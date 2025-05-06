@@ -8,7 +8,7 @@ A data model is an abstract model that organizes elements of data and standardis
 
 Before authoring the schema for a standard and committing to specific implementation details, it is recommended to document a data model to help stakeholders align on definitions and relationships.
 
-The data model for a standard should be based on [research](research.md) into the related policy area and a thorough understanding of the concepts which underpin it (a conceptual model). Documenting the data model for a standard involves identifying and defining the entities (classes), attributes (properties), relationships and permissable values (codelists) needed to satisfy the requirements, user stories and use cases for the standard.
+The data model for a standard should be based on [research](research) into the related policy area and a thorough understanding of the concepts which underpin it (a conceptual model). Documenting the data model for a standard involves identifying and defining the entities (classes), attributes (properties), relationships and permissable values (codelists) needed to satisfy the requirements, user stories and use cases for the standard.
 
 Developing a good data model is an art as much as a science. It requires sensitivity to the needs of both data producers and data users, and an understanding of the incentive structures that will drive adoption of a standard.
 
@@ -30,7 +30,7 @@ A publication format is a format in which data can be published by implementers 
 * [CSV](https://en.wikipedia.org/wiki/Comma-separated_values) and other tabular formats, such as XLSX and ODS.
 * [XML](https://www.w3.org/TR/xml/)
 
-Based on your [research](research.md), you need to decide which publication formats to support.
+Based on your [research](research), you need to decide which publication formats to support.
 
 It is [best practice](https://www.w3.org/TR/dwbp/#MultipleFormats) for data publishers to provide data in multiple formats, so that as many users as possible can use the data without first having to transform it to their preferred format. Therefore, you should consider how to support publication in multiple formats.
 
@@ -54,7 +54,7 @@ The 360Giving Data Standard supports both spreadsheet and JSON formats, but most
 
 ```{seealso}
 
-* 🧩 [Conversion tools](../components/conversion_tools.md)
+* 🧩 [Conversion tools](../components/conversion_tools)
 * 💡 [Spreadsheet first schema design](../patterns/schema.md#spreadsheet-first)
 
 ```
@@ -132,5 +132,5 @@ JSON Schema specifies a number of keywords to describe and constrain JSON data. 
 As well as the keywords specified in JSON Schema, the [Open Data Services JSON Schema Extension](https://json-schema-extension.readthedocs.io/) specifies additional keywords for linking fields to [CSV codelists](../patterns/schema.md#csv-codelists),  and providing information about [deprecated fields](../patterns/schema.md#deprecated-fields).
 
 ```{seealso}
-💡 [Schema patterns](../patterns/schema.md)
+💡 [Schema patterns](../patterns/schema)
 ```

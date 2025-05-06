@@ -62,5 +62,5 @@ A helpdesk might have the following modalities of work:
 ```{seealso}
 Components:
 
-* [Helpdesk service](../components/helpdesk_service.md)
+* [Helpdesk service](../components/helpdesk_service)
 ```

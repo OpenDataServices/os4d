@@ -34,8 +34,8 @@ In general, internationalisation is a task during the development of the [Single
 
 ```{seealso}
 
-* [Internationalisation patterns](../patterns/i18n.md)
-* [Translation patterns](../patterns/translation.md)
+* [Internationalisation patterns](../patterns/i18n)
+* [Translation patterns](../patterns/translation)
 ```
 
 ## Status of translations

@@ -46,7 +46,7 @@ This builds on the idea of designing to allow for '[the tussle](http://conferenc
 
 ### Method
 
-Additional checks can be used to report data quality issues to users in a [validator](../components/validator.md).
+Additional checks can be used to report data quality issues to users in a [validator](../components/validator).
 
 A mapping document that indicates which fields, or field-value pairs are required for particular use-cases can guide contextualised recommendations about what to publish.
 
@@ -56,9 +56,9 @@ A mapping document that indicates which fields, or field-value pairs are require
 
 ### Related components
 
-- [Implementation framework](../components/implementation_framework.md)
-- [Use-case mapping](../components/use_case_mapping.md)
-- [Validator](../components/validator.md)
+- [Implementation framework](../components/implementation_framework)
+- [Use-case mapping](../components/use_case_mapping)
+- [Validator](../components/validator)
 
 ---
 
@@ -106,7 +106,7 @@ always design a schema as:
 }
 ```
 
-[Flatten-tool](../components/conversion_tools.md) and our merging tools recognise `id` as a special property.
+[Flatten-tool](../components/conversion_tools) and our merging tools recognise `id` as a special property.
 
 This pattern is not needed for objects that are not contained in an array.
 
@@ -120,7 +120,7 @@ See above.
 
 ### Related components
 
-- [Conversion tools](../components/conversion_tools.md)
+- [Conversion tools](../components/conversion_tools)
 
 ---
 

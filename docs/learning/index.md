@@ -18,9 +18,9 @@ There are many different aspects to monitoring and learning:
 
 The following components are often used as part of a monitoring strategy.
 
-- [Online validator](../components/validator.md)
-- [Publication statistics dashboard](../components/publication_statistics_dashboard.md)
-- [Registry of datasets](../components/registry_of_datasets.md)
+- [Online validator](../components/validator)
+- [Publication statistics dashboard](../components/publication_statistics_dashboard)
+- [Registry of datasets](../components/registry_of_datasets)
 
 ## Patterns
 

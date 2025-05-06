@@ -7,7 +7,7 @@ Whenever standards are revised there needs to be a governance process.
 This is likely to make use of an [issue tracker](../patterns/documentation.md#issue-tracker) and a [changelog](../patterns/documentation.md#version-control-and-changelogs-for-the-schema-and-documentation).
 
 ```{seealso}
-[Versioning patterns](../patterns/versioning.md)
+[Versioning patterns](../patterns/versioning)
 ```
 
 ### Worked example: OCDS

@@ -10,77 +10,77 @@ The list of components is below.
 
 ## Advocacy and communication
 
-* [Advocacy plan](advocacy_plan.md)
-* [Communications plan](communications_plan.md)
-* [Website](website.md)
-* [Communication channels](communication_channels.md)
-* [Research report](research_report.md)
-* [Use cases](use_cases.md)
-* [Case studies](case_studies.md)
-* [Demonstration applications](demonstration_applications.md)
-* [Publisher ranking](publisher_ranking.md)
+* [Advocacy plan](advocacy_plan)
+* [Communications plan](communications_plan)
+* [Website](website)
+* [Communication channels](communication_channels)
+* [Research report](research_report)
+* [Use cases](use_cases)
+* [Case studies](case_studies)
+* [Demonstration applications](demonstration_applications)
+* [Publisher ranking](publisher_ranking)
 
 ## Branding and visual identity
 
-* [Logo](logo.md)
-* [Icons](icons.md)
-* [Brand guidance](brand_guidance.md)
+* [Logo](logo)
+* [Icons](icons)
+* [Brand guidance](brand_guidance)
 
 ## Documentation and guidance
 
-* [Schema](schema.md)
-* [Required fields](required_fields.md)
-* [Codelists](codelists.md)
-* [Reference documentation](reference_documentation.md)
-* [Getting started documentation](getting_started_documentation.md)
-* [Guidance documentation](guidance_documentation.md)
-* [Example data](example_data.md)
-* [Recommended data license](recommended_data_license.md)
-* [FAQs](faqs.md)
-* [Glossary](glossary.md)
-* [Tutorial videos](tutorial_videos.md)
+* [Schema](schema)
+* [Required fields](required_fields)
+* [Codelists](codelists)
+* [Reference documentation](reference_documentation)
+* [Getting started documentation](getting_started_documentation)
+* [Guidance documentation](guidance_documentation)
+* [Example data](example_data)
+* [Recommended data license](recommended_data_license)
+* [FAQs](faqs)
+* [Glossary](glossary)
+* [Tutorial videos](tutorial_videos)
 
 ## Community engagement and support
 
-* [Community spaces](community_spaces.md)
-* [Helpdesk service](helpdesk_service.md)
-* [Training](training.md)
+* [Community spaces](community_spaces)
+* [Helpdesk service](helpdesk_service)
+* [Training](training)
 
 ## Implementation
 
-* [Commitment templates](commitment_templates.md)
-* [Implementation plan template](implementation_plan_template.md)
-* [Use case mapping](use_case_mapping.md) 
-* [Implementation framework](implementation_framework.md)
-* [Extensions mechanism and registry](extensions_mechanism_and_registry.md)
-* [Field-level mapping template](field_level_mapping_template.md) 
-* [Validator and quality tool](validator.md) 
-* [Self certification](self_certification.md) 
-* [Conversion tools](conversion_tools.md)
-* [Spreadsheet template](spreadsheet_template.md)
-* [API specification](api_specification.md)
+* [Commitment templates](commitment_templates)
+* [Implementation plan template](implementation_plan_template)
+* [Use case mapping](use_case_mapping) 
+* [Implementation framework](implementation_framework)
+* [Extensions mechanism and registry](extensions_mechanism_and_registry)
+* [Field-level mapping template](field_level_mapping_template) 
+* [Validator and quality tool](validator) 
+* [Self certification](self_certification) 
+* [Conversion tools](conversion_tools)
+* [Spreadsheet template](spreadsheet_template)
+* [API specification](api_specification)
 
 ## Data use
-* [Data aggregator](data_aggregator.md)
-* [Registry of datasets](registry_of_datasets.md)
-* [User tutorials](user_tutorials.md)
-* [Reference lists](reference_lists.md)
+* [Data aggregator](data_aggregator)
+* [Registry of datasets](registry_of_datasets)
+* [User tutorials](user_tutorials)
+* [Reference lists](reference_lists)
 
 ## Maintainer, contributor and developer resources
 
-* [Development principles](development_principles.md)
-* [Issue tracker](issue_tracker.md)
-* [Maintenance handbook](maintenance_handbook.md)
-* [Contributor guidelines](contributor_guidelines.md)
-* [Contributor agreement](contributors_agreement.md) 
-* [Developer guidelines](developer_guidelines.md)
-* [Unit tests](unit_tests.md)
-* [Publication statistics dashboard](publication_statistics_dashboard.md)
+* [Development principles](development_principles)
+* [Issue tracker](issue_tracker)
+* [Maintenance handbook](maintenance_handbook)
+* [Contributor guidelines](contributor_guidelines)
+* [Contributor agreement](contributors_agreement) 
+* [Developer guidelines](developer_guidelines)
+* [Unit tests](unit_tests)
+* [Publication statistics dashboard](publication_statistics_dashboard)
 
 ## Governance
 
-* [Governance body](governance_body.md) 
-* [Shared Documents Folder](shared_documents_folder.md)
+* [Governance body](governance_body) 
+* [Shared Documents Folder](shared_documents_folder)
 
 ```{toctree}
 ---
