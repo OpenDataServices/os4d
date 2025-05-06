@@ -1,7 +1,5 @@
 # Schema patterns
 
----
-
 ## Top-object
 
 ### Problem

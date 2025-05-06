@@ -1,7 +1,5 @@
 # Translation patterns
 
----
-
 ## Develop a glossary first
 
 ### Problem
