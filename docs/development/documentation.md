@@ -23,5 +23,5 @@ We have created a number of [custom directives documented here](https://github.c
 We maintain a custom [sphinx-base](https://github.com/OpenDataServices/sphinx-base) project to use when starting new documentation sites.
 
 ```{seealso}
-[Documentation patterns](../patterns/documentation.md)
+[Documentation patterns](../patterns/documentation)
 ```
