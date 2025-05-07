@@ -83,7 +83,7 @@ e.g. for OCDS we have:
 ### Related patterns
 
 - [Reproducible builds](#reproducible-builds)
-- [Versioning](versioning.md)
+- [Versioning](versioning)
 
 ---
 

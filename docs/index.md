@@ -26,7 +26,7 @@ If you have a project that might involve open data standards, our Standards Lab 
 
 * **Full service standard development and support** - working with you to go from concept, to a full standard - and to support implementation and ongoing development. 
 
-Find out more [about us](about/index.md)
+Find out more [about us](about/index)
 ```
 
 ## Contents

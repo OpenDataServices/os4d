@@ -8,7 +8,6 @@ This section details the tooling we use as part of our standard development.
 
 Tooling components:
 
-* [Conversion tools](../components/index.md#conversion-tools)
-* [Online validator](../components/index.md#online-validator)
-* [Rules for additional checks](../components/index.md#rules-for-additional-checks)
+* [Conversion tools](../components/conversion_tools)
+* [Validator](../components/validator)
 ```

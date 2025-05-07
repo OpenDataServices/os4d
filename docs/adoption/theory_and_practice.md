@@ -2,7 +2,7 @@
 
 ## Identifying adoption goals
 
-In [getting started](../development/getting-started.md) we described the different goals of a standard. For some standards, successful adoption means having hundreds of datasets that are identical in their structure, the fields they use, and the way they use classifications. For other standards, successful adoption can tolerate very different uses of the standard, but comes through the way the standard leads to changes in organisational policies and practices for data collection and publication.
+In [getting started](../development/getting-started) we described the different goals of a standard. For some standards, successful adoption means having hundreds of datasets that are identical in their structure, the fields they use, and the way they use classifications. For other standards, successful adoption can tolerate very different uses of the standard, but comes through the way the standard leads to changes in organisational policies and practices for data collection and publication.
 
 The learning section explores ways to evaluate adoption.
 

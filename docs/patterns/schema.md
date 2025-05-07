@@ -1,7 +1,5 @@
 # Schema patterns
 
----
-
 ## Top-object
 
 ### Problem
@@ -46,7 +44,7 @@ This builds on the idea of designing to allow for '[the tussle](http://conferenc
 
 ### Method
 
-[Additional checks](../components/index.md#rules-for-additional-checks) can be used to report data quality issues to users in a validator.
+Additional checks can be used to report data quality issues to users in a [validator](../components/validator).
 
 A mapping document that indicates which fields, or field-value pairs are required for particular use-cases can guide contextualised recommendations about what to publish.
 
@@ -54,15 +52,11 @@ A mapping document that indicates which fields, or field-value pairs are require
 
 360 Giving [specifies](https://github.com/ThreeSixtyGiving/standard/blob/master/schema/360-giving-schema.json#L430) just eight required fields on the main grants table.
 
-### Related patterns
-
-- [Quality framework](../components/index.md#progressive-enhancement-framework)
-- [Use-case mapping](../components/index.md#use-case-mapping)
-
 ### Related components
 
-- [Rules for additional checks](../components/index.md#rules-for-additional-checks)
-- [Online validator](../components/index.md#online-validator)
+- [Implementation framework](../components/implementation_framework)
+- [Use-case mapping](../components/use_case_mapping)
+- [Validator](../components/validator)
 
 ---
 
@@ -110,7 +104,7 @@ always design a schema as:
 }
 ```
 
-[Flatten-tool](../components/index.md#conversion-tools) and our merging tools recognise `id` as a special property.
+[Flatten-tool](../components/conversion_tools) and our merging tools recognise `id` as a special property.
 
 This pattern is not needed for objects that are not contained in an array.
 
@@ -124,7 +118,7 @@ See above.
 
 ### Related components
 
-- [Conversion tools](../components/index.md#conversion-tools)
+- [Conversion tools](../components/conversion_tools)
 
 ---
 
