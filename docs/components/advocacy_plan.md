@@ -1,12 +1,7 @@
 # Advocacy Plan
 
-## Summary
+An advocacy plan details the steps and resources required to promote the adoption of a standard by organisations, alongside outlining key supporting arguments. This plan should be proactively maintained and updated to reflect the standard's maturity and its evolving impact on the relevant field. It serves as a roadmap for encouraging uptake and showcasing the benefits of adherence.
 
-Setting out steps to encourage organizations to adopt the standard.
-
-## Description
-
-An advocacy plan provides the resources and sets out the steps that will be followed to encourage organisations to adopt a standard, as well as key arguments. It should be updated regularly as the standard matures and as the standard starts to have an impact.
 
 ## Prioritisation Factors
 

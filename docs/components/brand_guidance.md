@@ -1,14 +1,7 @@
 # Brand Guidance
 
-## Summary
+Brand guidance defines how the name, logo, visual style and other identifying marks of a standard should be used. This guidance is crucial for preventing misrepresentation of the standard and ensuring a clear distinction between the standard itself and those implementing it. For standards that have established a brand, clear guidance is necessary to ensure its beneficial use by the community and within the standards context. This includes specifying when the logo is permissible for use, advising how tools and implementations should describe their relationship to the standard, and making sure the brand is only employed in relevant situations.
 
-Describing how to use the logo and how to talk about the standard and setting out who is allowed to use the logo, and how implementers should describe their relationship to the standard.
-
-## Description
-
-Brand guidance sets out how to use the name, logo, look-and-feel and other identifying marks and conventions. The guidance helps a standard ensure that it isn't misrepresented, and that there is a clear distinction between the standard and those using it.
-
-Standards that have developed a brand need to ensure that it is used in a way that benefits the community and the standard. This will likely include guidance as to when the logo can be used, how tools should describe themselves relative to the standard, and ensure that the brand is only used when relevant
 
 ## Prioritisation Factors
 

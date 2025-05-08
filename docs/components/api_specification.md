@@ -1,12 +1,7 @@
 # API Specification
 
-## Summary
+An application programming interface (API) specification details how data should be accessed interactively. APIs allow developers to tap into datasets stored elsewhere, without the burden of downloading and processing entire files. This lowers the entry barrier for building data-driven applications, promoting wider use of the information. Moreover, an API specification establishes a standardised format for API developers to present data interfaces; this fosters portability for consuming applications across different publishers and eliminates the initial design costs for new data publishers wishing to use an API.
 
-Describing how data should be accessed interactively.
-
-## Description
-
-APIs allow developers to access data stored elsewhere without needing to obtain and process the whole data set themselves. This lowers the barriers to creating applications that use the data, and encourages use. An API specification sets out a standard way for API developers to present interfaces to the data, meaning that consuming applications are more portable between publishers and removing the design cost for any adopter wishing to publish via an API
 
 ## Prioritisation Factors
 

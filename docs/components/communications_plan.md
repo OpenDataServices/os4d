@@ -1,12 +1,7 @@
 # Communications Plan
 
-## Summary
+A communications plan outlines the intended steps to promote media coverage of a standard. This plan ensures proactive pursuit of media opportunities and prepares representatives of the standard to effectively engage with the media. By providing a structured approach, a communications plan helps ensure that the standard is accurately portrayed, and that realistic expectations are set among potential users and beneficiaries.
 
-Setting out steps to get media coverage of the standard.
-
-## Description
-
-A communications plan sets out the steps that are planned to encourage media coverage of the standard. Having a plan ensures that media opportunities are sought, and that representatives of the standard are well-equipped when taking advantage of opportunities. It can ensure that the standard is properly represented, setting expectations among potential users and beneficaries.
 
 ## Prioritisation Factors
 

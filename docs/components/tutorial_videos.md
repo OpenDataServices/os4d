@@ -1,12 +1,7 @@
 # Tutorial Videos
 
-## Summary
+On-demand video tutorials offer immediate guidance on using the standard. These videos provide a convenient pathway through available learning materials, allowing users to grasp concepts and workflows at their own pace.
 
-Providing on-demand overview of how the use the standard.
-
-## Description
-
-Videos provide the opportunity to deliver a path through learning materials that are available on-demand.
 
 ## Prioritisation Factors
 

@@ -1,12 +1,7 @@
 # Guidance Documentation
 
-## Summary
+Non-normative guidance provides practical advice on implementing and sharing data using a specific standard. While standards offer detailed, technical definitions for publishing data, derived from considerable research, they often function primarily as reference documentation. To encourage adoption, non-normative guidance acts as a user-friendly walkthrough of the standard's application, drawing on real-world experience to help users understand initial steps, prioritise effort, and grasp core concepts. This type of documentation aids adopters in navigating the complexities of the standard and putting it into practice effectively.
 
-Non-normative guidance on how to share data using the standard.
-
-## Description
-
-Standards typically comprise a detailed, technical definition of how to publish data. They are often the product of extensive work and research, and are designed to be reference documentation. However, adoption requires adopters to be guided through the process of adoption - helped to understand how to start, where to focus effort, and how to understand concepts. Guidance documentation takes adopters through the process of using the standard, building on real-world experience.
 
 ## Prioritisation Factors
 

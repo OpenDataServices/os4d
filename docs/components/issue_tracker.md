@@ -1,12 +1,7 @@
 # Issue Tracker
 
-## Summary
+An issue tracker is a centralised system for recording and managing discussions regarding proposed changes to data standards. These discussions, along with suggestions for improvements, can originate from various sources, including technical and policy forums, in-person conversations, and private communications; the issue tracker consolidates them into a single, accessible location. By maintaining a clear audit trail of these discussions, an issue tracker allows the community to understand the rationale behind decisions and facilitates future discussions if modifications are desired at a later date. This ensures transparency and continuity in the evolution of the data standard.
 
-Providing clear public trail for all discussions about changes to the standard.
-
-## Description
-
-Discussions around changes to data standards and suggestions for improvements often happen in different places - in technical and policy forums, in person, in private chats and elsewhere. An issue tracker provides a single place where such discussions are recorded, and discussion can advance. Later, an issue tracker allows the community to see the rationale behind a decision, allowing discussion to pick up if a change is desired.
 
 ## Prioritisation Factors
 

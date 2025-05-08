@@ -1,11 +1,5 @@
 # Validator and Quality Tool
 
-## Summary
-
-Providing a report on technical validity of data against the schema. Providing feedback on the content of datasets, based on a set of data quality rules. Machine and human-readable rules used to check data quality.
-
-## Description
-
-Part of a standard is often schema, and reporting on technical validity against the schema is a way of programmatically checking that the data conforms to the schema and can be used by other tools that expect data to conform to the schema. By providing validation as an online service, implementers can validate their data without
+A data quality report provides feedback on the technical validity and content of datasets. This report uses a set of machine-readable and human-readable data quality rules to assess data, and it flags any discrepancies. Often, this includes validating data against a schema to ensure it conforms and can be readily processed by other tools. Implementing validation as an online service allows users to readily assess their data without needing to set up their own complex validation environments.
 
 

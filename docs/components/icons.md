@@ -1,12 +1,7 @@
 # Icons
 
-## Summary
+Icons are visual cues employed in documentation and presentations to aid understanding and recall. The consistent use of icons across various assets enhances recognition and can contribute to building trust and reinforcing key concepts for the audience.
 
-Common visual elements used across documentation and presentations.
-
-## Description
-
-Icons help with recall of key concepts, and consistency across a range of assets helps to build trust.
 
 ## Prioritisation Factors
 

@@ -1,12 +1,7 @@
 # Website
 
-## Summary
+A standard's website acts as a central shop-window, showcasing the various components and contextualising them within broader goals. This provides a single, accessible location where the standard can be clearly explained and targeted towards different user groups. Crucially, it also serves as a discovery point for adopters seeking resources and guidance.
 
-A shop-window on the standard, setting in context of wider goals
-
-## Description
-
-A standard's website brings together the various component of a standard, giving a single place where the standard can be explained to different audiences, and will act as a place that adopters go to in order to discover resources.
 
 ## Prioritisation Factors
 

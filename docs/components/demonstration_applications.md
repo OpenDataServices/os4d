@@ -1,12 +1,7 @@
 # Demonstration Applications
 
-## Summary
+Demonstration applications are examples, either real-world or simulated, which use standardised data to showcase the potential applications and benefits of the standard. These applications can serve as powerful illustrations, highlighting the advantages of adopting the standard as a whole, or specific elements within it. They effectively demonstrate the real-world utility and impact that can be achieved when data is structured and published according to a defined standard.
 
-Showcasing what can be done with data when it is published to a standard
-
-## Description
-
-Demonstration applications are either real-world or contrived applications using standardised data to illustrate what the data could be used for. They can be used to demonstrate the advantages of using the standard at all, or using particular parts of the stardard.
 
 ## Prioritisation Factors
 

@@ -1,12 +1,7 @@
 # Recommended Data License
 
-## Summary
+A recommended licence is a suggestion for the type of licence that publishers should use, such as Creative Commons or the Open Database Licence. Recommending a licence encourages adopters to carefully consider licensing implications and establish a robust standard. This helps to set a high bar for adopters and foster inertia within the standard's user community, promoting consistency and best practice.
 
-E.g. the requirement that publishers should use Creative Commons or Open Database License.
-
-## Description
-
-A recommended license can help to ensure that adopters give due consideration to licensing, as well as setting a high bar for adopters and encouraging intertia among the community using the standard.
 
 ## Prioritisation Factors
 

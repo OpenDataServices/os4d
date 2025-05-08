@@ -1,12 +1,7 @@
 # Field-level Mapping Template
 
-## Summary
+Field-level mapping provides a mechanism for relating data elements in existing systems to those within a target standard. This mapping, typically performed when preparing to publish data according to a defined standard, helps ensure accurate data transformation and integration. Using a structured template to record these mappings promotes consistency, facilitates collaboration among team members, and allows standards organisations to provide tailored guidance on data transformation, improving the overall quality and usability of the published data.
 
-Used when preparing to publish data to cross-walk from existing systems.
-
-## Description
-
-Field-level mapping is a crucial stage in preparing to publish existing data to a standard. A template gives some structure to the activity, can be shared between colleagues, and gives an opportunity for a standard to provide helpful advice in context.
 
 ## Prioritisation Factors
 

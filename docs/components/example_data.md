@@ -1,12 +1,7 @@
 # Example Data
 
-## Summary
+Example data offers illustrative instances of data conforming to a specific standard. These examples, whether automatically generated or manually created, are invaluable for both tutorial purposes and for rigorously testing the standard's implementation. Adopters and users frequently benefit from observing tangible data examples, which can provide insights and clarify expectations that might be overlooked within formal documentation. Example data can serve as a crucial guide, especially when defining the expected format and content of the data within a given standard.
 
-Auto-generated and manually created examples used in tutorials, and for testing the standard.
-
-## Description
-
-Adopters of the standard and users of the data are often helped by seeing examples of what the data could look like. Example data can often give hints that might be missed by reading documentation, and can be used to set expectations of what data should look like.
 
 ## Prioritisation Factors
 

@@ -1,12 +1,7 @@
 # Implementation Plan Template
 
-## Summary
+The Implementation Plan Template provides a structured overview for planning the implementation of a standard. This template outlines the necessary stages, key considerations, and preparatory steps required for successful implementation. Utilising an implementation plan enhances confidence among implementers and stakeholders, ensuring a smoother process. Furthermore, a well-defined plan enables the standard provider to offer proactive support, rather than simply reacting to ad-hoc queries, improving the overall adoption experience.
 
-To be filled in by someone planning to adopt the standard.
-
-## Description
-
-The Implementation Plan Template provides an overview of the planning required for an implementation - the stages to go through, the factors to consider, the preparation required, and the path to implementation. Having a plan provides confidence of success for implementers and stakeholders, and helps the standard to provide support proactively instead of just responding to questions.
 
 ## Prioritisation Factors
 

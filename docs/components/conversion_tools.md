@@ -1,12 +1,7 @@
 # Conversion Tools
 
-## Summary
+This component describes the ability to convert data between different serialization formats. Data standards frequently utilise structured formats like JSON or XML to provide greater modelling flexibility and enable schema validation, which developers generally find easier to manage programmatically. However, JSON and XML are not particularly user-friendly; therefore, many users prefer flat representations like CSV files or XLSX spreadsheets for data publication and manipulation. Conversion tools bridge this gap, allowing standards and developers to leverage the advantages of structured data formats, while simultaneously enabling users to interact with the data in a familiar and accessible manner.
 
-Allowing conversion between serialization formats (e.g. CSV -> XML; JSON -> XLS)
-
-## Description
-
-Data standards often use structured data formats such as JSON or XML to give more flexbility in modelling and to allow validation against schema. Typically, developers prefer to work with structured data formats as they are easier to work with in programs. However, JSON and XML aren't very human-friendly, and people working with data in many domains prefer to use flat representations of data such as CSV and XLSX spreadsheets, both for publishing and manipulating data. Conversion tools allow conversion between the formats, to allow the standard and developers to retain the benfits of a structured data format and users to continue to be able to engage with the data in a way that they're comfortable with.
 
 ## Examples
 

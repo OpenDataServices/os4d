@@ -1,12 +1,7 @@
 # FAQs
 
-## Summary
+Frequently Asked Questions (FAQs) are a compilation of common queries and answers designed to guide users and publishers. They are valuable for shaping implementers' understanding early in the process, proactively addressing potential misconceptions before significant effort is expended. Furthermore, FAQs act as a centralised reference resource, documenting established solutions to recurring issues in a single, readily accessible location.
 
-Addressing frequently asked questions from publishers and users.
-
-## Description
-
-FAQs cover common issues and questions that are asked, and can be used to shape implementers' thinking very early in their process, addressing misconceptions before too much work happens. They can also be a useful reference resource - common solutions to regular issues can be recorded in a single place.
 
 ## Prioritisation Factors
 
