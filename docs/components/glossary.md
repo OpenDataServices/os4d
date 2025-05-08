@@ -1,12 +1,7 @@
 # Glossary
 
-## Summary
+A glossary is a defined list of terms used within a standard, alongside their corresponding definitions. Providing an authoritative and unambiguous list, a glossary ensures clarity and consistency for users of the standard. Definitions offered in a glossary may sometimes differ from pre-existing interpretations among adopters, but these definitions should be understood as the terms are intended to be used within the context of the specific standard.
 
-Providing clear definitions for all the terms of art used in a standard.
-
-## Description
-
-A glossary provides an authoritative and unambiguous list of the terms and their definitions as used in a standard. The definitions may be different from some of those used by adopters, but ensure clarity when using the standard.
 
 ## Prioritisation Factors
 

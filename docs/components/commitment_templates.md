@@ -1,12 +1,7 @@
 # Commitment templates
 
-## Summary
+A draft commitment is a template for potential adopters to adapt, sign, and then publish to demonstrate their support for a given standard. By offering this draft, the standard ensures prospective adopters are fully aware of the expected commitment levels from the outset. Furthermore, providing an easily adaptable template reduces the likelihood of implementers creating their own, weaker adoption commitments, ensuring a higher and more consistent standard of adoption across the board. This approach essentially removes barriers to a robust adoption process.
 
-Asking potential adopters to sign-up and give their support to the standard.
-
-## Description
-
-Draft commitments are templates for adopters to copy or adapt before signing and making public. By providing a draft, a standard can ensure that adopters are aware of what they are expected to commit to at the start of the process, and by providing a path of least resistance to a high bar of adoption, a standard organisation can ensure that there is less risk of implementers crafting their own, lower, commitment to adoption.
 
 ## Prioritisation Factors
 

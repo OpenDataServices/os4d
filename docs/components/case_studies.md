@@ -1,12 +1,7 @@
 # Case Studies
 
-## Summary
+Case studies offer concrete, real-world examples illustrating the impact of adopting a given standard. These write-ups, often presented as narrative stories accessible to a general audience, demonstrate how a standard has been applied in practice and the benefits it has delivered. Crucially, case studies also provide a platform for frank discussion of the challenges encountered during implementation. This helps manage expectations among potential adopters and reassures those currently in the process that facing difficulties is a normal part of the adoption process.
 
-Accessible write-ups exploring adoption and impact through narrative stories for a general audience.
-
-## Description
-
-Case studies give real-world examples of when use of a standard has enabled a particular impact, while giving space for frank discussion of the challenges faced. This helps to set expectations among potential adopters and encourages those currently going through adoption of a standard to be reassured that encountering challenges isn't exceptional.
 
 ## Prioritisation Factors
 

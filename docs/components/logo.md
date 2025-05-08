@@ -1,12 +1,7 @@
 # Logo
 
-## Summary
+A logo for a standard is a visual element used to represent and identify that specific standard. The logo serves to strengthen the standard's brand identity, providing a readily recognisable visual cue within documentation and resources. Furthermore, with appropriate authorisation, adopters of the standard can utilise the logo to illustrate their adherence and implementation of the standard.
 
-A logo for the standard
-
-## Description
-
-A logo helps to reinforce the brand of the standard, gives a visual cue for recognition in resources, and can be used (with permission) by adoptors to demonstrate their use of the standard
 
 ## Prioritisation Factors
 

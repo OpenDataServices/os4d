@@ -1,12 +1,7 @@
 # Data Aggregator
 
-## Summary
+A data aggregator provides access to all the data shared using a specific standard. Many standards recognise that a key benefit of standardisation lies in the potential for applications that utilise the entire dataset. A data aggregator consolidates some or all of the data published according to the standard, enabling users to acquire it as a unified dataset. This removes the initial hurdle of individually sourcing and compiling the data, thereby fostering application development and encouraging experimentation.
 
-Providing access to all the data shared using the standard.
-
-## Description
-
-Many standards consider one of the best arguments for standardisation is being able to give examples of applications that become possible when the entire data set can be taken as a whole. A data aggregator brings together some or all of the data being published to the standard and enables users to obtain it as a single data set, removing the first barrier to application development on top of the data set, and encouraging experimentation.
 
 ## Prioritisation Factors
 

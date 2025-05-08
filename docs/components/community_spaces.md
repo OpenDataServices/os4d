@@ -1,15 +1,7 @@
 # Community spaces
 
-## Summary
+Online community spaces facilitate discussions about a standard, its adoption, and its use of data. These spaces typically include both discussion forums and chat channels. A discussion forum allows for a complete audit trail of decisions, which can be retained and referred to later. Over time, these forums become a valuable resource for implementers and provide rich content for support articles, FAQs and other supporting resources. In addition to forums, a chat channel, such as Slack, provides a medium for less structured, real-time conversations with the community about the development, adoption and ongoing use of the standard.
 
-Online spaces for community discussion of the standard, adoption and data use.
-
-## Description
-
-Online spaces for community discussion of the standard, adoption and data use:
-
-* A *discussion forum* provides complete audit trail for decisions can be retained and referred to. Over time, forums can become a valuable resource for implementers, and provide rich content for support articles, FAQs and other resources.
-* A *chat channel* (e.g. Slack) allows for conversations with the community about development, adoption and use of the standard.
 
 ## Prioritisation Factors
 

@@ -1,12 +1,7 @@
 # Getting Started Documentation
 
-## Summary
+A learning resources component provides user-friendly guidance and examples to aid in understanding and applying a standard. While normative standard documentation is essential for its technical precision and authoritativeness, learning resources such as worked examples, guided tutorials, and practice materials significantly improve the process of learning and implementing a new standard. These resources cater to different learning styles and provide practical support, making the standard more accessible to a wider audience.
 
-User-friendly and filled with examples.
-
-## Description
-
-The normative documentation for standards is technical, prescise, authoratitive and comprehensive. While this is useful for a reference, the process of learning about a new standard is helped by the same kind of learning resources as any other learning process, including worked examples, guided learning through the standard, and practice materials.
 
 ## Prioritisation Factors
 

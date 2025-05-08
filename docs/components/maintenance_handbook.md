@@ -1,12 +1,7 @@
 # Maintenance Handbook
 
-## Summary
+A maintenance handbook is a resource designed for the team responsible for developing and upholding a particular standard. It serves as a central repository for decisions, established best practices, and resolutions to frequently encountered issues. This handbook is also a crucial tool for onboarding new team members and facilitating knowledge transfer when personnel changes occur. By clearly outlining standard operating procedures, the maintenance handbook can encourage wider participation in the standard's maintenance, ensuring that even infrequent contributors are well-informed and can contribute effectively.
 
-For the team maintaining and updating the standard.
-
-## Description
-
-The maintenance handbook provides a place for the team developing and maintaining the standard itself, to record decisions and best practices, to store solutions to common problems, and to hand over as people leave and join the team. It can be used to encourage wider contribution to the maintenance, by ensuring that even occasional contributors understand the practices of the standard.
 
 ## Prioritisation Factors
 

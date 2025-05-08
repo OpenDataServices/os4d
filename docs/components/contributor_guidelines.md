@@ -1,12 +1,7 @@
 # Contributor Guidelines
 
-## Summary
+Contributor guidelines outline the procedures and workflows for contributing to a policy-related data standard or its associated documentation. These guidelines establish expectations for external contributions, including aspects such as licensing requirements and the process by which contributions are reviewed and acknowledged. Contributor guidelines can encompass a range of input, from informal comments in forums or emails to more formal, written contributions. The goal is to ensure consistency and quality, and also to streamline the adoption and improvement of the standard.
 
-Describing the practices and workflows for contributing to the standard or associated documentation.
-
-## Description
-
-Contributor guidelines set out the expectations of external contributions to the standard or the tools that are provided to support adopters. They typically cover licensing, procedure for contributions to be reviewed, acknowledgement, and expectations around process. Contributions may include comments in forum threads or in emails as well as formal written contributions.
 
 ## Prioritisation Factors
 
