@@ -24,13 +24,22 @@ Subsequent instructions assume that your current working directory is `os4d`, un
 
 #### Create and activate a Python virtual environment
 
-The following instructions assume you have [Python 3.10](https://www.python.org/downloads/) or newer installed on your machine.
+The build requires [Python](https://www.python.org/downloads/) 3.13.
 
-You can use either [pyenv-virtualenv](https://github.com/pyenv/pyenv-virtualenv), `python3-venv` or a Python environment manager of your choice:
+If you already have Python 3.13 installed, you can create a virtual environment using [pyenv-virtualenv](https://github.com/pyenv/pyenv-virtualenv), `python3-venv`, or a Python environment manager of your choice.
+
+If not, we recommend using `pyenv` to install Python 3.13 and `pyenv-virtualenv` to create a virtual environment. 
 
 ##### pyenv
 
 1. Install [pyenv](https://github.com/pyenv/pyenv) and the [pyenv-virtualenv](https://github.com/pyenv/pyenv-virtualenv) plugin. The [pyenv installer](https://github.com/pyenv/pyenv-installer) is recommended.
+1. Set up Python 3.13 using pyenv:
+
+   ```bash
+   pyenv install 3.13
+   pyenv local 3.13
+   ```
+
 1. Create a virtual environment:
 
    ```bash
@@ -50,8 +59,6 @@ You can use either [pyenv-virtualenv](https://github.com/pyenv/pyenv-virtualenv)
    ```
 
 ##### python3-venv
-
-If you are using Python 3.3 or newer, `venv` is included in the standard Python installation.
 
 1. Create a virtual environment called .ve:
     a. Linux/MacOS:
@@ -189,3 +196,4 @@ Read the Docs automatically creates and builds [pull request previews](https://d
 #### Credentials
 
 You can find credentials for Read the Docs in the Open Data Services password database.
+
