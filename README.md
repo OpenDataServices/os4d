@@ -2,102 +2,190 @@
 
 Visit https://os4d.opendataservices.coop to read the handbook.
 
-# Open Data Services Sphinx Base
+## Developer how-to guides
 
-The base Sphinx setup (recommonmark + internationalisation) for Open Data
-Services docs projects.
+This section describes how to:
 
-## Features
+- [Set up a local development environment](#set-up-a-local-development-environment)
+- [Build the documentation](#build-the-documentation) on your local machine.
+- [Deploy changes](#deploy-changes)
+- [Update requirements](#update-requirements)
 
-* Markdown support (thanks to recommonmark)
-* Internationalisation
-* Wrapping text in tables, to avoid having horizontal scrollbars
+### Set up a local development environment
 
-## Building the documentation
+#### Clone the repository
 
-### Build the docs locally
-  
-Assuming a unix based system:
-
-```
-# Sphinx graphviz extension requires graphviz to be installed
-# If you don't have this, you can do
-sudo apt-get install graphviz
-
-# Make sure you have python3 venv, e.g. for Ubuntu
-# If you're not sure, try creating a venv, and see if it errors
-sudo apt-get install python3-venv
-
-# Create a venv
-python3 -m venv .ve    
-# Enter the venv, needs to be run for every new shell
-source .ve/bin/activate
-# Install requirements
-pip install -r requirements.txt
-# Build the docs
-cd docs
-make dirhtml
+```bash
+git git@github.com:OpenDataServices/os4d.git
+cd os4d
 ```
 
-Built docs are in `docs/_build/dirhtml`.
+Subsequent instructions assume that your current working directory is `os4d`, unless otherwise stated.
 
-Viewing the docs:
+#### Create and activate a Python virtual environment
+
+The following instructions assume you have [Python 3.10](https://www.python.org/downloads/) or newer installed on your machine.
+
+You can use either [pyenv-virtualenv](https://github.com/pyenv/pyenv-virtualenv), `python3-venv` or a Python environment manager of your choice:
+
+##### pyenv
+
+1. Install [pyenv](https://github.com/pyenv/pyenv) and the [pyenv-virtualenv](https://github.com/pyenv/pyenv-virtualenv) plugin. The [pyenv installer](https://github.com/pyenv/pyenv-installer) is recommended.
+1. Create a virtual environment:
+
+   ```bash
+   pyenv virtualenv os4d
+   ```
+
+1. Activate the virtual environment:
+
+   ```bash
+   pyenv activate os4d
+   ```
+
+1. Set the local application-specific virtual environment. Once set, navigating to the `os4d` directory will automatically activate the environment:
+
+   ```bash
+   pyenv local os4d
+   ```
+
+##### python3-venv
+
+If you are using Python 3.3 or newer, `venv` is included in the standard Python installation.
+
+1. Create a virtual environment called .ve:
+    a. Linux/MacOS:
+
+      ```bash
+      python3 -m venv .ve
+      ```
+
+    a. Windows:
+
+      ```bash
+      py -m venv .ve
+      ```
+
+1. Activate the virtual environment. You must run this command for each new terminal session.:
+    a. Linux/MacOS:
+
+      ```bash
+      source .ve/bin/activate
+      ```
+
+    b. Windows:
+
+      ```bash
+      .\.ve\Scripts\activate
+      ```
+
+#### Install requirements
+
+```bash
+pip install -r requirements_dev.txt
 ```
-cd _build/dirhtml
-python -m http.server
+
+### Build the documentation
+
+Sphinx, which builds the documentation, doesn’t watch directories for changes. To regenerate the documentation, start an HTML server, and refresh the browser whenever changes are made, run:
+
+```bash
+sphinx-autobuild docs docs/_build/dirhtml
 ```
 
-Then go to http://localhost:8000/ in a browser.
+Alternatively, build the documentation and view it using a local web server:
 
-### Building on readthedocs
-
-* Select your repo at: https://readthedocs.org/dashboard/import/
-* Tick: "Edit advanced project options:"
-* Click "Next" button
-* Documentation type: "Sphinx HtmlDir"
-* Click "Finish" button
-* Click "Admin" button, then "Advanced Settings" in the left hand nav
-* Requirements file: "requirements.txt"
-* Python interpreter: "CPython 3.x"
-* Click "Submit" button
-
-
-
-### Translations
-
-Translations are generally done using this transifex project.
-Create one at https://www.transifex.com/OpenDataServices/add/ :
-* Select "Public project" and "File-based Project".
-* Add the url of the project to this README, e.g. https://www.transifex.com/OpenDataServices/sphinx-base/dashboard/
-
-How to push new text up to Transifex:
-
-First, do a local build, then:
-
-```
-cd docs
-make gettext
-sphinx-intl update-txconfig-resources --transifex-project-name <project-name>
-tx push -s
+```bash
+sphinx-build docs docs/_build/dirhtml
+python -m http.server --directory docs/_build/dirhtml
 ```
 
-When the translations are filled in transifex you need to run:
+### Deploy changes
 
-```
-tx pull -a -f
-```
+To deploy a development branch to the live documentation site, [create a pull request](https://github.com/OpenDataServices/os4d/compare) to merge the development branch into the `live` branch. Once the pull request is merged, the changes are automatically deployed to the live site at [https://os4d.opendataservices.coop/](https://os4d.opendataservices.coop/).
 
-These should then be commited and then pushed to GitHub (so that actual
-deployed translations are always version controlled).
+### Update requirements
 
-Running the build in another language:
+#### Update production requirements
 
-```
-make -e SPHINXOPTS="-D language='<language code>'" html
-```
+1. Edit `requirements.in`.
+1. Update `requirements.txt`:
+   ```bash
+   pip-compile
+   ```
+1. Update `requirements_dev.txt`:
+    ```bash
+    pip-compile requirements_dev.in
+    ```
+1. Install requirements:
+   ```bash
+   pip-sync requirements_dev.txt
+   ```
+1. Commit your changes.
 
-If translations are added locally, these can also be pushed up to Transifex:
+#### Update development requirements
 
-```
-tx push -t --skip
-```
+1. Edit `requirements_dev.in`.
+1. Update `requirements_dev.txt`:
+    ```bash
+    pip-compile requirements_dev.in
+    ```
+1. Install requirements:
+   ```bash
+   pip-sync requirements_dev.txt
+   ```
+1. Commit your changes.
+
+## Developer reference
+
+This section contains reference documentation that describes the project's configuration.
+
+- [GitHub repository](#github-repository)
+- [Sphinx](#sphinx)
+- [Read the Docs](#read-the-docs)
+
+### GitHub repository
+
+The project repository is hosted on GitHub.
+
+#### Branches
+
+The `live` branch is used to build the live version of the standard documentation, deployed at [https://os4d.opendataservices.coop/](https://os4d.opendataservices.coop/).
+
+Feature branches branch off the `live` branch, with work merged into the `live` for deployment.
+
+[Branch protection rules](https://docs.github.com/en/repositories/configuring-branches-and-merges-in-your-repository/managing-protected-branches/managing-a-branch-protection-rule) are configured for the `live` branch. The rules prevent commits being made directly by requiring [pull requests](https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/proposing-changes-to-your-work-with-pull-requests/about-pull-requests) before commits can be merged. They also require approvals and status checks to pass before merging.
+
+#### Directory structure
+
+- `.github/`: GitHub Actions workflows
+- `docs/`:
+  - `*.md`, `*/*.md`: English documentation text
+  - `conf.py`: Sphinx configuration
+  - `_static/`: CSS and JavaScript for the documentation
+  - `_templates/`: Jinja templates for the documentation
+  - `.tx/`: Transifex configuration (not yet implemented)
+  - `locale/`: Translations of the English documentation (not yet implemented)
+
+The following files are created by running a build and are not version controlled:
+
+- `.ve/`: Python virtual environment (if using [python3-venv](#python3-venv))
+- `docs/_build`: Built HTML documentation
+
+### Sphinx
+
+[Sphinx](https://www.sphinx-doc.org/) is the documentation generator used to build the HTML documentation from Markdown source files. It uses the [MyST - Markedly Structured Text - Parser](https://myst-parser.readthedocs.io/en/latest/index.html) to parse the Markdown source files.
+
+#### Configuration
+
+The Sphinx configuration for this project is based on the [Open Data Services Sphinx Base](https://github.com/OpenDataServices/sphinx-base) and is defined in `docs/conf.py`.
+
+### Read the Docs
+
+[Read the Docs](https://readthedocs.org/) builds and hosts the standard documentation site.
+
+Read the Docs automatically creates and builds [pull request previews](https://docs.readthedocs.com/platform/stable/pull-requests.html#pull-request-previews) so that pull request reviewers can preview changes to catch formatting and display issues.
+
+#### Credentials
+
+You can find credentials for Read the Docs in the Open Data Services password database.
