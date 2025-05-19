@@ -54,8 +54,8 @@ The 360Giving Data Standard supports both spreadsheet and JSON formats, but most
 
 ```{seealso}
 
-🧩 [Conversion tools](../components/conversion_tools)
-💡 [Spreadsheet first schema design](../patterns/schema.md#spreadsheet-first)
+* 🧩 [Conversion tools](../components/conversion_tools)
+* 💡 [Spreadsheet first schema design](../patterns/schema.md#spreadsheet-first)
 
 ```
 
@@ -88,7 +88,7 @@ A codelist defines a set of permissable values for a field.
 The recommended approach is to document codes, titles and descriptions in a CSV file, according to the [Open Data Services Codelist Schema](https://codelist-schema.readthedocs.io/).
 
 ```{seealso}
-💡 [CSV codelists](../patterns/schema.md#csv-codelists)
+* 💡 [CSV codelists](../patterns/schema.md#csv-codelists)
 ```
 
 ## Choose your packaging formats
@@ -117,10 +117,10 @@ GeoJSON | GeoJSON [feature collections](https://datatracker.ietf.org/doc/html/rf
 ```
 
 ```{seealso}
-💡 [Packaging](../patterns/schema.md#packaging)
-💬 [Packaging multiple networks · Issue #51 · Open-Telecoms-Data/open-fibre-data-standard](https://github.com/Open-Telecoms-Data/open-fibre-data-standard/issues/51)
-💬 [Deprecate remaining package metadata and add bulk data format · Issue #1084 · open-contracting/standard](https://github.com/open-contracting/standard/issues/1084)
-💬 [Add a metadata package schema · Issue #200 · GFDRR/rdl-standard](https://github.com/GFDRR/rdl-standard/issues/200)
+* 💡 [Packaging](../patterns/schema.md#packaging)
+* 💬 [Packaging multiple networks · Issue #51 · Open-Telecoms-Data/open-fibre-data-standard](https://github.com/Open-Telecoms-Data/open-fibre-data-standard/issues/51)
+* 💬 [Deprecate remaining package metadata and add bulk data format · Issue #1084 · open-contracting/standard](https://github.com/open-contracting/standard/issues/1084)
+* 💬 [Add a metadata package schema · Issue #200 · GFDRR/rdl-standard](https://github.com/GFDRR/rdl-standard/issues/200)
 ```
 
 ## Author your schema, codelists and additional rules
@@ -134,6 +134,6 @@ As well as the keywords specified in JSON Schema, the [Open Data Services JSON S
 Constraints expressed in a schema are requirements that data must conform to in order to be considered valid. However, you might wish to impose less stringent rules related to data quality, coverage, or best practices. If your chosen schema language cannot express a rule that you need to impose, or if the rule is intentionally less strict than a requirement, consider providing structured documentation of these additional rules and implementing them as additional checks in a [validator and quality tool](../components/validator). For example, you might recommend and check that data includes geographic coordinates, even if it isn't required in the schema. Clearly specifying additional rules and implementing additional checks makes it easier for data publishers to identify data quality issues.
 
 ```{seealso}
-💡 [Schema patterns](../patterns/schema)
-🧩 [Validator and quality tools](../components/validator)
+* 💡 [Schema patterns](../patterns/schema)
+* 🧩 [Validator and quality tools](../components/validator)
 ```
