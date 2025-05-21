@@ -22,45 +22,25 @@ cd os4d
 
 Subsequent instructions assume that your current working directory is `os4d`, unless otherwise stated.
 
-#### Create and activate a Python virtual environment
+#### Create and activate a Python 3.13 virtual environment
 
-The build requires [Python](https://www.python.org/downloads/) 3.13.
+The build requires [Python](https://www.python.org/downloads/) 3.13. We recommend using [pyenv](https://github.com/pyenv/pyenv) to install and switch between multiple versions of Python.
 
-If you already have Python 3.13 installed, you can create a virtual environment using [pyenv-virtualenv](https://github.com/pyenv/pyenv-virtualenv), `python3-venv`, or a Python environment manager of your choice.
-
-If not, we recommend using `pyenv` to install Python 3.13 and `pyenv-virtualenv` to create a virtual environment. 
-
-##### pyenv
-
-1. Install [pyenv](https://github.com/pyenv/pyenv) and the [pyenv-virtualenv](https://github.com/pyenv/pyenv-virtualenv) plugin. The [pyenv installer](https://github.com/pyenv/pyenv-installer) is recommended.
-1. Set up Python 3.13 using pyenv:
+1. [Install pyenv](https://github.com/pyenv/pyenv?tab=readme-ov-file#installation)
+2. Install Python 3.13:
 
    ```bash
    pyenv install 3.13
-   pyenv local 3.13
-   ```
+  ```
 
-1. Create a virtual environment:
-
-   ```bash
-   pyenv virtualenv os4d
-   ```
-
-1. Activate the virtual environment:
+3. Switch to Python 3.13:
 
    ```bash
-   pyenv activate os4d
+   pyenv shell 3.13
    ```
 
-1. Set the local application-specific virtual environment. Once set, navigating to the `os4d` directory will automatically activate the environment:
+4. Create a virtual environment using `python3-venv`:
 
-   ```bash
-   pyenv local os4d
-   ```
-
-##### python3-venv
-
-1. Create a virtual environment called .ve:
     a. Linux/MacOS:
 
       ```bash
@@ -73,7 +53,8 @@ If not, we recommend using `pyenv` to install Python 3.13 and `pyenv-virtualenv`
       py -m venv .ve
       ```
 
-1. Activate the virtual environment. You must run this command for each new terminal session.:
+5. Activate the virtual environment. You must run this command for each new terminal session:
+
     a. Linux/MacOS:
 
       ```bash
