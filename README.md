@@ -31,7 +31,7 @@ The build requires [Python](https://www.python.org/downloads/) 3.13. We recommen
 
    ```bash
    pyenv install 3.13
-  ```
+   ```
 
 3. Switch to Python 3.13:
 
