@@ -6,10 +6,21 @@ Visit https://os4d.opendataservices.coop to read the handbook.
 
 This section describes how to:
 
+- [Use dev containers or GitHub CodeSpaces for development](#use-dev-containers-or-github-codespaces-for-development)
 - [Set up a local development environment](#set-up-a-local-development-environment)
 - [Build the documentation](#build-the-documentation) on your local machine.
 - [Deploy changes](#deploy-changes)
 - [Update requirements](#update-requirements)
+
+### Use dev containers or GitHub CodeSpaces for development
+
+If your IDE supports dev containers, you can open the project in a dev container.
+
+You can also open the project in GitHub CodeSpaces.
+
+Once open, open a new terminal and see the "Build the documentation" section below for the commands you need to run.
+
+When you have finished, make sure you delete you workspace on https://github.com/codespaces
 
 ### Set up a local development environment
 
