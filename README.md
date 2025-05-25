@@ -22,38 +22,25 @@ cd os4d
 
 Subsequent instructions assume that your current working directory is `os4d`, unless otherwise stated.
 
-#### Create and activate a Python virtual environment
+#### Create and activate a Python 3.13 virtual environment
 
-The following instructions assume you have [Python 3.10](https://www.python.org/downloads/) or newer installed on your machine.
+The build requires [Python](https://www.python.org/downloads/) 3.13. We recommend using [pyenv](https://github.com/pyenv/pyenv) to install and switch between multiple versions of Python.
 
-You can use either [pyenv-virtualenv](https://github.com/pyenv/pyenv-virtualenv), `python3-venv` or a Python environment manager of your choice:
-
-##### pyenv
-
-1. Install [pyenv](https://github.com/pyenv/pyenv) and the [pyenv-virtualenv](https://github.com/pyenv/pyenv-virtualenv) plugin. The [pyenv installer](https://github.com/pyenv/pyenv-installer) is recommended.
-1. Create a virtual environment:
+1. [Install pyenv](https://github.com/pyenv/pyenv?tab=readme-ov-file#installation)
+2. Install Python 3.13:
 
    ```bash
-   pyenv virtualenv os4d
+   pyenv install 3.13
    ```
 
-1. Activate the virtual environment:
+3. Switch to Python 3.13:
 
    ```bash
-   pyenv activate os4d
+   pyenv shell 3.13
    ```
 
-1. Set the local application-specific virtual environment. Once set, navigating to the `os4d` directory will automatically activate the environment:
+4. Create a virtual environment using `python3-venv`:
 
-   ```bash
-   pyenv local os4d
-   ```
-
-##### python3-venv
-
-If you are using Python 3.3 or newer, `venv` is included in the standard Python installation.
-
-1. Create a virtual environment called .ve:
     a. Linux/MacOS:
 
       ```bash
@@ -66,7 +53,8 @@ If you are using Python 3.3 or newer, `venv` is included in the standard Python 
       py -m venv .ve
       ```
 
-1. Activate the virtual environment. You must run this command for each new terminal session.:
+5. Activate the virtual environment. You must run this command for each new terminal session:
+
     a. Linux/MacOS:
 
       ```bash
@@ -189,3 +177,4 @@ Read the Docs automatically creates and builds [pull request previews](https://d
 #### Credentials
 
 You can find credentials for Read the Docs in the Open Data Services password database.
+
