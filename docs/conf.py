@@ -146,7 +146,7 @@ html_theme = "odsc_default_sphinx_theme"
 # The name for this set of Sphinx documents.
 # "<project> v<release> documentation" by default.
 #
-# html_title = 'Open Data Services Sphinx Base'
+html_title = 'Standards Lab Handbook'
 
 # A shorter title for the navigation bar.  Default is the same as html_title.
 #

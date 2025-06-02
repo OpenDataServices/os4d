@@ -1,4 +1,4 @@
-# Standards Lab: an open data standard toolkit
+# Standards Lab Handbook
 
 This handbook provides an overview of the creation, maintenance and adoption of a policy-related open data standard.
 
