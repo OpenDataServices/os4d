@@ -12,3 +12,4 @@ jobs:
       name: Spellcheck
       with: 
         source_files: docs/components/conversion_tools.md
+        task_name: Markdown
