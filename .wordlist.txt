@@ -1,2 +1,5 @@
 CSV
 JSON
+XLS
+XLSX
+Deprioritisation
