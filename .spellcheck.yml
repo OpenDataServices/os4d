@@ -2,7 +2,7 @@ matrix:
 - name: Markdown
   aspell:
     lang: en
-    d: en_GB
+    d: en_GB-large
   dictionary:
     wordlists:
     - .wordlist.txt
