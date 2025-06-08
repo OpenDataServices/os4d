@@ -27,7 +27,7 @@ When you have finished, make sure to delete your codespace on https://github.com
 #### Clone the repository
 
 ```bash
-git git@github.com:OpenDataServices/os4d.git
+git clone git@github.com:OpenDataServices/os4d.git
 cd os4d
 ```
 
