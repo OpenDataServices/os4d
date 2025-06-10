@@ -6,7 +6,7 @@ Showcasing what can be done with data when it is published to a standard
 
 ## Description
 
-Demonstration applications are either real-world or contrived applications using standardised data to illustrate what the data could be used for. They can be used to demonstrate the advantages of using the standard at all, or using particular parts of the stardard.
+Demonstration applications are either real-world or contrived applications using standardised data to illustrate what the data could be used for. They can be used to demonstrate the advantages of using the standard at all, or using particular parts of the standard.
 
 ## Prioritisation Factors
 
