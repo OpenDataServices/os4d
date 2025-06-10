@@ -9,6 +9,7 @@ matrix:
     output: wordlist.dic
     encoding: utf-8
   pipeline:
+  - pyspelling.filters.url:
   - pyspelling.filters.markdown:
   - pyspelling.filters.html:
       comments: false
