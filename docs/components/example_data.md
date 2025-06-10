@@ -11,7 +11,7 @@ Adopters of the standard and users of the data are often helped by seeing exampl
 ## Prioritisation Factors
 
 - If the standard is large or complicated
-- If adopters or users are often misunderstanding the requirements of the standard or strugging to 'get it'
+- If adopters or users are often misunderstanding the requirements of the standard or struggling to 'get it'
 
 ## Deprioritisation Factors
 
