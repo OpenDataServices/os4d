@@ -9,7 +9,7 @@ Used to communicate with implementers, users and other stakeholders.
 Different communication channels suit different audiences and content types, for example:
 
 * A *blog* that is regularly updated can provide updates to the community, resources for them to refer back to, and act as a 'shop window' for the standard, demonstrating that it is maintained and used.
-* Public *social media channels* such as a LinkedIn page allow a standard to communicate little and often, and to engage with their communities in a relateable way. Some open communities already have a strong presence on microblogging sites, so the friction for engagement is reduced.
+* Public *social media channels* such as a LinkedIn page allow a standard to communicate little and often, and to engage with their communities in a relateable way. Some open communities already have a strong presence on social media sites, so the friction for engagement is reduced.
 
 * An *email list* is a widely-accessible and low-cost way for a group to hold discussions, and many email list providers offer a public archive service so that accountability is maintained. Standards often have a discussion list and a separate announcement list, so that members can choose how involved they want to be. The asynchronous nature of email lists allows users to be involved as regularly or infrequently as they prefer. However, some users are reticent to post to public email lists for fear of appearing foolish or having their words during their learning being recorded.
 
