@@ -11,7 +11,7 @@ Draft commitments are templates for adopters to copy or adapt before signing and
 ## Prioritisation Factors
 
 - If a standard requires a relatively high level of commitment to be useful
-- If a standard is targetting public sector organisations that are keen to formally launch commitments
+- If a standard is targeting public sector organisations that are keen to formally launch commitments
 - If a very early-stage standard requires commitment in principle before development begins
 
 
