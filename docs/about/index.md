@@ -2,7 +2,7 @@
 
 Open Data Services Co-operative was established in 2015 to support organisations to publish and use open data. We have a particular focus on incubating early stage open data standards, and supporting the development of effective transparency and collaboration initiatives using well-maintained open data standards.
 
-We often act as the technical partner to policy-focussed initiatives, working under contract to develop and maintain open data standards, and to support standard implementation.
+We often act as the technical partner to policy-focused initiatives, working under contract to develop and maintain open data standards, and to support standard implementation.
 
 Our team of employees and members work across a range of tasks:
 
