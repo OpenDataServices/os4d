@@ -2,7 +2,7 @@ codelists
 CSV
 GDPR
 Holyoake
-ICO 
+ICO
 incentivise
 JSON
 opendataservices
@@ -17,3 +17,13 @@ Deprioritisation
 maxdepth
 toctree
 implementers
+LinkedIn
+APIs
+helpdesk
+validators
+CoVE
+OCDS
+XLS
+XLSX
+Helpdesk 
+CRM
