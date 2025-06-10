@@ -10,7 +10,7 @@ For more information about how schema validation relates to additional checks, s
 
 ## Prioritisation Factors
 
-* Specific error reporting and user expreience: If implementers need context-specific error messages and guidance, target feedback or multiple output formats (e.g. human-readable reports and machine-readable JSON for integration with other tools).
+* Specific error reporting and user experience: If implementers need context-specific error messages and guidance, target feedback or multiple output formats (e.g. human-readable reports and machine-readable JSON for integration with other tools).
 * Complexity beyond the schema language: If the standard involves additional rules that cannot be expressed in its schema language, validation of codelists specified outside the schema, or semantic validation of the data beyond its structure and format.
 
 ## Deprioritisation Factors
