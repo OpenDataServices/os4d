@@ -75,7 +75,7 @@ Some of the roles include:
 - **Translation manager & translators** - creating glossaries, arranging translation, and carrying out translations.
 - **Governance lead** - coordinating the process of standard updates.
 - **Community manager(s)** - engaging with technical and policy communities, supporting tool-building, documenting implementation case studies, ensuring community input into standard development.
-- **Implementation and helpdesk manager** - making sure implementers have their queries addressed promptly, monitoring the quality of implementation and focussing on health of the overall ecosystem of data sharing and use.
+- **Implementation and helpdesk manager** - making sure implementers have their queries addressed promptly, monitoring the quality of implementation and focusing on health of the overall ecosystem of data sharing and use.
 - **Helpdesk analysts** - providing training and support to implementers and users, performing data quality assurance.
 
 In our experience, standard development benefits from creative tension between team members playing different roles. For example, getting the right balance between simply usability of a dataset, and the accuracy and nuance of the data, will benefit from open discussion and negotiation between team members, each acting as a champion of different points of view.
@@ -84,7 +84,7 @@ In our experience, standard development benefits from creative tension between t
 ---
 class: hint
 ---
-The Open Data Services team work in partnership with a range of organizations to deliver or support many of the roles above. 
+The Open Data Services team work in partnership with a range of organisations to deliver or support many of the roles above. 
 
 Get in touch to find out how we could help you: [our services](http://www.opendataservices.coop/#services).
 
