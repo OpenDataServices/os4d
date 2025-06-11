@@ -4,7 +4,7 @@ The development of a standard should follow a number of stages.
 
 It is useful to think of standards development as a diamond-shaped process, each iteration of which begins at a narrowly-defined point, broadens out during the research and development phases and then narrows again as the standard becomes a release-ready product.
 
-In this diamond model, we can identify four distinct phases: starting from a focussed problem; scoping out the original problem and broadening out from it to identify other use-cases and related data; developing the standard to accommodate as many of these use-cases as feasible (which may be far from the full set); and focussing down to a release version.
+In this diamond model, we can identify four distinct phases: starting from a focused problem; scoping out the original problem and broadening out from it to identify other use-cases and related data; developing the standard to accommodate as many of these use-cases as feasible (which may be far from the full set); and focusing down to a release version.
 
 ```{mermaid}
 :align: center
@@ -18,7 +18,7 @@ graph LR
   Release"}
 ```
 
-Development is an iterative process: going through stages of developing a broad understanding of the problem space that standard addresses, and stages of focussing down to develop concrete data elements and structures that address some aspect of that problem space.
+Development is an iterative process: going through stages of developing a broad understanding of the problem space that standard addresses, and stages of focusing down to develop concrete data elements and structures that address some aspect of that problem space.
 
 It is important to create artefacts at each stage that stakeholders can engage with and provide feedback on. A development process may go through the following stages:
 
@@ -46,7 +46,7 @@ A conceptual framework or consultation document will set out the rationale for a
 This document is important to secure agreement on issues such as:
 
 - **The primary data element(s) in the standard**. For example, the [conceptual framework draft for the Open Contracting Data Standard](http://standard.open-contracting.org/legacy/r/0__1__0/) established that the primary element would be a 'contracting process', and advanced definitions of other key stages of a process.
-- **The target file formats and schema languages**. For example, the [conceptual framework for the Beneficial Ownership Data Standard](https://github.com/openownership/data-standard/issues/7) discusses potential data serializations.
+- **The target file formats and schema languages**. For example, the [conceptual framework for the Beneficial Ownership Data Standard](https://github.com/openownership/data-standard/issues/7) discusses potential data serialisations.
 - **The way data will be shared**. For example, addressing whether the standard will focus on flat files, API exchange of data, or some other approach.
 
 ## Alpha
