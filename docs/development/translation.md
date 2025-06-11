@@ -28,7 +28,7 @@ It is important to distinguish a number of concepts:
 - **Translation** is the process of making a standard and its associated tools and documentation available in more than one language;
 - **Localisation (l10n)** goes beyond a generic language translation to also consider how a standard and its documentation will be interpreted within a particular local and cultural context.
 
-See also [W3C Localization vs. Internationalization](https://www.w3.org/International/questions/qa-i18n)
+See also [W3C Localisation vs. Internationalisation](https://www.w3.org/International/questions/qa-i18n)
 
 In general, internationalisation is a task during the development of the [Single Source of Truth (SSOT)](../patterns/documentation.md#single-source-of-truth) for a standard. Translation can take place as part of the core development process, or by supporting community translations, and localisation is a part of implementation support in particular countries and contexts.
 
@@ -78,7 +78,7 @@ Each standard will need to develop its own translation principles. The draft bel
 
 1. **Ensure consistency** by developing a glossary of key terms, and maintaining one glossary per language. The glossary should include definitions, and notes to support translators.
 
-1. **Honouring the work you are asking the reader/user to do** by making sure translations are useable.
+1. **Honouring the work you are asking the reader/user to do** by making sure translations are usable.
 
 1. **Engage local reviewers for languages, and work with reviewers with domain expertise**
 
