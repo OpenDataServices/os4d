@@ -10,7 +10,7 @@ Icons help with recall of key concepts, and consistency across a range of assets
 
 ## Prioritisation Factors
 
-- If a standard is being discussed across media (eg in print, online and in person)
+- If a standard is being discussed across media (e.g. in print, online and in person)
 - If the standard is being translated
 - If the standard introduces concepts unfamiliar to typical adopters
 - If the standard is being discussed across policy and technical boundaries
