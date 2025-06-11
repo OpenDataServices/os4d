@@ -4,7 +4,7 @@ This page provides an overview of the steps involved in data modelling and schem
 
 ## Document a data model
 
-A data model is an abstract model that organizes elements of data and standardises how they relate to one another and to the properties of real-world entities. A data model focuses on what data represents rather than how it is stored or exchanged.
+A data model is an abstract model that organises elements of data and standardises how they relate to one another and to the properties of real-world entities. A data model focuses on what data represents rather than how it is stored or exchanged.
 
 Before authoring the schema for a standard and committing to specific implementation details, it is recommended to document a data model to help stakeholders align on definitions and relationships.
 
@@ -41,7 +41,7 @@ Open Data Services' reusable tools for documenting, converting and validating da
 ```{admonition} Example: The Open Contracting Data Standard
 :class: note
 
-The primary publication format of the Open Contracting Data Standard is JSON, but CSV and spreadsheet formats are also supported via conversion tooling. For more information, see [Serialization (Open Contracting Data Standard Documentation)](https://standard.open-contracting.org/latest/en/guidance/build/serialization/#serialization).
+The primary publication format of the Open Contracting Data Standard is JSON, but CSV and spreadsheet formats are also supported via conversion tooling. For more information, see [Serialiation (Open Contracting Data Standard Documentation)](https://standard.open-contracting.org/latest/en/guidance/build/serialization/#serialization).
 
 ```
 
@@ -83,7 +83,7 @@ Previously, the recommended approach was to use [JSON Schema Draft 4](https://js
 
 ## Choose a codelist format
 
-A codelist defines a set of permissable values for a field.
+A codelist defines a set of permissible values for a field.
 
 The recommended approach is to document codes, titles and descriptions in a CSV file, according to the [Open Data Services Codelist Schema](https://codelist-schema.readthedocs.io/).
 
