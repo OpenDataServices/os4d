@@ -16,7 +16,7 @@ The governance process for the Open Contracting Data Standard is set out in the 
 
 ![Governance process](https://standard.open-contracting.org/latest/en/_images/upgrade_process.png)
 
-As the OCDS [ChangeLog illustrates](http://standard.open-contracting.org/latest/en/schema/changelog/), each change has a related GitHub issue where changes are discussed.
+As the [OCDS changelog](http://standard.open-contracting.org/latest/en/schema/changelog/) illustrates, each change has a related GitHub issue where changes are discussed.
 
 During the revision process, discussions took place in a range of fora, including through the mailing list, at face-to-face events, or through webinars. However, substantive points should always be written up as part of the GitHub issues to ensure changes are documented and justified.
 
