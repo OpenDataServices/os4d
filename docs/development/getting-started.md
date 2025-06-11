@@ -20,9 +20,9 @@ We think of effective open data standards as tools of **mass collaboration**, pr
 
   The International Aid Transparency Initiative (IATI) standard promotes interoperability of aid data, through alignment of both the structure and the contents of descriptions of aid activities.
 
-  A growing range of tools now exist that create and use IATI data, including tools to visualize spending flows, platforms to search and explore projects and their associated documents, and services to analyze foreign exchange risks that projects are exposed to. 
+  A growing range of tools now exist that create and use IATI data, including tools to visualise spending flows, platforms to search and explore projects and their associated documents, and services to analyse foreign exchange risks that projects are exposed to. 
 
-  Across the 600+ organizations publishing data using the IATI Standard, there are active participants who publish and use data, and more passive participants who just share data in response to administrative rules from their funders.
+  Across the 600+ organisations publishing data using the IATI Standard, there are active participants who publish and use data, and more passive participants who just share data in response to administrative rules from their funders.
 
 ```
 
@@ -38,11 +38,11 @@ Without a standard, users or intermediaries have to do the hard work of making s
 
 By contrast, a standard with strict validation rules places a heavy burden on data owners to restructure their systems in order to produce valid and conforming data.
 
-In some cases, it may be quicker or cheaper in the short-term to invest in intermediaries or centralized databases that can reconcile data from different sources. However, this can risk creating a single point of failure or a point of control, which is avoided if data owners take responsibility for publishing their own data using an open standard.
+In some cases, it may be quicker or cheaper in the short-term to invest in intermediaries or centralised databases that can reconcile data from different sources. However, this can risk creating a single point of failure or a point of control, which is avoided if data owners take responsibility for publishing their own data using an open standard.
 
 By contrast, whilst it might initially be trickier to encourage adoption of distributed standards for data publication, a well-functioning ecosystem of data publishers, intermediaries and users can be more resilient and innovative in the long-run.
 
-Recognizing these trade-offs is important when designing a data standards project.
+Recognising these trade-offs is important when designing a data standards project.
 
 ## Questions to answer
 
