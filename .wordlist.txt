@@ -44,4 +44,10 @@ changelog
 Changelog
 changelogs
 GitHub
+reStructuredText
+contratación
+licitación
+oferta
+propuesta
+multilingually
 
