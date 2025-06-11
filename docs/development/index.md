@@ -2,15 +2,15 @@
 
 This handbook is about policy-related open data standards. These cover both **content** (what to publish) and **representation** (how to publish).
 
-The handbook describes maintaining data specifications that can support the realization of policy goals.
+The handbook describes maintaining data specifications that can support the realisation of policy goals.
 
 ```{admonition} Example
 ---
 class: note
 ---
-A campaign calls for organizations to publish their pay ratios between men and women, and highest and lowest paid employees, in order to highlight and address pay inequality. This is the policy goal.
+A campaign calls for organisations to publish their pay ratios between men and women, and highest and lowest paid employees, in order to highlight and address pay inequality. This is the policy goal.
 
-A schema is developed and documented, describing how to publish CSV files on an organization's website that provide these figures. This is the data specification.
+A schema is developed and documented, describing how to publish CSV files on an organisation's website that provide these figures. This is the data specification.
 
 Further documentation, data-quality frameworks, and validation models are developed that can be used to check that the data provided using the specification is accessible, meaningful and actionable. Together with the specification, this constitutes the open data standard.
 
