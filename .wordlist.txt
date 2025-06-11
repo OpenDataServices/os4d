@@ -57,3 +57,4 @@ recommonmark
 bestValueToGovernment
 ratedCriteria
 VLOOKUP
+GeoJSON
