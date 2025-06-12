@@ -48,7 +48,7 @@ The primary publication format of the Open Contracting Data Standard is JSON, bu
 ```{admonition} Example: 360Giving
 :class: note
 
-The 360Giving Data Standard supports both spreadsheet and JSON formats, but most 360Giving data is published in spreadsheet format. Therefore, the documentation for the standard is primarily focussed on the spreadsheet format. For more information, see [Choosing your file format (360Giving Data Standard Documentation)](https://standard.threesixtygiving.org/en/latest/guidance/prepare-data/#choosing-your-file-format).
+The 360Giving Data Standard supports both spreadsheet and JSON formats, but most 360Giving data is published in spreadsheet format. Therefore, the documentation for the standard is primarily focused on the spreadsheet format. For more information, see [Choosing your file format (360Giving Data Standard Documentation)](https://standard.threesixtygiving.org/en/latest/guidance/prepare-data/#choosing-your-file-format).
 
 ```
 
@@ -72,7 +72,7 @@ If you choose to support other publication formats alongside JSON, you should co
 ```{admonition} Example: Open Referral
 :class: note
 
-The canonical schema for the Open Referral Data Specifications is documented using JSON Schema. However, a secondary schema is provided for the Tabular Data Package format, which is derived from the canonical schema. For more information, see [Serialization and Publication Formats (Open Referral Data Specifications Documentation)](http://docs.openreferral.org/en/latest/hsds/serialization.html).
+The canonical schema for the Open Referral Data Specifications is documented using JSON Schema. However, a secondary schema is provided for the Tabular Data Package format, which is derived from the canonical schema. For more information, see [Serialisation and Publication Formats (Open Referral Data Specifications Documentation)](http://docs.openreferral.org/en/latest/hsds/serialization.html).
 
 ```
 
@@ -93,9 +93,9 @@ The recommended approach is to document codes, titles and descriptions in a CSV 
 
 ## Choose your packaging formats
 
-A packaging format is structued way of bundling together data and, sometimes, metadata. You can think of a packaging format as a container for multiple records, texts or documents.
+A packaging format is structured way of bundling together data and, sometimes, metadata. You can think of a packaging format as a container for multiple records, texts or documents.
 
-Packaging formats aid interoperability and reuse by providing tool developers and analysts with predicatable and consistent approaches to grouping, streaming and pagination.
+Packaging formats aid interoperability and reuse by providing tool developers and analysts with predictable and consistent approaches to grouping, streaming and pagination.
 
 Based on your chosen publication formats and the requirements identified in your research, you need to decide on a packaging format or formats for each publication format.
 
