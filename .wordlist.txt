@@ -60,6 +60,8 @@ VLOOKUP
 GeoJSON
 programmatically
 eval
-rst 
-hypothes.is
+rst
+hypothes
 dropdown
+howto
+
