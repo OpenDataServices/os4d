@@ -66,7 +66,7 @@ Some of the roles include:
 
 - **Project lead** - maintaining relationships and communication with different stakeholders, and the balance between supply-side and demand-side considerations in the development of a standard.
 - **User researcher** - facilitating dialogue with potential users of published data, and with data owners, to understand, document and champion their needs.
-- **Data analyst** - reviewing pre-standard data to identify opportunities for standardisation, and analysing draft and published data for quality assurance and learning.
+- **Data analyst** - reviewing current data to identify opportunities for standardisation, and analysing draft and published data for quality assurance and learning.
 - **Standard architect** - designing the overall shape of the standard, establishing data structures, selecting schema languages, data patterns, validation and quality evaluation approaches, and identifying tools required alongside the standard.
 - **Schema author** - translating agreed data structures and fields into a schema language, and coordinating work to define fields and relationships. Also working on standard extensions where applicable.
 - **Documentation author** - writing technical and user-focused documentation, creating worked examples, and developing training resources.
