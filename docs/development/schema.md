@@ -41,7 +41,7 @@ Open Data Services' reusable tools for documenting, converting and validating da
 ```{admonition} Example: The Open Contracting Data Standard
 :class: note
 
-The primary publication format of the Open Contracting Data Standard is JSON, but CSV and spreadsheet formats are also supported via conversion tooling. For more information, see [Serialiation (Open Contracting Data Standard Documentation)](https://standard.open-contracting.org/latest/en/guidance/build/serialization/#serialization).
+The primary publication format of the Open Contracting Data Standard is JSON, but CSV and spreadsheet formats are also supported via conversion tooling. For more information, see [Serialisation (Open Contracting Data Standard Documentation)](https://standard.open-contracting.org/latest/en/guidance/build/serialization/#serialization).
 
 ```
 
