@@ -8,7 +8,7 @@ A data model is an abstract model that organises elements of data and standardis
 
 Before authoring the schema for a standard and committing to specific implementation details, it is recommended to document a data model to help stakeholders align on definitions and relationships.
 
-The data model for a standard should be based on [research](research) into the related policy area and a thorough understanding of the concepts which underpin it (a conceptual model). Documenting the data model for a standard involves identifying and defining the entities (classes), attributes (properties), relationships and permissable values (codelists) needed to satisfy the requirements, user stories and use cases for the standard.
+The data model for a standard should be based on [research](research) into the related policy area and a thorough understanding of the concepts which underpin it (a conceptual model). Documenting the data model for a standard involves identifying and defining the entities (classes), attributes (properties), relationships and permissible values (codelists) needed to satisfy the requirements, user stories and use cases for the standard.
 
 Developing a good data model is an art as much as a science. It requires sensitivity to the needs of both data producers and data users, and an understanding of the incentive structures that will drive adoption of a standard.
 
