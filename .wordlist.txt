@@ -58,4 +58,8 @@ bestValueToGovernment
 ratedCriteria
 VLOOKUP
 GeoJSON
-Programmatically
+programmatically
+eval
+rst 
+hypothes.is
+dropdown
