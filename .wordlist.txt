@@ -3,6 +3,7 @@ APIs
 bestValueToGovernment
 Bytemark
 Changelog
+changelog
 changelogs
 codelist
 codelists
