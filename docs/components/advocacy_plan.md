@@ -2,7 +2,7 @@
 
 ## Summary
 
-Setting out steps to encourage organizations to adopt the standard.
+Setting out steps to encourage organisations to adopt the standard.
 
 ## Description
 

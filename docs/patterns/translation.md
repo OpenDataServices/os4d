@@ -44,7 +44,7 @@ Provide tools to allow them to comment on the translated text.
 
 ### Method
 
-Tools like hypothes.is can support non-technical users (who wouldn't use GitHub) to annotate a schema.
+Tools like Hypothesis can support non-technical users (who wouldn't use GitHub) to annotate a schema.
 
 ---
 

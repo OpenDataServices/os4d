@@ -6,7 +6,7 @@ E.g. the requirement that publishers should use Creative Commons or Open Databas
 
 ## Description
 
-A recommended license can help to ensure that adopters give due consideration to licensing, as well as setting a high bar for adopters and encouraging intertia among the community using the standard.
+A recommended license can help to ensure that adopters give due consideration to licensing. Clearly and openly licensed data encourages data use by the wider community. 
 
 ## Prioritisation Factors
 

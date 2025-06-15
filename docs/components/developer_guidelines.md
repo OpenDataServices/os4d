@@ -6,7 +6,7 @@ Describing the coding practices and workflows for contributing to the standard o
 
 ## Description
 
-Developer guidelines set out the expectactions of external contributions to the standard or the tools that are provided to support adopters. They typically cover licensing, procedure for contributions to be reviewed, expectations around process, and technical expectations such as comments, naming conventions, tests and coding style.
+Developer guidelines set out the expectations of external contributions to the standard or the tools that are provided to support adopters. They typically cover licensing, procedure for contributions to be reviewed, expectations around process, and technical expectations such as comments, naming conventions, tests and coding style.
 
 ## Prioritisation Factors
 

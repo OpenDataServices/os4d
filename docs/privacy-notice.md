@@ -2,7 +2,7 @@
 
 Open Data Services Co-operative Limited is committed to ensuring that your privacy is protected. This privacy notice sets out how we collect and process any personal data when you use this website.
 
-We may change this notice from time to time by updating this page. This notice is effective from 24th May 2018.
+We may change this notice from time to time by updating this page. This notice is effective from 24/05/2018.
 
 Data controller:\
 Open Data Services Co-operative Limited, 1st Floor, Holyoake House, Hanover Street, Manchester, Greater Manchester, England, M60 0AS. [inbox+opendataservices+443f+data-protection@plan.io](mailto:inbox+opendataservices+443f+data-protection@plan.io).\

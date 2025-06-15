@@ -18,7 +18,7 @@ Sphinx has the ability to process and integrate documentation from different sou
 
 We have created a number of [custom directives documented here](https://github.com/OpenDataServices/sphinxcontrib-opendataservices).
 
-[reStructuredText](http://docutils.sourceforge.net/rst.html) is the native input format for Sphinx builds. However, with the bridge library recommommark, it is possible to use input files in Markdown.
+[reStructuredText](http://docutils.sourceforge.net/rst.html) is the native input format for Sphinx builds. However, with the bridge library [recommonmark](https://recommonmark.readthedocs.io/en/latest/index.html), it is possible to use input files in Markdown.
 
 We maintain a custom [sphinx-base](https://github.com/OpenDataServices/sphinx-base) project to use when starting new documentation sites.
 

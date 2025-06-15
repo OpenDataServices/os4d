@@ -2,7 +2,7 @@
 
 On reviewing a range of policy-related data standards, including those that we maintain and those maintained by others, we identified approximately 60 components that at least two standards have chosen to create or adopt.
 
-Whether or not these are important to a particular standard depends on lots of factors, including but not limited to the maturity of the standard, whether the standard’s adoption is being driven co-operatively or adversarially, political factors and the character of the people and organisations in the domain where the standard operates.
+Whether or not these are important to a particular standard depends on lots of factors, including but not limited to the maturity of the standard, how the standard's adoption is being driven, political factors and the character of the people and organisations in the domain where the standard operates.
 
 We conducted an exercise with representatives of several standards, asking them to conduct a diamond ranking exercise of the components. Diamond ranking was chosen to allow a ‘fat middle’ while forcing a decision on the highest and lowest priority items. Participants were asked to consider a standard at different levels of maturity, using Charles Handy’s Second Curve model for describing maturity.
 

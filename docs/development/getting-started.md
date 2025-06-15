@@ -20,9 +20,9 @@ We think of effective open data standards as tools of **mass collaboration**, pr
 
   The International Aid Transparency Initiative (IATI) standard promotes interoperability of aid data, through alignment of both the structure and the contents of descriptions of aid activities.
 
-  A growing range of tools now exist that create and use IATI data, including tools to visualize spending flows, platforms to search and explore projects and their associated documents, and services to analyze foreign exchange risks that projects are exposed to. 
+  A growing range of tools now exist that create and use IATI data, including tools to visualise spending flows, platforms to search and explore projects and their associated documents, and services to analyse foreign exchange risks that projects are exposed to. 
 
-  Across the 600+ organizations publishing data using the IATI Standard, there are active participants who publish and use data, and more passive participants who just share data in response to administrative rules from their funders.
+  Across the 600+ organisations publishing data using the IATI Standard, there are active participants who publish and use data, and more passive participants who just share data in response to administrative rules from their funders.
 
 ```
 
@@ -38,11 +38,11 @@ Without a standard, users or intermediaries have to do the hard work of making s
 
 By contrast, a standard with strict validation rules places a heavy burden on data owners to restructure their systems in order to produce valid and conforming data.
 
-In some cases, it may be quicker or cheaper in the short-term to invest in intermediaries or centralized databases that can reconcile data from different sources. However, this can risk creating a single point of failure or a point of control, which is avoided if data owners take responsibility for publishing their own data using an open standard.
+In some cases, it may be quicker or cheaper in the short-term to invest in intermediaries or centralised databases that can reconcile data from different sources. However, this can risk creating a single point of failure or a point of control, which is avoided if data owners take responsibility for publishing their own data using an open standard.
 
 By contrast, whilst it might initially be trickier to encourage adoption of distributed standards for data publication, a well-functioning ecosystem of data publishers, intermediaries and users can be more resilient and innovative in the long-run.
 
-Recognizing these trade-offs is important when designing a data standards project.
+Recognising these trade-offs is important when designing a data standards project.
 
 ## Questions to answer
 
@@ -66,7 +66,7 @@ Some of the roles include:
 
 - **Project lead** - maintaining relationships and communication with different stakeholders, and the balance between supply-side and demand-side considerations in the development of a standard.
 - **User researcher** - facilitating dialogue with potential users of published data, and with data owners, to understand, document and champion their needs.
-- **Data analyst** - reviewing pre-standard data to identify opportunities for standardisation, and analysing draft and published data for quality assurance and learning.
+- **Data analyst** - reviewing current data to identify opportunities for standardisation, and analysing draft and published data for quality assurance and learning.
 - **Standard architect** - designing the overall shape of the standard, establishing data structures, selecting schema languages, data patterns, validation and quality evaluation approaches, and identifying tools required alongside the standard.
 - **Schema author** - translating agreed data structures and fields into a schema language, and coordinating work to define fields and relationships. Also working on standard extensions where applicable.
 - **Documentation author** - writing technical and user-focused documentation, creating worked examples, and developing training resources.
@@ -75,7 +75,7 @@ Some of the roles include:
 - **Translation manager & translators** - creating glossaries, arranging translation, and carrying out translations.
 - **Governance lead** - coordinating the process of standard updates.
 - **Community manager(s)** - engaging with technical and policy communities, supporting tool-building, documenting implementation case studies, ensuring community input into standard development.
-- **Implementation and helpdesk manager** - making sure implementers have their queries addressed promptly, monitoring the quality of implementation and focussing on health of the overall ecosystem of data sharing and use.
+- **Implementation and helpdesk manager** - making sure implementers have their queries addressed promptly, monitoring the quality of implementation and focusing on health of the overall ecosystem of data sharing and use.
 - **Helpdesk analysts** - providing training and support to implementers and users, performing data quality assurance.
 
 In our experience, standard development benefits from creative tension between team members playing different roles. For example, getting the right balance between simply usability of a dataset, and the accuracy and nuance of the data, will benefit from open discussion and negotiation between team members, each acting as a champion of different points of view.
@@ -84,7 +84,7 @@ In our experience, standard development benefits from creative tension between t
 ---
 class: hint
 ---
-The Open Data Services team work in partnership with a range of organizations to deliver or support many of the roles above. 
+The Open Data Services team work in partnership with a range of organisations to deliver or support many of the roles above. 
 
 Get in touch to find out how we could help you: [our services](http://www.opendataservices.coop/#services).
 

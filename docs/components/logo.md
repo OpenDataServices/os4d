@@ -6,7 +6,7 @@ A logo for the standard
 
 ## Description
 
-A logo helps to reinforce the brand of the standard, gives a visual cue for recognition in resources, and can be used (with permission) by adoptors to demonstrate their use of the standard
+A logo helps to reinforce the brand of the standard, gives a visual cue for recognition in resources, and can be used (with permission) by adopters to demonstrate their use of the standard
 
 ## Prioritisation Factors
 

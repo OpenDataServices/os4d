@@ -4,11 +4,11 @@ This page provides an overview of the steps involved in data modelling and schem
 
 ## Document a data model
 
-A data model is an abstract model that organizes elements of data and standardises how they relate to one another and to the properties of real-world entities. A data model focuses on what data represents rather than how it is stored or exchanged.
+A data model is an abstract model that organises elements of data and standardises how they relate to one another and to the properties of real-world entities. A data model focuses on what data represents rather than how it is stored or exchanged.
 
 Before authoring the schema for a standard and committing to specific implementation details, it is recommended to document a data model to help stakeholders align on definitions and relationships.
 
-The data model for a standard should be based on [research](research) into the related policy area and a thorough understanding of the concepts which underpin it (a conceptual model). Documenting the data model for a standard involves identifying and defining the entities (classes), attributes (properties), relationships and permissable values (codelists) needed to satisfy the requirements, user stories and use cases for the standard.
+The data model for a standard should be based on [research](research) into the related policy area and a thorough understanding of the concepts which underpin it (a conceptual model). Documenting the data model for a standard involves identifying and defining the entities (classes), attributes (properties), relationships and permissible values (codelists) needed to satisfy the requirements, user stories and use cases for the standard.
 
 Developing a good data model is an art as much as a science. It requires sensitivity to the needs of both data producers and data users, and an understanding of the incentive structures that will drive adoption of a standard.
 
@@ -41,14 +41,14 @@ Open Data Services' reusable tools for documenting, converting and validating da
 ```{admonition} Example: The Open Contracting Data Standard
 :class: note
 
-The primary publication format of the Open Contracting Data Standard is JSON, but CSV and spreadsheet formats are also supported via conversion tooling. For more information, see [Serialization (Open Contracting Data Standard Documentation)](https://standard.open-contracting.org/latest/en/guidance/build/serialization/#serialization).
+The primary publication format of the Open Contracting Data Standard is JSON, but CSV and spreadsheet formats are also supported via conversion tooling. For more information, see [Serialisation (Open Contracting Data Standard Documentation)](https://standard.open-contracting.org/latest/en/guidance/build/serialization/#serialization).
 
 ```
 
 ```{admonition} Example: 360Giving
 :class: note
 
-The 360Giving Data Standard supports both spreadsheet and JSON formats, but most 360Giving data is published in spreadsheet format. Therefore, the documentation for the standard is primarily focussed on the spreadsheet format. For more information, see [Choosing your file format (360Giving Data Standard Documentation)](https://standard.threesixtygiving.org/en/latest/guidance/prepare-data/#choosing-your-file-format).
+The 360Giving Data Standard supports both spreadsheet and JSON formats, but most 360Giving data is published in spreadsheet format. Therefore, the documentation for the standard is primarily focused on the spreadsheet format. For more information, see [Choosing your file format (360Giving Data Standard Documentation)](https://standard.threesixtygiving.org/en/latest/guidance/prepare-data/#choosing-your-file-format).
 
 ```
 
@@ -72,7 +72,7 @@ If you choose to support other publication formats alongside JSON, you should co
 ```{admonition} Example: Open Referral
 :class: note
 
-The canonical schema for the Open Referral Data Specifications is documented using JSON Schema. However, a secondary schema is provided for the Tabular Data Package format, which is derived from the canonical schema. For more information, see [Serialization and Publication Formats (Open Referral Data Specifications Documentation)](http://docs.openreferral.org/en/latest/hsds/serialization.html).
+The canonical schema for the Open Referral Data Specifications is documented using JSON Schema. However, a secondary schema is provided for the Tabular Data Package format, which is derived from the canonical schema. For more information, see [Serialisation and Publication Formats (Open Referral Data Specifications Documentation)](http://docs.openreferral.org/en/latest/hsds/serialization.html).
 
 ```
 
@@ -83,7 +83,7 @@ Previously, the recommended approach was to use [JSON Schema Draft 4](https://js
 
 ## Choose a codelist format
 
-A codelist defines a set of permissable values for a field.
+A codelist defines a set of permissible values for a field.
 
 The recommended approach is to document codes, titles and descriptions in a CSV file, according to the [Open Data Services Codelist Schema](https://codelist-schema.readthedocs.io/).
 
@@ -93,9 +93,9 @@ The recommended approach is to document codes, titles and descriptions in a CSV 
 
 ## Choose your packaging formats
 
-A packaging format is structued way of bundling together data and, sometimes, metadata. You can think of a packaging format as a container for multiple records, texts or documents.
+A packaging format is structured way of bundling together data and, sometimes, metadata. You can think of a packaging format as a container for multiple records, texts or documents.
 
-Packaging formats aid interoperability and reuse by providing tool developers and analysts with predicatable and consistent approaches to grouping, streaming and pagination.
+Packaging formats aid interoperability and reuse by providing tool developers and analysts with predictable and consistent approaches to grouping, streaming and pagination.
 
 Based on your chosen publication formats and the requirements identified in your research, you need to decide on a packaging format or formats for each publication format.
 

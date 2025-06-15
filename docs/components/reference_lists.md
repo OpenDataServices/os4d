@@ -2,6 +2,6 @@
 
 ## Summary
 
-Lookup lists for key concepts (e.g. organization registers).
+Lookup lists for key concepts (e.g. organisation registers).
 
 
