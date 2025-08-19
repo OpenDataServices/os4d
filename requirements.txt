@@ -77,7 +77,7 @@ pyyaml==6.0.2
     #   sphinxcontrib-mermaid
 referencing==0.36.2
     # via sphinxcontrib-opendataservices-jsonschema
-requests==2.32.3
+requests==2.32.4
     # via
     #   jscc
     #   sphinx

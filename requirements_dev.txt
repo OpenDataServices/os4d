@@ -6,7 +6,7 @@
 #
 alabaster==1.0.0
     # via
-    #   -r /home/ddewhurst/google_drive/Repositories/co-op/os4d/requirements.txt
+    #   -r requirements.txt
     #   sphinx
 anyio==4.9.0
     # via
@@ -14,30 +14,30 @@ anyio==4.9.0
     #   watchfiles
 attrs==25.3.0
     # via
-    #   -r /home/ddewhurst/google_drive/Repositories/co-op/os4d/requirements.txt
+    #   -r requirements.txt
     #   referencing
 babel==2.17.0
     # via
-    #   -r /home/ddewhurst/google_drive/Repositories/co-op/os4d/requirements.txt
+    #   -r requirements.txt
     #   sphinx
     #   sphinx-intl
 beautifulsoup4==4.13.3
     # via
-    #   -r /home/ddewhurst/google_drive/Repositories/co-op/os4d/requirements.txt
+    #   -r requirements.txt
     #   furo
 build==1.2.2.post1
     # via pip-tools
 certifi==2025.1.31
     # via
-    #   -r /home/ddewhurst/google_drive/Repositories/co-op/os4d/requirements.txt
+    #   -r requirements.txt
     #   requests
 charset-normalizer==3.4.1
     # via
-    #   -r /home/ddewhurst/google_drive/Repositories/co-op/os4d/requirements.txt
+    #   -r requirements.txt
     #   requests
 click==8.1.8
     # via
-    #   -r /home/ddewhurst/google_drive/Repositories/co-op/os4d/requirements.txt
+    #   -r requirements.txt
     #   pip-tools
     #   sphinx-intl
     #   uvicorn
@@ -45,121 +45,121 @@ colorama==0.4.6
     # via sphinx-autobuild
 docutils==0.21.2
     # via
-    #   -r /home/ddewhurst/google_drive/Repositories/co-op/os4d/requirements.txt
+    #   -r requirements.txt
     #   myst-parser
     #   sphinx
     #   sphinx-togglebutton
     #   sphinxcontrib-opendataservices-jsonschema
 furo==2024.8.6
     # via
-    #   -r /home/ddewhurst/google_drive/Repositories/co-op/os4d/requirements.txt
+    #   -r requirements.txt
     #   odsc-default-sphinx-theme
 h11==0.14.0
     # via uvicorn
 idna==3.10
     # via
-    #   -r /home/ddewhurst/google_drive/Repositories/co-op/os4d/requirements.txt
+    #   -r requirements.txt
     #   anyio
     #   requests
 imagesize==1.4.1
     # via
-    #   -r /home/ddewhurst/google_drive/Repositories/co-op/os4d/requirements.txt
+    #   -r requirements.txt
     #   sphinx
 jinja2==3.1.5
     # via
-    #   -r /home/ddewhurst/google_drive/Repositories/co-op/os4d/requirements.txt
+    #   -r requirements.txt
     #   myst-parser
     #   sphinx
 jscc==0.3.0
     # via
-    #   -r /home/ddewhurst/google_drive/Repositories/co-op/os4d/requirements.txt
+    #   -r requirements.txt
     #   sphinxcontrib-opendataservices-jsonschema
 json-merge-patch==0.2
     # via
-    #   -r /home/ddewhurst/google_drive/Repositories/co-op/os4d/requirements.txt
+    #   -r requirements.txt
     #   jscc
 jsonpointer==3.0.0
     # via
-    #   -r /home/ddewhurst/google_drive/Repositories/co-op/os4d/requirements.txt
+    #   -r requirements.txt
     #   sphinxcontrib-opendataservices-jsonschema
 jsonref==1.1.0
     # via
-    #   -r /home/ddewhurst/google_drive/Repositories/co-op/os4d/requirements.txt
+    #   -r requirements.txt
     #   jscc
     #   sphinxcontrib-opendataservices-jsonschema
 markdown-it-py==3.0.0
     # via
-    #   -r /home/ddewhurst/google_drive/Repositories/co-op/os4d/requirements.txt
+    #   -r requirements.txt
     #   mdit-py-plugins
     #   myst-parser
 markupsafe==3.0.2
     # via
-    #   -r /home/ddewhurst/google_drive/Repositories/co-op/os4d/requirements.txt
+    #   -r requirements.txt
     #   jinja2
 mdit-py-plugins==0.4.2
     # via
-    #   -r /home/ddewhurst/google_drive/Repositories/co-op/os4d/requirements.txt
+    #   -r requirements.txt
     #   myst-parser
 mdurl==0.1.2
     # via
-    #   -r /home/ddewhurst/google_drive/Repositories/co-op/os4d/requirements.txt
+    #   -r requirements.txt
     #   markdown-it-py
 myst-parser==4.0.0
     # via
-    #   -r /home/ddewhurst/google_drive/Repositories/co-op/os4d/requirements.txt
+    #   -r requirements.txt
     #   sphinxcontrib-opendataservices-jsonschema
 odsc-default-sphinx-theme==0.1.0
-    # via -r /home/ddewhurst/google_drive/Repositories/co-op/os4d/requirements.txt
+    # via -r requirements.txt
 packaging==24.2
     # via
-    #   -r /home/ddewhurst/google_drive/Repositories/co-op/os4d/requirements.txt
+    #   -r requirements.txt
     #   build
     #   sphinx
 pip-tools==7.4.1
     # via -r requirements_dev.in
 pygments==2.19.1
     # via
-    #   -r /home/ddewhurst/google_drive/Repositories/co-op/os4d/requirements.txt
+    #   -r requirements.txt
     #   furo
     #   pygments-csv-lexer
     #   sphinx
 pygments-csv-lexer==0.1.3
-    # via -r /home/ddewhurst/google_drive/Repositories/co-op/os4d/requirements.txt
+    # via -r requirements.txt
 pyproject-hooks==1.2.0
     # via
     #   build
     #   pip-tools
 pyyaml==6.0.2
     # via
-    #   -r /home/ddewhurst/google_drive/Repositories/co-op/os4d/requirements.txt
+    #   -r requirements.txt
     #   myst-parser
     #   sphinxcontrib-mermaid
 referencing==0.36.2
     # via
-    #   -r /home/ddewhurst/google_drive/Repositories/co-op/os4d/requirements.txt
+    #   -r requirements.txt
     #   sphinxcontrib-opendataservices-jsonschema
-requests==2.32.3
+requests==2.32.4
     # via
-    #   -r /home/ddewhurst/google_drive/Repositories/co-op/os4d/requirements.txt
+    #   -r requirements.txt
     #   jscc
     #   sphinx
 rpds-py==0.23.1
     # via
-    #   -r /home/ddewhurst/google_drive/Repositories/co-op/os4d/requirements.txt
+    #   -r requirements.txt
     #   referencing
 sniffio==1.3.1
     # via anyio
 snowballstemmer==2.2.0
     # via
-    #   -r /home/ddewhurst/google_drive/Repositories/co-op/os4d/requirements.txt
+    #   -r requirements.txt
     #   sphinx
 soupsieve==2.6
     # via
-    #   -r /home/ddewhurst/google_drive/Repositories/co-op/os4d/requirements.txt
+    #   -r requirements.txt
     #   beautifulsoup4
 sphinx==8.1.3
     # via
-    #   -r /home/ddewhurst/google_drive/Repositories/co-op/os4d/requirements.txt
+    #   -r requirements.txt
     #   furo
     #   myst-parser
     #   sphinx-autobuild
@@ -172,51 +172,51 @@ sphinx-autobuild==2024.10.3
     # via -r requirements_dev.in
 sphinx-basic-ng==1.0.0b2
     # via
-    #   -r /home/ddewhurst/google_drive/Repositories/co-op/os4d/requirements.txt
+    #   -r requirements.txt
     #   furo
 sphinx-design==0.6.1
-    # via -r /home/ddewhurst/google_drive/Repositories/co-op/os4d/requirements.txt
+    # via -r requirements.txt
 sphinx-intl==2.3.1
-    # via -r /home/ddewhurst/google_drive/Repositories/co-op/os4d/requirements.txt
+    # via -r requirements.txt
 sphinx-togglebutton==0.3.2
-    # via -r /home/ddewhurst/google_drive/Repositories/co-op/os4d/requirements.txt
+    # via -r requirements.txt
 sphinxcontrib-applehelp==2.0.0
     # via
-    #   -r /home/ddewhurst/google_drive/Repositories/co-op/os4d/requirements.txt
+    #   -r requirements.txt
     #   sphinx
 sphinxcontrib-devhelp==2.0.0
     # via
-    #   -r /home/ddewhurst/google_drive/Repositories/co-op/os4d/requirements.txt
+    #   -r requirements.txt
     #   sphinx
 sphinxcontrib-htmlhelp==2.1.0
     # via
-    #   -r /home/ddewhurst/google_drive/Repositories/co-op/os4d/requirements.txt
+    #   -r requirements.txt
     #   sphinx
 sphinxcontrib-jsmath==1.0.1
     # via
-    #   -r /home/ddewhurst/google_drive/Repositories/co-op/os4d/requirements.txt
+    #   -r requirements.txt
     #   sphinx
 sphinxcontrib-mermaid==1.0.0
-    # via -r /home/ddewhurst/google_drive/Repositories/co-op/os4d/requirements.txt
+    # via -r requirements.txt
 sphinxcontrib-opendataservices-jsonschema==0.7.1
-    # via -r /home/ddewhurst/google_drive/Repositories/co-op/os4d/requirements.txt
+    # via -r requirements.txt
 sphinxcontrib-qthelp==2.0.0
     # via
-    #   -r /home/ddewhurst/google_drive/Repositories/co-op/os4d/requirements.txt
+    #   -r requirements.txt
     #   sphinx
 sphinxcontrib-serializinghtml==2.0.0
     # via
-    #   -r /home/ddewhurst/google_drive/Repositories/co-op/os4d/requirements.txt
+    #   -r requirements.txt
     #   sphinx
 starlette==0.46.1
     # via sphinx-autobuild
 typing-extensions==4.12.2
     # via
-    #   -r /home/ddewhurst/google_drive/Repositories/co-op/os4d/requirements.txt
+    #   -r requirements.txt
     #   beautifulsoup4
 urllib3==2.3.0
     # via
-    #   -r /home/ddewhurst/google_drive/Repositories/co-op/os4d/requirements.txt
+    #   -r requirements.txt
     #   requests
 uvicorn==0.34.0
     # via sphinx-autobuild
@@ -226,7 +226,7 @@ websockets==15.0.1
     # via sphinx-autobuild
 wheel==0.45.1
     # via
-    #   -r /home/ddewhurst/google_drive/Repositories/co-op/os4d/requirements.txt
+    #   -r requirements.txt
     #   pip-tools
     #   sphinx-togglebutton
 
