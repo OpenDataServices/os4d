@@ -108,7 +108,7 @@ myst-parser==4.0.0
     # via
     #   -r /home/ddewhurst/google_drive/Repositories/co-op/os4d/requirements.txt
     #   sphinxcontrib-opendataservices-jsonschema
-odsc-default-sphinx-theme==0.1.0
+odsc-default-sphinx-theme==0.1.1
     # via -r /home/ddewhurst/google_drive/Repositories/co-op/os4d/requirements.txt
 packaging==24.2
     # via
