@@ -123,7 +123,7 @@ sphinxcontrib-serializinghtml==2.0.0
     # via sphinx
 typing-extensions==4.12.2
     # via beautifulsoup4
-urllib3==2.3.0
+urllib3==2.6.3
     # via requests
 wheel==0.45.1
     # via sphinx-togglebutton
