@@ -63,7 +63,9 @@ myst-parser==4.0.0
 odsc-default-sphinx-theme==0.1.1
     # via -r requirements.in
 packaging==24.2
-    # via sphinx
+    # via
+    #   sphinx
+    #   wheel
 pygments==2.19.1
     # via
     #   furo
@@ -125,7 +127,7 @@ typing-extensions==4.12.2
     # via beautifulsoup4
 urllib3==2.3.0
     # via requests
-wheel==0.45.1
+wheel==0.46.2
     # via sphinx-togglebutton
 
 # The following packages are considered to be unsafe in a requirements file:
